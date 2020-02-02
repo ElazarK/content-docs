@@ -1,80 +1,51 @@
-This playbook is used for querying the PANW threat intelligence Autofocus system. The playbook accepts indicators such as IP's, hashes, domains to run basic queries or mode advanced queries that can leverage several query parameters. In order to run the more advanced queries its recommended to use the Autofocus UI https://autofocus.paloaltonetworks.com/#/dashboard/organization to created a query and than use the export search button. The result can be used as a playbook input.
+Use this playbook as a sub-playbook to  query PANW Autofocus Threat intelligence system. This sub-playbook is the same as the generic polling sub-playbook besides that it provides outputs in the playbook. The reason for that is that in Autofocus its impossible to query the results of the same query more than once so the outputs have to be in the polling context.
 
-The playbook supports searching both the Samples API and the sessions API.
+This playbook implements polling by continuously running the command in Step \#2 until the operation completes.
+The remote action should have the following structure:
+
+1. Initiate the operation.
+2. Poll to check if the operation completed.
+3. (optional) Get the results of the operation.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ## Sub-playbooks
-* AutoFocusPolling
+This playbook does not use any sub-playbooks.
 
 ## Integrations
 This playbook does not use any integrations.
 
 ## Scripts
-This playbook does not use any scripts.
+* PrintErrorEntry
+* RunPollingCommand
+* ScheduleGenericPolling
 
 ## Commands
-* autofocus-search-sessions
-* autofocus-search-samples
-* autofocus-top-tags-search
+This playbook does not use any commands.
 
 ## Playbook Inputs
 ---
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Scope | Scope can be, "Private" , "Public", or "Global". |  |  | Optional | | SampleQuery | Query needs to be provided in order to determine what to search for. Query is currently only in JSON format which can be extracted from the Autofocus web console API radio button. 
-
-Query example for searching hashes can be
-
-\{"operator":"any","children":\[\{"field":"sample.sha256","operator":"is","value":"4f79697b40d0932e91105bd496908f8e02c130a0e36f6d3434d6243e79ef82e0"\},\{"field":"sample.sha256","operator":"is","value":"7e93723c0c34ef98444e5ce9013fef220975b96291a79053fd4c9b3d3550aeb3"\}\]\}
-
-Another example for searching for an IP
-\{"operator":"any","children":\[\{"field":"sample.src\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"sample.dst\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"sample.src\_ip","operator":"is","value":"2.2.2.2"\},\{"field":"sample.dst\_ip","operator":"is","value":"2.2.2.2"\}\]\}
- |  |  | Optional |
-| SessionQuery | Query needs to be provided in order to determine what to search for. Query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
-
-Query example for searching hashes can be
-
-\{"operator":"any","children":\[\{"field":"session.sha256","operator":"is","value":"4f79697b40d0932e91105bd496908f8e02c130a0e36f6d3434d6243e79ef82e0"\},\{"field":"session.sha256","operator":"is","value":"7e93723c0c34ef98444e5ce9013fef220975b96291a79053fd4c9b3d3550aeb3"\}\]\}
-
-Another example for searching for an IP
-\{"operator":"any","children":\[\{"field":"session.src\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"session.dst\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"session.src\_ip","operator":"is","value":"2.2.2.2"\},\{"field":"session.dst\_ip","operator":"is","value":"2.2.2.2"\}\]\}
- |  |  | Optional |
-| IP | IP to query |  |  | Optional |
-| Hash | Hash to query |  |  | Optional |
-| URL | URL to query |  |  | Optional |
-| Domain | Domain to query |  |  | Optional |
-| Search Type | Values can be session, sample, tag,all
- |  |  | Required |
-| Wildfire Verdict | Values can be Malware,Benign,Phishing,Greyware |  |  | Optional |
-| Sessions time before | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for sessions prior to this timestamp |  |  | Optional |
-| Sessions time after | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for sessions after this timestamp |  |  | Optional |
-| Sample first seen | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for when the sample was first seen after this date. |  |  | Optional |
-| Sample last modified | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for when the sample was last modified after this date. |  |  | Optional |
-| Tags scope | Values can be industry, organization, all, global. |  |  | Optional |
-| Tags class | Values can be Actor, Campaign, Exploit, Malicious Behavior, Malware Family |  |  | Optional |
-| Tags private | Values can be True, False. If true the search will only focus on private \(non public\) objects. Default is false |  |  | Optional |
-| Tags public | Values can be True, False. If true the search will only focus on public \(non private\) objects. Default is false. |  |  | Optional |
-| Commodity | Values can be True, False. Default is false. |  |  | Optional |
-| Unit 42 | Values can be True, False. Default is false objects that have been analyzed by Palo Alto's Unit 42 global threat intelligence team. |  |  | Optional |
+| Ids | The list of IDs to poll. |  |  | Required |
+| PollingCommandName | The name of the polling command to run. |  |  | Required |
+| PollingCommandArgName | The argument name of the polling command. | ids |  | Required |
+| Interval | The frequency that the polling command will run \(minutes\). | 1 |  | Required |
+| Timeout | The amount of time to poll before declaring a timeout and resuming the playbook \(in minutes\). | 10 |  | Required |
+| dt | The DT filter for polling IDs. Polling will stop when no results are returned. Use single quotes, e.g WildFire.Report\(val.Status\!==''Success''\).SHA256. |  |  | Required |
+| AdditionalPollingCommandArgNames | The Names of additional arguments for the polling command, e.g \(arg1,arg2,...\).' |  |  | Optional |n
+| AdditionalPollingCommandArgValues | The values of the additional arguments for the polling command, e.g \(value1,value2,...\). |  |  | Optional |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| AutoFocus.SessionsResults | Results of Autofocus sessions search. | string |
-| AutoFocus.SamplesResults | Results of Autofocus samples search. | string |
-| AutoFocus.TopTagResults | Results of Autofocus tags search. | string |
+| AutoFocus.SessionsResults | The results of Autofocus sessions search. | string |
+| AutoFocus.SamplesResults | The results of Autofocus sample search. | string |
+| AutoFocus.TopTagResults | The results of Autofocus tags search. | string |
 
+<!-- Playbook PNG image comes here -->
 ![AutoFocusPolling](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/AutoFocusPolling.png)
