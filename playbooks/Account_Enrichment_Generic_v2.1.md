@@ -9,7 +9,7 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 This playbook does not use any sub-playbooks.
 
 ## Integrations
-There playbook does not have any integrations.
+This playbook does not have any integrations.
 
 ## Scripts
 This playbook does not use any scripts.
