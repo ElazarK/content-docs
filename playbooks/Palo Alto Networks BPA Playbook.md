@@ -24,4 +24,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-<!-- Playbook PNG image comes here -->
+![Palo Alto Networks BPA Playbook](https://github.com/ElazarK/content-docs/blob/master/playbooks/Palo%20Alto%20Networks%20BPA%20Playbook.png)
