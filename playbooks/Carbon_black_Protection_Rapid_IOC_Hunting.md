@@ -25,4 +25,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![Carbon_black_Protection_Rapid_IOC_Hunting](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Carbon_Black_Rapid_IOC_Hunting.png)
+![Carbon_black_Protection_Rapid_IOC_Hunting](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Carbon_black_Protection_Rapid_IOC_Hunting.png)
