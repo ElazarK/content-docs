@@ -20,8 +20,8 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Indicator | The indicator to add to the miner |  |  | Optional |
-| MinerName | The Name of the miner |  |  | Optional |
+| Indicator | The indicator to add to the miner. |  |  | Optional |
+| MinerName | The name of the miner. |  |  | Optional |
 
 ## Playbook Outputs
 ---
