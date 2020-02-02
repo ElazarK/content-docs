@@ -31,7 +31,7 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | MD5 | The MD5 file hash of the file you want to block. | MD5 | File | Optional |
-| SHA256 |  | SHA256 | File | Optional |
+| SHA256 | The SHA256 file hash of the file you want to block. | SHA256 | File | Optional |
 | EventId | The tTaps event ID that contains the malicious file to block. |  |  | Optional |
 
 ## Playbook Outputs
