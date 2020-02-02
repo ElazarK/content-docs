@@ -31,4 +31,4 @@ This playbook does not use any sub-playbooks.
 | UserManagerEmail | The email of the user's manager. | unknown |
 | UserManagerDisplayName | The display name of the user's manager. | unknown |
 
-<!-- Playbook PNG image comes here -->
+![Active Directory_Get User Manager Details](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Active_Directory_-_Get_User_Manager_Details.png)
