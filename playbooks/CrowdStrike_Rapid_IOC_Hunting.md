@@ -25,4 +25,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![CrowdStrike_Rapid_IOC_Hunting(https://github.com/ElazarK/content-docs/blob/master/images/playbooks/CrowdStrike_Rapid_IOC_Hunting.png)
+![CrowdStrike_Rapid_IOC_Hunting](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/CrowdStrike_Rapid_IOC_Hunting.png)
