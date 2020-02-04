@@ -89,4 +89,4 @@ This playbook does not use any integrations.
 | InfoFile | The report file object. | unknown |
 
 
-![Detonate_File_McAfee_ATD]()
+![Detonate_File_McAfee_ATD](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/ATD_Detonate_File.png)
