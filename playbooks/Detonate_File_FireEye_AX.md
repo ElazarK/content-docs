@@ -1,4 +1,4 @@
-Detonate one or more files using the FireEye AX integration. This playbook returns relevant reports to the War Room and file reputations to the context data. The detonation supports the following file types - PE32, EXE, DLL, JAR, JS, PDF, DOC, DOCX, RTF, XLS, PPT, PPTX, XML, ZIP, VBN, SEP, XZ, GZ, BZ2, TAR, MHTML, SWF, LNK, URL, MSI, JTD, JTT, JTDC, JTTC, HWP, HWT, HWPX, BAT, HTA, PS1, VBS, WSF, JSE, VBE, CHM
+Detonate one or more files using the FireEye AX integration. This playbook returns relevant reports to the War Room and file reputations to the context data. The detonation supports the following file types - PE32, EXE, DLL, JAR, JS, PDF, DOC, DOCX, RTF, XLS, PPT, PPTX, XML, ZIP, VBN, SEP, XZ, GZ, BZ2, TAR, MHTML, SWF, LNK, URL, MSI, JTD, JTT, JTDC, JTTC, HWP, HWT, HWPX, BAT, HTA, PS1, VBS, WSF, JSE, VBE, CHM.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -42,7 +42,7 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | DBotScore | The DBotScore object. | unknown |
 | DBotScore.Indicator | The indicator that was tested. | string |
 | DBotScore.Type | The type of the indicator. | string |
-| DBotScore.Vendor | The Vendor used to calculate the score. | string |
+| DBotScore.Vendor | The vendor used to calculate the score. | string |
 | DBotScore.Score | The actual score. | number |
 
 ![Detonate_File_FireEye_AX](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Detonate_File_FireEye_AX.png)
