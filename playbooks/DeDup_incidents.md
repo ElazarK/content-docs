@@ -39,6 +39,6 @@ Will demand:
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| isSimilarIncidentFound | Is the similar incident found. Must be, "true" or "false". | unknown |
+| isSimilarIncidentFound | Whether the similar incident was found. Must be, "true" or "false". | unknown |
 
 ![DeDup_incidents](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/DeDup_incidents.png)
