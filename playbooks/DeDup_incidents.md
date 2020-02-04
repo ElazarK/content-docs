@@ -17,7 +17,7 @@ This playbook does not use any integrations.
 ## Commands
 This playbook does not use any commands.
 
-## Playbook Inputs
+## Playbook Inputs  
 ---
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
