@@ -46,4 +46,4 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | DBotScore.Vendor | The vendor used to calculate the score. | string |
 | DBotScore.Score | The actual score. | number |
 
-![Detonate_File_CrowdStrike_Falcon_Sandbox](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/CrowdStrike_Falcon_Sandbox_Detonate_file.png)
+![Detonate_File_CrowdStrike_Falcon_Sandbox](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/CrowdStrike_Falcon_Sandbox_Detonate_file.png) 
