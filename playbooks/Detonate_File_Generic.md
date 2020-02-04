@@ -62,7 +62,7 @@ This playbook does not use any commands.
 | Sample.ID | The sample ID. | unknown |
 | File | The file's object. | unknown |
 | File.MD5 | The MD5 file hash of the file. | string |
-| Joe.Analysis.SampleName | The sample data. Can be,a file name or a URL. | string |
+| Joe.Analysis.SampleName | The sample data. Can be, a file name or a URL. | string |
 | Joe.Analysis.Comments | The analysis comments. | string |
 | Joe.Analysis.Time | The submitted time. | date |
 | Joe.Analysis.Runs | The sub-analysis information. | unknown |
