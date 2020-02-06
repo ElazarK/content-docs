@@ -5,7 +5,7 @@ Detonates a file in ATD and if malicious - push its MD5, SHA1 and SHA256 hashes 
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ### Sub-playbooks
-* 
+This playbook does not use any sub-playbooks.
 
 ### Integrations
 * McAfee DXL
