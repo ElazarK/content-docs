@@ -43,14 +43,14 @@ This playbook does not use any commands.
 | File.SHA256 | The extracted SHA256 file hash. | unknown |
 | IP.Address | The extracted IP address. | unknown |
 | File.Text | The PDF file extracted from the text. | unknown |
-| File.Producer | The PDF file producer. | unknown |
-| File.Title | The PDF file title. | unknown |
-| File.xap | The PDF XAP file. | unknown |
-| File.Author | The PDF file author. | unknown |
-| File.dc | The PDF DC file. | unknown |
-| File.xapmm | The PDF XAPMM file. | unknown |
-| File.ModDate | The PDF file modification date. | unknown |
-| File.CreationDate | The PDF file creation date. | unknown |
+| File.Producer | The producer of the PDF file. | unknown |
+| File.Title | The title of the PDF file. | unknown |
+| File.xap | The XAP of the PDF file. | unknown |
+| File.Author | The author of the PDF file. | unknown |
+| File.dc | The DC of the PDF file. | unknown |
+| File.xapmm | The XAPMM of the PDF file. | unknown |
+| File.ModDate | The modified date of the PDF file. | unknown |
+| File.CreationDate | The creation date of the PDF file. | unknown |
 | File.Pages | The number of pages in the PDF file. | unknown |
 | URL.Data | The list of URLs that were extracted from the PDF file. | unknown |
 
