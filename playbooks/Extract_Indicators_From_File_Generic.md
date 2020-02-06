@@ -1,0 +1,57 @@
+Extracts indicators from a file.
+
+Supported file types:
+- PDF
+- TXT
+- HTM, HTML
+- DOC, DOCX
+
+## Dependencies
+This playbook uses the following sub-playbooks, integrations, and scripts.
+
+### Sub-playbooks
+This playbook does not use any sub-playbooks.
+
+### Integrations
+This playbook does not use any integrations.
+
+### Scripts
+* Set
+* ReadPDFFile
+* ExtractIndicatorsFromWordFile
+* ExtractIndicatorsFromTextFile
+
+### Commands
+This playbook does not use any commands.
+
+## Playbook Inputs
+---
+
+| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| --- | --- | --- | --- | --- |
+| File | The file to extract indicators from. | None | File | Optional |
+
+## Playbook Outputs
+---
+
+| **Path** | **Description** | **Type** |
+| --- | --- | --- |
+| Domain.Name | The extracted domains. | unknown |
+| Account.Email.Address | The extracted emails. | unknown |
+| File.MD5 | The extracted MD5 file hash. | unknown |
+| File.SHA1 | The extracted SHA1 file hash. | unknown |
+| File.SHA256 | The extracted SHA256 file hash. | unknown |
+| IP.Address | The extracted IP address. | unknown |
+| File.Text | The PDF file extracted from the text. | unknown |
+| File.Producer | The PDF file producer. | unknown |
+| File.Title | The PDF file title. | unknown |
+| File.xap | The PDF XAP file. | unknown |
+| File.Author | The PDF file author. | unknown |
+| File.dc | The PDF DC file. | unknown |
+| File.xapmm | The PDF XAPMM file. | unknown |
+| File.ModDate | The PDF file modification date. | unknown |
+| File.CreationDate | The PDF file creation date. | unknown |
+| File.Pages | The number of pages in the PDF file. | unknown |
+| URL.Data | The list of URLs that were extracted from the PDF file. | unknown |
+
+![Extract_Indicators_From_File_Generic](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Extract_Indicators_From_File_Generic.png)
