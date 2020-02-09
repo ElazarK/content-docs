@@ -22,7 +22,7 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | Hostname | The host to get the file from. | ${Endpoint.Hostname} |  | Optional |
-| Path | The path of the file on the endpoint. | ${File.Path} |  | Optional |
+| Path | The Endpoint path of the file. | ${File.Path} |  | Optional |
 
 ## Playbook Outputs
 ---
