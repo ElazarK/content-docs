@@ -31,4 +31,4 @@ This playbook does not use any commands.
 | --- | --- | --- |
 | File | The file sample object. | unknown |
 
-![Get_File_Sample_By_Hash_Generic](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_By_Hash_Generic.png)
+![Get_File_Sample_By_Hash_Generic](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_By_Hash_Generic.png) 
