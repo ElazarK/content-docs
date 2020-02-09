@@ -21,8 +21,7 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | SHA256 | The SHA256 file hash of the file. | SHA256 | File | Optional |
-| unzip | Specifies whether the downloaded file will be unzipped. The default is 'no'. Yes will unzip automatically
-No will not unzip automatically. |  |  | Optional |
+| unzip | Specifies whether the downloaded file will be unzipped. The default is 'no'. Yes will unzip automatically. No will not unzip automatically. |  |  | Optional |
 
 ## Playbook Outputs
 ---
