@@ -35,4 +35,4 @@ This playbook does not use any commands.
 | --- | --- | --- |
 | File | The file to sample. | unknown |
 
-![Get_File_Sample_From_Path_Generic]()
+![Get_File_Sample_From_Path_Generic](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_From_Path_Generic.png)
