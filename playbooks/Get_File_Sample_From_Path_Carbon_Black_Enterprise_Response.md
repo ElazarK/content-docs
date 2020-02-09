@@ -31,4 +31,4 @@ This playbook does not use any commands.
 | --- | --- | --- |
 | File | The file to sample. | unknown |
 
-![Get_File_Sample_From_Path_Carbon_Black_Enterprise_Response]()
+![Get_File_Sample_From_Path_Carbon_Black_Enterprise_Response](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_From_Path_Carbon_Black_Enterprise_Response.png)
