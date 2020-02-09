@@ -33,6 +33,5 @@ This playbook does not use any sub-playbooks.
 | --- | --- | --- |
 | File | The sample file. | unknown |
 
-<br />
 
 ![Get_File_Sample_By_Hash_Cylance_Protect](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_By_Hash_Cylance_Protect.png)
