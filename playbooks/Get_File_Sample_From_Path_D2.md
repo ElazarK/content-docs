@@ -37,4 +37,4 @@ This playbook does not use any commands.
 | --- | --- | --- |
 | File | The file to sample. | unknown |
 
-![Get_File_Sample_From_Path_D2]()
+![Get_File_Sample_From_Path_D2](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Get_File_Sample_From_Path_D2.png)
