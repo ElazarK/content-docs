@@ -23,8 +23,8 @@ This playbook does not use any integrations.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| matterID | The matterID. |  |  | Required |
-| exportName | The exportName. |  |  | Required |
+| matterID | The ID of the matter. |  |  | Required |
+| exportName | The name of the exported file. |  |  | Required |
 | dataScope | The choice of the search scope. | All Data |  | Optional |
 | searchMethod | The choice of Search method. The default is, "Specific Accounts", this requires emails argument. "Organizational Unit" this requires ou argument. 'Team Drive' | Specific Accounts |  | Optional |
 | emails | Whether the search method is set to Specific Accounts (separated by comma). |  |  | Optional |
