@@ -23,7 +23,7 @@ This playbook does not use any scripts.
 | --- | --- | --- | --- | --- |
 | Interval | How often the polling command should run (in minutes). | 1 |  | Required |
 | Timeout | The amount of time to wait before a timeout occurs (in minutes). | 10 |  | Required |
-| hash |  | The SHA256 file hash. | File | Optional |
+| hash | The file hash of the file. | SHA256  | File | Optional |
 
 ## Playbook Outputs
 ---
