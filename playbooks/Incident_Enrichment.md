@@ -4,7 +4,7 @@ Deprecated- We recommend using Default playbook instead. Enrich data with reputa
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ### Sub-playbooks
-* 
+This playbook does not use any Sub-playbooks.
 
 ### Integrations
 This playbook does not use any integrations.
