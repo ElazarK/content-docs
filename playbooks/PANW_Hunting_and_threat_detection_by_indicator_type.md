@@ -41,4 +41,4 @@ This playbook does not use any integrations.
 | detectedusers | The User or array of users that were detected during hunting. | string |
 | trapsid | The ID or array of IDs for traps hosts detected in the searches. | string |
 
-![PANW_Hunting_and_threat_detection_by_indicator_type]()
+![PANW_Hunting_and_threat_detection_by_indicator_type](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/PANW_Hunting_and_threat_detection_by_indicator_type_V2.png)
