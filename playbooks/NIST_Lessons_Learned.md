@@ -25,7 +25,7 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | DataCollection | The data collection to use to task to answer lessons learned questions based on SANS. Select "True" to automatically send the communication task, and "False"  to prevent it. |  |  | Optional |
-| Email | The email address to send the questions to  |  | Optional |
+| Email | The email address to send the questions to.  |  | Optional |
 
 ## Playbook Outputs
 ---
