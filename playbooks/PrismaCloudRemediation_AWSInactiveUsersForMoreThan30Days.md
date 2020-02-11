@@ -31,4 +31,4 @@ This playbook does not use any sub-playbooks.
 ---
 There are no outputs for this playbook.
 
-![PrismaCloudRemediation_AWSInactiveUsersForMoreThan30Days](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/PrismaCloudRemediation_AWSInactiveUsersForMoreThan30Days.png)
+![PrismaCloudRemediation_AWSInactiveUsersForMoreThan30Days](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/PrismaCloudRemediation_AWSInactiveUsersForMoreThan30Days.png) 
