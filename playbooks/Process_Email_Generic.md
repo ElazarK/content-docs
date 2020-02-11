@@ -25,7 +25,7 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | --- | --- | --- | --- | --- |
 | File | An EML or MSG file. | None | File | Optional |
 | Email | The receiving email address. | labels.Email | incident | Optional |
-| Email/cc | The "CC" addresses. | labels.CC | incident | Optional |
+| Email/cc | The "cc" addresses. | labels.CC | incident | Optional |
 | Email/from | The originator of the email. | labels.Email/from | incident | Optional |
 | Email/subject | The email’s subject. | labels.Email/subject | incident | Optional |
 | Email/text | The email’s text. | labels.Email/text | incident | Optional |
