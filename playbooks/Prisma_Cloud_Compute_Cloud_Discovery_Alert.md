@@ -1,4 +1,4 @@
-Default playbook for parsing Prisma Cloud Compute Cloud Discovery alerts
+Default playbook for parsing Prisma Cloud Compute Cloud Discovery alerts.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
