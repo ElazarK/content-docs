@@ -33,4 +33,4 @@ This playbook does not use any sub-playbooks.
 | Endpoint.Hostname | The device hostname. | string |
 | Endpoint | The endpoint. | unknown |
 
-![Search_Endpoints_By_Hash_Carbon_Black_Protection](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Search_Endpoints_By_Hash_Carbon_Black_Protection.png)
+![Search_Endpoints_By_Hash_Carbon_Black_Protection](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Search_Endpoints_By_Hash_Carbon_Black_Protection%20(2).png)
