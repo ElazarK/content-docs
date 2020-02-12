@@ -1,0 +1,31 @@
+Playbook to quickly react to discovery of new IOCs. Receive a list of IOCs as attached text or csv files, extract IOCs using regular expressions and hunt rapidly across the infrastructure using various integrations. This also supports attaching multiple files.
+
+## Dependencies
+This playbook uses the following sub-playbooks, integrations, and scripts.
+
+### Sub-playbooks
+This playbook does not use any sub-playbooks.
+
+### Integrations
+This playbook does not use any integrations.
+
+### Scripts
+* ExtractIP
+* ExtractHash
+* Print
+* ExtractURL
+* ReadFile
+* Exists
+
+### Commands
+This playbook does not use any commands.
+
+## Playbook Inputs
+---
+There are no inputs for this playbook.
+
+## Playbook Outputs
+---
+There are no outputs for this playbook.
+
+![Rapid_IOC_Hunting_Playbook](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Rapid_IOC_Hunting_Playbook.png)
