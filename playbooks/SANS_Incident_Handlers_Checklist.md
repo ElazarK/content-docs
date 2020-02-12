@@ -30,4 +30,4 @@ This playbook does not use any commands.
 ## Playbook Outputs
 ---
 There are no outputs for this playbook.
-![SANS_Incident_Handlers_Checklist](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/SANS_-_Incident_Handler's_Handbook_Template.png)
+![SANS_Incident_Handlers_Checklist](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/SANS_-_Incident_Handlers_Checklist.png)
