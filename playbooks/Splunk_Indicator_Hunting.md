@@ -57,4 +57,4 @@ This playbook does not use any integrations.
 | Splunk.DetectedInternalHosts | The internal host names detected based on the fields in your search. | string |
 | Splunk.DetectedExternalHosts | The external host names detected based on the fields in your search. | string |
 
-![Splunk_Indicator_Hunting]()
+![Splunk_Indicator_Hunting](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Splunk_Indicator_Hunting.png)
