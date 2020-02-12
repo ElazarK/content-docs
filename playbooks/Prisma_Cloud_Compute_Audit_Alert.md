@@ -1,4 +1,4 @@
-Default playbook for parsing Prisma Cloud Compute audit alerts
+Default playbook for parsing Prisma Cloud Compute audit alerts.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
