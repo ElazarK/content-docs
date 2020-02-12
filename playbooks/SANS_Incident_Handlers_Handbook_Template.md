@@ -27,4 +27,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![SANS_Incident_Handlers_Handbook_Template]()
+![SANS_Incident_Handlers_Handbook_Template](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/SANS_-_Incident_Handler's_Handbook_Template.png)
