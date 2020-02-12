@@ -29,4 +29,4 @@ This playbook does not use any commands.
 ---
 There are no outputs for this playbook.
 
-![Wait_Until_Datetime]()
+![Wait_Until_Datetime](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Wait_Until_Datetime.png)
