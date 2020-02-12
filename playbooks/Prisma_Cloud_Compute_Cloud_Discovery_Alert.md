@@ -23,4 +23,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![Prisma_Cloud_Compute_Cloud_Discovery_Alert]()
+![Prisma_Cloud_Compute_Cloud_Discovery_Alert](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Prisma_Cloud_Compute_Cloud_Discovery_Alert.png)
