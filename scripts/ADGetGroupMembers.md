@@ -43,4 +43,4 @@ This script uses the following commands and scripts.
 | Account.Username | The account username. | Unknown |
 | Account.Email | The email address associated with the account. | Unknown |
 | Account.Groups | The groups the account is part of. | Unknown |
-| Account.DisplayName | The account display name. | Unknown |
+| Account.DisplayName | The account display name. | Unknown | 
