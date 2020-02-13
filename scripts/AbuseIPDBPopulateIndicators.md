@@ -1,4 +1,5 @@
-Extracts blacklisted IP addresses from AbuseIPDB, and Populates Indicators accordingly.
+Extracts blacklisted IP addresses from AbuseIPDB, and populates indicators accordingly.
+
 ## Script Data
 ---
 
