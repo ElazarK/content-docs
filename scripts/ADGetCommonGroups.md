@@ -1,4 +1,4 @@
-`Deprecated`
+`Deprecated` 
 
 Use Active Directory to get common groups between supplied users.
 
