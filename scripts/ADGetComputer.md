@@ -1,4 +1,4 @@
-`Deprecated`
+`Deprecated` 
 
 Use the `ad-get-computer` command in the Active Directory Query v2 instead.
 
