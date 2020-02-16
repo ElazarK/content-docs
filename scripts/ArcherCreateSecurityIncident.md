@@ -25,9 +25,9 @@ This script uses the following commands and scripts.
 | **Argument Name** | **Description** |
 | --- | --- |
 | description | The incident description. |
-| dateTimeOccurred | The occurrence time of the incident. For example, "DateTimeOccurred="3/23/2018 7:00 AM". |
+| dateTimeOccurred | The occurrence time of the incident. For example, DateTimeOccurred="3/23/2018 7:00 AM". |
 | dateTimeIdentified | The identifying time of the incident. For example, DateTimeIdentified="3/23/2018 7:00 AM". |
-| dateTimeReported | The reporting time of the incident. For example, "DateTimeReported="3/23/2018 7:00 AM". |
+| dateTimeReported | The reporting time of the incident. For example, DateTimeReported="3/23/2018 7:00 AM". |
 | executiveSummary | The executive summary of the incident. |
 | incidentReport | The incident's report. |
 
