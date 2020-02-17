@@ -1,4 +1,4 @@
-Use Volatility to run common memory image analysis commands.
+Runs common memory image analysis commands.
 
 ## Script Data
 ---
