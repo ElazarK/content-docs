@@ -1,0 +1,20 @@
+Use this script to use D2 agent on endpoint to run `SysInternals Autoruns`.
+
+Used by the server-side script "Autoruns".
+
+## Script Data
+---
+
+| **Name** | **Description** |
+| --- | --- |
+| Script Type | javascript |
+| Tags | agent, endpoint, forensics |
+| Demisto Version | 0.0.0 |
+
+## Inputs
+---
+There are no inputs for this script.
+
+## Outputs
+---
+There are no outputs for this script.
