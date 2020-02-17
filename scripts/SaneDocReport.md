@@ -1,4 +1,5 @@
 `Deprecated`
+
 Parse Sane-json-reports and export them as docx files (used internally).
 ## Script Data
 ---
