@@ -1,4 +1,4 @@
-`Deprecated`
+`Deprecated` 
 Expire the password of an Active Directory user
 
 ## Script Data
