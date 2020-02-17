@@ -1,4 +1,4 @@
-Use this script to find applications containing network objects related to IP address using BusinessFlow.
+Find applications containing network objects related to IP address using BusinessFlow.
 ## Script Data
 ---
 
