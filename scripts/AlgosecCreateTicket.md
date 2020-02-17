@@ -1,4 +1,4 @@
-Use this script to create a new FireFlow change request.
+Creates a new FireFlow change request.
 
 ## Script Data
 ---
