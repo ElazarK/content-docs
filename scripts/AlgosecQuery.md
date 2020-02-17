@@ -1,4 +1,4 @@
-Use this script to perform a batch traffic simulation query using Firewall Analyzer.
+Performs a batch traffic simulation query using Firewall Analyzer.
 
 ## Script Data
 ---
