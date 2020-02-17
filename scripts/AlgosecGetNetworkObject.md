@@ -1,4 +1,4 @@
-Use this script to find network objects related to IP address.
+Finds network objects related to the IP address.
 ## Script Data
 ---
 
