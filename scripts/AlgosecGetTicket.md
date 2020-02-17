@@ -1,4 +1,4 @@
-Use this script to retrieve a FireFlow change request by its ID.
+Retrieves a FireFlow change request by its ID.
 ## Script Data
 ---
 
