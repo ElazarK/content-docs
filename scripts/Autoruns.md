@@ -1,4 +1,4 @@
-This script collects autorun items from an endpoint as well as hashes for each item.
+Collects autorun items from an endpoint as well as hashes for each item.
 THis uses a D2 agent to run `SysInternals` autoruns.
 ## Script Data
 ---
