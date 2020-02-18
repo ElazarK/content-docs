@@ -1,4 +1,5 @@
-This script blocks an IP address in a configured firewall.
+Blocks an IP address in a configured firewall.
+
 ## Script Data
 ---
 
