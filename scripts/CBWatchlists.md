@@ -1,4 +1,4 @@
-Use this script to display all watchlists and their details, queries, etc.
+Displays all watchlists and their details, queries, etc.
 
 ## Script Data
 ---
