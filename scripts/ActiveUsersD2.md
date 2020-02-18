@@ -1,4 +1,4 @@
-Get active users from a D2 agent and parsed them into context.
+Gets active users from a D2 agent and parsed them into context.
 
 ## Script Data
 ---
