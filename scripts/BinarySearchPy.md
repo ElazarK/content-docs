@@ -1,4 +1,5 @@
-This script searches for a binary on an endpoint using Carbon Black.
+Searches for a binary on an endpoint using Carbon Black.
+
 ## Script Data
 ---
 
