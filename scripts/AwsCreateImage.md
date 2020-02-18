@@ -1,4 +1,4 @@
-This script creates an Amazon EBS-backed AMI from an Amazon EBS-backed instance that is either running or stopped.
+Creates an Amazon EBS-backed AMI from an Amazon EBS-backed instance that is either running or stopped.
 
 ## Script Data
 ---
