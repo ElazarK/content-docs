@@ -1,4 +1,4 @@
-Use this script to simplify the process of creating a new record in Archer. Fields can be added in the record as script arguments and/or in the code, and create a new record.
+Simplifies the process of creating a new record in Archer. Fields can be added in the record as script arguments and/or in the code, and create a new record.
 
 This automation is currently used for Archer application 75 (Security Incidents), but can be altered to any other application by entering another applications ID as input and/or modifying the default `ApplicationId` value in the arguments. 
 Another option would be to duplicate this script and adjust it to the new application Id.
