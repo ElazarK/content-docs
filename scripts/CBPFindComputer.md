@@ -1,4 +1,5 @@
-This script finds a computer in CBEP/Bit9.
+Finds a computer in CBEP/Bit9.
+
 ## Script Data
 ---
 
