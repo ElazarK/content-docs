@@ -1,4 +1,5 @@
-Use this script to convert a Base64 file in a list to a binary file and upload it to the warroom.
+Converts a Base64 file in a list to a binary file and upload it to the War Room.
+
 ## Script Data
 ---
 
@@ -14,7 +15,7 @@ Use this script to convert a Base64 file in a list to a binary file and upload i
 | **Argument Name** | **Description** |
 | --- | --- |
 | listname | The list name of Base64 items. The list needs to be a single file in a list. |
-| filename | The optional warroom output filename. The default filename is list name. |
+| filename | The optional War Room output filename. The default filename is list name. |
 | isZipFile | Whether the data is compressed (zip format). |
 
 ## Outputs
