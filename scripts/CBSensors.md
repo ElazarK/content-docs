@@ -1,4 +1,5 @@
-The list of Carbon Black sensors.
+Returns lists of the Carbon Black sensors.
+
 ## Script Data
 ---
 
