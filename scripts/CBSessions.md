@@ -1,4 +1,4 @@
-Use this script to list Carbon Black sessions.
+Returns lists of Carbon Black sessions.
 
 ## Script Data
 ---
