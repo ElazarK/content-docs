@@ -1,4 +1,5 @@
-This script runs a `process list` command on a remote Carbon Black sensor.
+Runs a `process list` command on a remote Carbon Black sensor.
+
 ## Script Data
 ---
 
