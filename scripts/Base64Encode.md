@@ -1,4 +1,4 @@
-This script will encode an input using Base64 format.
+Encodes an input using Base64 format.
 
 ## Script Data
 ---
