@@ -1,4 +1,4 @@
-Create an EC2 AWS instances from an image.
+Creates an EC2 AWS instances from an image.
 ## Script Data
 ---
 
