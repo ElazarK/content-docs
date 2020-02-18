@@ -1,4 +1,4 @@
-This script Ban/blacklist a hash in CBEP/Bit9.
+Bans/blacklists a hash in CBEP/Bit9.
 ## Script Data
 ---
 
