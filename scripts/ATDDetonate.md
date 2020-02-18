@@ -1,4 +1,4 @@
-Use this script to detonate a file or URL through McAfee ATD.
+Detonates a file or URL through McAfee ATD.
 ## Script Data
 ---
 
