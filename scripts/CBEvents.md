@@ -1,4 +1,5 @@
-This scripts returns all events associated with a process query
+Returns all events associated with a process query.
+
 ## Script Data
 ---
 
