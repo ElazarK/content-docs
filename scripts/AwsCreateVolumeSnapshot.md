@@ -1,4 +1,4 @@
-This script creates a snapshot of an EBS volume and stores it in Amazon S3. Snapshots can be used for backups, to make copies of EBS volumes, and to save data before shutting down an instance.
+Creates a snapshot of an EBS volume and stores it in Amazon S3. Snapshots can be used for backups, to make copies of EBS volumes, and to save data before shutting down an instance.
 
 ## Script Data
 ---
