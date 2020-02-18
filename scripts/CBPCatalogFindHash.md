@@ -1,4 +1,5 @@
-This script searches the CBP/Bit9 file catalog for an MD5 file hash.
+Searches the CBP/Bit9 file catalog for an MD5 file hash.
+
 ## Script Data
 ---
 
