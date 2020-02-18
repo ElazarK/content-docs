@@ -1,4 +1,5 @@
-This script returns an EWS query according to the automation's arguments.
+Returns an EWS query according to the automation's arguments.
+
 ## Script Data
 ---
 
