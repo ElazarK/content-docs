@@ -1,4 +1,4 @@
-Use this script to assign an analyst to an incident.
+Assigns an analyst to an incident.
 By default, the analyst is picked randomly from the available users, according to the provided roles. However, if no roles are provided, this will fetch all users.
 The analyst will be picked according to the `assignBy` arguments.
 
