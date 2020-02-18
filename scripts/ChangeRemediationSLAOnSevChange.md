@@ -1,4 +1,4 @@
-Use this script to change the remediation SLA once a change in incident severity occurs.
+Change the remediation SLA once a change in incident severity occurs.
 This is automatic and changes can be configured to your needs.
 ## Script Data
 ---
