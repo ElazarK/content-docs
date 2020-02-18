@@ -1,4 +1,4 @@
-Use this script to create an EC2 AWS instances from an image.
+Create an EC2 AWS instances from an image.
 ## Script Data
 ---
 
