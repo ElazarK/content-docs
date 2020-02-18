@@ -1,5 +1,7 @@
 `Deprecated`
-This script uses the `cb-binary` command and `cb-get-processes` command.
+
+Uses the `cb-binary` command and `cb-get-processes` command.
+
 ## Script Data
 ---
 
