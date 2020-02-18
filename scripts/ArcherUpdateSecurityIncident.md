@@ -1,4 +1,4 @@
-This script is used to simplify the process of updating a new record in Archer. Fields can be added in the record as script arguments and/or in the code, and have a newly created record easily.
+Simplifies the process of updating a new record in Archer. Fields can be added in the record as script arguments and/or in the code, and have a newly created record easily.
 
 The automation fields are currently used for Archer application 75 (Security Incidents) but can be altered to any other application by modifying the fields in the code. 
 
