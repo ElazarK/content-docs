@@ -1,4 +1,5 @@
-Use this script to get AWS EC2 instance details
+Get AWS EC2 instance details.
+
 ## Script Data
 ---
 
