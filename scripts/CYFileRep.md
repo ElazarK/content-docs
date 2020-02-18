@@ -1,4 +1,5 @@
-Use this script to retrieve a file's reputation and upload the file if required for analysis.
+Retrieves a file's reputation and upload the file if required for analysis.
+
 ## Script Data
 ---
 
