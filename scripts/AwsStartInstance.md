@@ -1,4 +1,4 @@
-This scripts starts an Amazon EBS-backed AMI that was previously stopped.
+Starts an Amazon EBS-backed AMI that was previously stopped.
 ## Script Data
 ---
 
