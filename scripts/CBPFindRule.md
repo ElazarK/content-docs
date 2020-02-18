@@ -1,4 +1,5 @@
-This script finds the rule state for a hash value in CBEP/Bit9.
+Finds the rule state for a hash value in CBEP/Bit9.
+
 ## Script Data
 ---
 
