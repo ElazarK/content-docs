@@ -1,16 +1,16 @@
-Detonate a URL through active integrations that support URL detonation.
+This playbook detonates a URL through active integrations that support URL detonation.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ### Sub-playbooks
+* Detonate URL - Lastline v2
 * Detonate URL - Cuckoo
-* Detonate URL - Lastline
 * Detonate URL - JoeSecurity
-* Detonate URL - CrowdStrike
-* Detonate URL - McAfee ATD
-* Detonate URL - ThreatGrid
 * Detonate URL - ANYRUN
+* Detonate URL - McAfee ATD
+* Detonate URL - CrowdStrike
+* Detonate URL - ThreatGrid
 
 ### Integrations
 This playbook does not use any integrations.
