@@ -32,4 +32,4 @@ Performs a Yara scan on the specified files.
 | Matches.Namespace | The namespace defined in the rule. | string |
 | Matches.RuleName | The rule name that matched. | string |
 | Matches.Strings | A list of strings that the rule matched. | string |
-| Matches.Tags | A list of tags that are defined in the rule. | Unknown |
+| Matches.Tags | A list of tags that are defined in the rule. | Unknown | 
