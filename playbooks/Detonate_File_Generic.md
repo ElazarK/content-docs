@@ -1,21 +1,21 @@
-Detonate file through active integrations that support file detonation
+Detonate file through active integrations that support file detonation.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ### Sub-playbooks
-* CrowdStrike Falcon Sandbox - Detonate file
-* Detonate File - FireEye AX
-* Detonate File - HybridAnalysis
-* Detonate File - ThreatGrid
-* WildFire - Detonate file
-* ATD - Detonate File
-* Detonate File - SNDBOX
-* Detonate File - ANYRUN
-* Detonate File - VMRay
-* Detonate File - Lastline
-* Detonate File - JoeSecurity
 * Detonate File - Cuckoo
+* Detonate File - Lastline v2
+* Detonate File - ThreatGrid
+* CrowdStrike Falcon Sandbox - Detonate file
+* ATD - Detonate File
+* WildFire - Detonate file
+* Detonate File - HybridAnalysis
+* Detonate File - SNDBOX
+* Detonate File - FireEye AX
+* Detonate File - VMRay
+* Detonate File - ANYRUN
+* Detonate File - JoeSecurity
 
 ### Integrations
 This playbook does not use any integrations.
