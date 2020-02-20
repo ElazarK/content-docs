@@ -1,4 +1,4 @@
-Retrieves the current date and time.
+Retrieves the current date and time. 
 
 ## Script Data
 ---
