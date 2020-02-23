@@ -1,4 +1,4 @@
-Enrich Accounts using one or more integrations
+Enriches accounts using one or more integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,7 +21,7 @@ This playbook has no integrations.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Username | The Username to enrich | ${Account.Username} |  | Optional |
+| Username | The username to enrich. | ${Account.Username} |  | Optional |
 
 ## Playbook Outputs
 ---
@@ -30,7 +30,7 @@ This playbook has no integrations.
 | --- | --- | --- |
 | Account | The account object. | unknown |
 | Account.Type | The type of the account entity. | string |
-| Account.ID | The unique account DN \(Distinguished Name\). | string |
+| Account.ID | The unique account DN (Distinguished Name). | string |
 | Account.Username | The account username. | string |
 | Account.Email | The email address associated with the account. | unknown |
 | Account.Groups | The groups the account is part of. | unknown |
