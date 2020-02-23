@@ -1,4 +1,4 @@
-A generic playbook for blocking files from running on endpoints. This playbook currently supports Carbon Black Enterprise Response.
+Blocks files from running on endpoints. This playbook currently supports Carbon Black Enterprise Response.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,9 +18,9 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | The MD5 file hash of the file you want to block. | ${File.MD5} |  | Optional |
+| MD5 | The MD5 hash of the file you want to block. | ${File.MD5} | Optional |
 
 ## Playbook Outputs
 ---
