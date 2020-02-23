@@ -1,6 +1,7 @@
 Detonates one or more files using BitDam integration.
 Returns verdict to the War Room and file reputations to the context data.
-Supported file types are mainly PDF & microsoft office software/
+
+Supported file types are mainly PDF & microsoft office software.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -24,8 +25,8 @@ This playbook does not use any integrations.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | File | The file object of the file to detonate. The File is taken from the context. | None | File | Optional |
-| Interval | The duration for executing the pooling \(in minutes\). | 1 |  | Optional |
-| Timeout | The duration after which to stop pooling and to resume the playbook \(in minutes\). | 10 |  | Optional |
+| Interval | The duration for executing the pooling (in minutes). | 1 | - | Optional |
+| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 10 | - | Optional |
 
 ## Playbook Outputs
 ---
