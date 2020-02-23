@@ -1,4 +1,4 @@
-This playbook accepts an MD5 hash and blocks the file using the Cybereason integration.
+Accepts an MD5 hash and blocks the file using the Cybereason integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,7 +20,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | The MD5file hash of the file to block. | MD5 | File | Optional |
+| MD5 | The MD5 hash of the file to block. | MD5 | File | Optional |
 
 ## Playbook Outputs
 ---
