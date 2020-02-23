@@ -1,5 +1,6 @@
-Get the Case's Arcsight ResourceID from the FetchID field, or the "ID" label. If neither is there, ask user for the ID.
-Use the resource ID to get full data for the case, the correlated/aggregate events underneath it, and all base events underneath them.
+Gets the case's Arcsight `ResourceID` from the `FetchID` field, or the "ID" label. If neither are there, it will ask the user for the ID.
+
+Uses the resource ID to get full data for the case, the correlated/aggregate events underneath it, and all base events underneath them.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
