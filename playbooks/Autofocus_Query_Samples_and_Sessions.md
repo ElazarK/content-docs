@@ -24,7 +24,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** |**Required** |
 | --- | --- | --- | 
-| Scope | The scope can be, "Private" , "Public", or "Global". |  |  | Optional | 
+| Scope | The scope can be, "Private" , "Public", or "Global". |  Optional | 
 | SampleQuery | The query needs to be provided in order to determine what to search for. The query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
 
 Query example for searching hashes can be
