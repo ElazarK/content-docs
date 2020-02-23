@@ -22,11 +22,11 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| DomainName | Domain Name |  |  | Required |
-| interval | How often the polling command should run \(in minutes\). | 1 |  | Optional |
-| timeout | How much time to wait before a timeout occurs \(minutes\) | 600 |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| DomainName | The domain name. | - | Required |
+| interval | How often the polling command should run (in minutes). | 1 | Optional |
+| timeout | The amount of time to wait before a timeout occurs (in minutes). | 600 | Optional |
 
 ## Playbook Outputs
 ---
