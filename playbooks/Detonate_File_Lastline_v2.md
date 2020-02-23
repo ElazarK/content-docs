@@ -1,4 +1,4 @@
-This playbook detonates a file using the Lastline sandbox.
+Detonates a file using the `Lastline` sandbox.
 
 Lastline supports the following File Types:
 EXE, SYS, DLL, COM, SCR, CPL, OCX, CGI, DOC, DOTM, DOCX, DOTX, XLS, PPAM, XSLX, PPS, XLSB, PPSX, XLSM, PPSM, PPT, PPTX, PPTM, RTF, SHS, XLTM, SLDM, XLTX, SLDX, XLAM, THMX, DOCM, XAR, JTD, JTDC, PDF, SWF, GZ, 7Z, TGZ, MSI, ZIP, LZH, CAB, LZMA, APK, JAR, CLASS, JPEG, PNG, GIF, CMD, ACE, BAT, ARJ, VBS, CHM, XML, LNK, URL, MOF, HTM, OCX, HTML, POTM, EML, POTX, MSG, PS, |VB, REG, VBA, WSC, VBE, WSF, VBS, WSH
@@ -26,8 +26,8 @@ This playbook does not use any integrations.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | File | The file to detonate. The file is taken from the context. | None | File | Optional |
-| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 |  | Optional |
-| Timeout | The amount of time to wait before a timeout occurs (in minutes). | 15 |  | Optional |
+| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 | - | Optional |
+| Timeout | The amount of time to wait before a timeout occurs (in minutes). | 15 |-  | Optional |
 
 ## Playbook Outputs
 ---
@@ -49,9 +49,9 @@ This playbook does not use any integrations.
 | URL.Malicious.Vendor | The vendor that made the decision that the URL is malicious. | string |
 | URL.Malicious.Description | The reason the vendor made the decision that the URL is malicious. | string |
 | URL.Malicious.Score | The score from the vendor that decided the URL is malicious. | number |
-| File.MD5 | The bad MD5 file hash. | string |
-| File.SHA1 | The bad SHA1 file hash. | string |
-| File.SHA256 | The bad SHA256 file hash. | string |
+| File.MD5 | The bad MD5 hash of the file. | string |
+| File.SHA1 | The bad SHA1 hash of the file. | string |
+| File.SHA256 | The bad SHA256 hash of the file. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious. | string |
 | File.Malicious.Score | The score from the vendor that made the decision that the file is malicious. | number |
 | Lastline.Submission.Status | The status of the submission. | string |
