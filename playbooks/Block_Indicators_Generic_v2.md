@@ -1,4 +1,4 @@
-This playbook blocks malicious Indicators using all integrations that are enabled, using the following sub-playbooks:  
+Blocks malicious indicators using all integrations that are enabled, using the following sub-playbooks:  
 
 - Block URL - Generic
 - Block Account - Generic
@@ -30,8 +30,8 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| IPBlacklistMiner | The name of the IP blacklist Miner in  Minemeld. |  |  | Optional |
-| URLBlacklistMiner | The name of the URL blacklist Miner in  Minemeld. |  |  | Optional |
+| IPBlacklistMiner | The name of the IP address blacklist Miner in Minemeld. | - | - | Optional |
+| URLBlacklistMiner | The name of the URL blacklist Miner in Minemeld. | - | - | Optional |
 | IP | The array of malicious IP addresses to block. | Indicator | DBotScore | Optional |
 | URL | The array of malicious URLs to block. | Indicator | DBotScore | Optional |
 | Username | The array of malicious usernames to block. | Indicator | DBotScore | Optional |
@@ -46,16 +46,16 @@ This playbook does not use any commands.
 | CheckpointFWRule.Name | The rule name. | unknown |
 | CheckpointFWRule.UID | The rule UID. | unknown |
 | CheckpointFWRule.Type | The rule type. | unknown |
-| CheckpointFWRule.DestinationNegate | The rule destination negate status \(True/False\). | unknown |
-| CheckpointFWRule.Action | The rule action \(Valid values are: Accept, Drop, Apply Layer, Ask, Info\). | unknown |
+| CheckpointFWRule.DestinationNegate | The rule destination negate status. Can be, "True" or "False". | unknown |
+| CheckpointFWRule.Action | The rule action. Valid values are, "Accept", "Drop", "Apply Layer", "Ask", or "Info". | unknown |
 | CheckpointFWRule.Destination | The rule destination. | unknown |
 | CheckpointFWRule.ActionSetting | The rule action settings. | unknown |
 | CheckpointFWRule.CustomFields | The rule custom fields. | unknown |
 | CheckpointFWRule.Data | The rule data. | unknown |
 | CheckpointFWRule.DataDirection | The rule data direction. | unknown |
-| CheckpointFWRule.DataNegate | The rule data negate status \(True/False\). | unknown |
+| CheckpointFWRule.DataNegate | The rule data negate status. Can be, "True" or "False". | unknown |
 | CheckpointFWRule.Hits | The rule hits count. | unknown |
-| PanoramaRule.Direction | The direction of the Panorama rule. Can be 'to','from', 'both'. | string |
+| PanoramaRule.Direction | The direction of the Panorama rule. Can be "to","from", or "both". | string |
 | PanoramaRule.IP | The IP address the Panorama rule blocks. | string |
 | PanoramaRule.Name | The name of the Panorama rule. | string |
 | CheckpointFWRule.Data.Name | The rule data object name. | unknown |
