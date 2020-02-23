@@ -1,4 +1,4 @@
-Enrich CVE using one or more integrations.
+Enriches CVE using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,7 +22,7 @@ This playbook does not use any sub-playbooks.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | CVE | The CVE to enrich. | None | CVE | Optional |
-| GetReputation | Should the playbook retrieve the reputation for the CVE? | True |  | Required |
+| GetReputation | Whether the playbook retrieves the reputation of the CVE. | True | - | Required |
 
 ## Playbook Outputs
 ---
@@ -33,7 +33,7 @@ This playbook does not use any sub-playbooks.
 | CVE.ID | The ID of the CVE. | string |
 | CVE.CVSS | The CVSS score of the CVE. | number |
 | CVE.Published | The date this was published. | date |
-| CVE.Modified | When CVE was last modified. | date |
+| CVE.Modified | The last time the CVE was modified. | date |
 | CVE.Description | The CVE description. | string |
 
 ![CVE_Enrichment_Generic](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/CVE_Enrichment_Generic.png)
