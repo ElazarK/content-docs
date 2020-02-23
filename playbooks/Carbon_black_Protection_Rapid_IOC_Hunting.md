@@ -1,4 +1,4 @@
-Hunt for endpoint activity involving hash and domain IOCs, using Carbon black Protection (Bit9).
+Hunts for endpoint activity involving hash and domain IOCs, using Carbon black Protection (Bit9).
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
