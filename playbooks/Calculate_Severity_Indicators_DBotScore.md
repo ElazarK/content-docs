@@ -20,7 +20,7 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| DBotScore | Array of all indicators associated with the incident.  | None | DBotScore | Optional |
+| DBotScore | The array of all indicators associated with the incident.  | None | DBotScore | Optional |
 
 ## Playbook Outputs
 ---
