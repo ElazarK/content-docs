@@ -1,4 +1,4 @@
-Detonating file with Cuckoo
+Detonates a file with Cuckoo.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,11 +21,11 @@ This playbook does not use any integrations.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| File | The file to detonate. | ${File} |  | Optional |
-| interval | How often to poll for results. | 1 |  | Optional |
-| timeout | How long to wait before giving up waiting for results. | 10 |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| File | The file to detonate. | ${File} | Optional |
+| interval | How often to poll for results. | 1 | Optional |
+| timeout | How long to wait before giving up waiting for results. | 10 | Optional |
 
 ## Playbook Outputs
 ---
@@ -55,14 +55,14 @@ This playbook does not use any integrations.
 | Cuckoo.Task.Score | The reported score of the task. | unknown |
 | Cuckoo.Task.Monitor | The monitor of the reported task. | unknown |
 | File.Size | The size of file. | unknown |
-| File.SHA1 | The file's SHA1 file hash. | unknown |
-| File.SHA256 | The file's SHA256 file hash. | unknown |
+| File.SHA1 | The file's SHA1 hash of the file. | unknown |
+| File.SHA256 | The file's SHA256 hash of the file. | unknown |
 | File.Name | The file's name. | unknown |
-| File.SSDeep | The file's SSDeep file. | unknown |
+| File.SSDeep | The file's SSDeep hash of the file. | unknown |
 | File.EntryID | The file's entry ID. | unknown |
 | File.Info | The file's info. | unknown |
 | File.Type | The file's type. | unknown |
-| File.MD5 | The file's MD5 file hash. | unknown |
+| File.MD5 | The file's MD5 hash of the file. | unknown |
 | File.Extension | The file's extension. | unknown |
 
 
