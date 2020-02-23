@@ -19,7 +19,7 @@ This playbook does not use any commands.
 ---
 
 | **Name** | **Description** | **Default Value** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | MD5 | The MD5 hash of the file you want to block. | ${File.MD5} | Optional |
 
 ## Playbook Outputs
