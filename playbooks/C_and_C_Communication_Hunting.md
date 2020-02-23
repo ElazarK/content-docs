@@ -1,4 +1,4 @@
-A playbook to use the latest Threat Intelligence to hunt across your infrastructure and look for malicious C&C communications.
+Uses the latest Threat Intelligence to look for malicious C&C communications.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
