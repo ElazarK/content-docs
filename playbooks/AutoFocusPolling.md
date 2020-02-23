@@ -1,6 +1,6 @@
-Use this playbook as a sub-playbook to  query PANW Autofocus Threat intelligence system. This sub-playbook is the same as the generic polling sub-playbook besides that it provides outputs in the playbook. The reason for that is that in Autofocus its impossible to query the results of the same query more than once so the outputs have to be in the polling context.
+Queries the PANW Autofocus Threat Intelligence System. This sub-playbook is the same as the generic polling sub-playbook besides that it provides outputs in the playbook. The reason for that is that in Autofocus its impossible to query the results of the same query more than once so the outputs have to be in the polling context.
 
-This playbook implements polling by continuously running the command in Step \#2 until the operation completes.
+This playbook implements polling by continuously running the command in Step #2 until the operation completes.
 The remote action should have the following structure:
 
 1. Initiate the operation.
@@ -29,14 +29,14 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Ids | The list of IDs to poll. |  |  | Required |
-| PollingCommandName | The name of the polling command to run. |  |  | Required |
-| PollingCommandArgName | The argument name of the polling command. | ids |  | Required |
-| Interval | The frequency that the polling command will run \(minutes\). | 1 |  | Required |
-| Timeout | The amount of time to poll before declaring a timeout and resuming the playbook \(in minutes\). | 10 |  | Required |
-| dt | The DT filter for polling IDs. Polling will stop when no results are returned. Use single quotes, e.g WildFire.Report\(val.Status\!==''Success''\).SHA256. |  |  | Required |
-| AdditionalPollingCommandArgNames | The Names of additional arguments for the polling command, e.g \(arg1,arg2,...\).' |  |  | Optional |n
-| AdditionalPollingCommandArgValues | The values of the additional arguments for the polling command, e.g \(value1,value2,...\). |  |  | Optional |
+| Ids | The list of IDs to poll. | - | - | Required |
+| PollingCommandName | The name of the polling command to run. | - | - | Required |
+| PollingCommandArgName | The argument name of the polling command. | ids | - | Required |
+| Interval | The frequency that the polling command will run (in minutes). | 1 | - | Required |
+| Timeout | The amount of time to poll before declaring a timeout and resuming the playbook (in minutes). | 10 | - | Required |
+| dt | The DT filter for polling IDs. Polling will stop when no results are returned. Use single quotes. For example, `WildFire.Report(val.Status!==''Success'').SHA256`. | - | - | Required |
+| AdditionalPollingCommandArgNames | The Names of additional arguments for the polling command. For example, "arg1,arg2,...". | - | - | Optional |
+| AdditionalPollingCommandArgValues | The values of the additional arguments for the polling command. For example, "value1,value2,...". | - | - | Optional |
 
 ## Playbook Outputs
 ---
