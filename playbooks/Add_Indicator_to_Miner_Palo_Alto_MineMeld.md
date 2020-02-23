@@ -1,4 +1,4 @@
-Add indicators to the relevant Miner using MineMeld.
+Adds indicators to the relevant Miner using MineMeld.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,10 +18,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Indicator | The indicator to add to the miner. |  |  | Optional |
-| MinerName | The name of the miner. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| Indicator | The indicator to add to the miner. | Optional |
+| MinerName | The name of the miner. |Optional |
 
 ## Playbook Outputs
 ---
