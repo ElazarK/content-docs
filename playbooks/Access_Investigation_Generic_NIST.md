@@ -1,5 +1,4 @@
-This playbook investigates an access incident by gathering user and IP information, and handling the incident based on the stages in "Handling an incident - Computer Security Incident Handling Guide" by NIST.
-https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+Investigates an access incident by gathering user and IP address information, and handling the incident based on the stages in "[Handling an incident - Computer Security Incident Handling Guide" by NIST](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf).
 Used Sub-playbooks:
 - IP Enrichment - Generic v2
 - Account Enrichment - Generic v2.1
@@ -37,9 +36,9 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | --- | --- | --- | --- | --- |
 | SrcIP | The source IP address from which the incident originated. |  |  | Optional |
 | DstIP | The target IP address that was accessed. |  |  | Optional |
-| Username | The email address of the account that was used to access the DstIP. |  |  | Optional |
+| Username | The email address of the account that was used to access the destionation IP address. |  |  | Optional |
 | NotifyEmail | The email addresses to notify about the incident. |  |  | Optional |
-| RemediationSLA | The Remediation SLA for the 'Containment, Eradication, and Recovery' stage \(in minutes\). |  |  | Optional |
+| RemediationSLA | The Remediation SLA for the "Containment", "Eradication", and "Recovery" stage (in minutes). |  |  | Optional |
 | IPBlacklistMiner | The name of the IP address blacklist miner in MineMeld. |  |  | Optional |
 
 ## Playbook Outputs
@@ -47,9 +46,9 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| Account.Email.Address | The email address object associated with the Account. | string |
+| Account.Email.Address | The email address object associated with the account. | string |
 | DBotScore | The indicator, score, type, and vendor. | unknown |
-| Account.ID | The unique account DN \(Distinguished Name\). | string |
+| Account.ID | The unique account DN (Distinguished Name). | string |
 | Account.Username | The account username. | string |
 | Account.Email | The email address associated with the account. | unknown |
 | Account.Type | The type of the account entity. | string |
