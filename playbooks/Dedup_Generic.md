@@ -21,8 +21,8 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
 | DuplicateMethod | Select a method for identifying duplicate incidents. Can be, "ml", "rules", or "text". | ml | Required |
 | DuplicateThreshold | The similarity threshold to consider an incident as a duplicate. Can be, "0" or "1". Chose "1" when it is a duplicate and "0" when it is not a duplicate. Use this argument in the ML or text methods. | 0.75 | Required |
 | TimeFrameHours | The time frame (in hours) in which to check for duplicate incident candidates. | 72 | Required |
