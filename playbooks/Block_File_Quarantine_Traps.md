@@ -1,4 +1,4 @@
-This playbook accepts a file hash and quarantines this file using Traps.
+Accepts a hash of a file and quarantines it using Traps.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,9 +19,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| EventId | The Traps event ID. The playbook quarantines the related files. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| EventId | The Traps event ID. The playbook quarantines the related files. | Optional |
 
 ## Playbook Outputs
 ---
