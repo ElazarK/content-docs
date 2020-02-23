@@ -20,7 +20,7 @@ This playbook does not use any scripts.
 ---
 
 | **Name** | **Description** | **Default Value** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- |--- | --- |
 | Hostname | The hostname to isolate. | ${Endpoint.Hostname} |Optional |
 
 ## Playbook Outputs
