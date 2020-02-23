@@ -22,9 +22,9 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| CriticalUsers | The array of usernames of critical users (comma-separated). |  |  | Optional |
-| CriticalEndpoints | The array of hostnames of critical endpoints (comma-separated). |  |  | Optional |
-| CriticalGroups | The array of DN names of critical AD groups (comma-separated). |  |  | Optional |
+| CriticalUsers | The array of usernames of critical users (comma-separated). | - | - | Optional |
+| CriticalEndpoints | The array of hostnames of critical endpoints (comma-separated). | - | - | Optional |
+| CriticalGroups | The array of DN names of critical AD groups (comma-separated). | - | - | Optional |
 | Account | The user account to check against the critical lists. | None | Account | Optional |
 | Endpoint | The endpoint to check against the critical lists. | None | Endpoint | Optional |
 
