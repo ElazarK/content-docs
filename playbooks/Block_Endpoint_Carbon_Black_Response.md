@@ -1,4 +1,4 @@
-Carbon Black Response - isolate an endpoint, given a hostname.
+Isolate an endpoint, given a hostname.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,9 +19,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
-| Hostname | The hostname to isolate. | ${Endpoint.Hostname} |  | Optional |
+| Hostname | The hostname to isolate. | ${Endpoint.Hostname} |Optional |
 
 ## Playbook Outputs
 ---
