@@ -1,4 +1,4 @@
-Check for duplicate incidents for the current incident, and close it if any duplicate has found.
+Checks for duplicate incidents for the current incident, and close it if any duplicate has found.
 
 
 ## Dependencies
