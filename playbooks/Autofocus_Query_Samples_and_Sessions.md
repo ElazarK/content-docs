@@ -1,4 +1,4 @@
-This playbook is used for querying the PANW threat intelligence Autofocus system. The playbook accepts indicators such as IP's, hashes, domains to run basic queries or mode advanced queries that can leverage several query parameters. In order to run the more advanced queries its recommended to use the Autofocus UI https://autofocus.paloaltonetworks.com/#/dashboard/organization to created a query and than use the export search button. The result can be used as a playbook input.
+Queryies the PANW Threat Intelligence Autofocus System. The playbook accepts indicators such as IP addresses, hashes, domains to run basic queries or mode advanced queries that can leverage several query parameters. In order to run the more advanced queries it is recommended to use the [Autofocus UI](https://autofocus.paloaltonetworks.com/#/dashboard/organization) to create a query and then use the export search button. The result can be used as a playbook input.
 
 The playbook supports searching both the Samples API and the sessions API.
 
@@ -22,9 +22,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Scope | Scope can be, "Private" , "Public", or "Global". |  |  | Optional | | SampleQuery | Query needs to be provided in order to determine what to search for. Query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
+| **Name** | **Description** |**Required** |
+| --- | --- | --- | 
+| Scope | The scope can be, "Private" , "Public", or "Global". |  |  | Optional | 
+| SampleQuery | The query needs to be provided in order to determine what to search for. The query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
 
 Query example for searching hashes can be
 
@@ -32,8 +33,8 @@ Query example for searching hashes can be
 
 Another example for searching for an IP
 \{"operator":"any","children":\[\{"field":"sample.src\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"sample.dst\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"sample.src\_ip","operator":"is","value":"2.2.2.2"\},\{"field":"sample.dst\_ip","operator":"is","value":"2.2.2.2"\}\]\}
- |  |  | Optional |
-| SessionQuery | Query needs to be provided in order to determine what to search for. Query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
+ | Optional |
+| SessionQuery | The query that needs to be provided in order to determine what to search for. The query is currently only in JSON format which can be extracted from the Autofocus web console API radio button.
 
 Query example for searching hashes can be
 
@@ -41,40 +42,31 @@ Query example for searching hashes can be
 
 Another example for searching for an IP
 \{"operator":"any","children":\[\{"field":"session.src\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"session.dst\_ip","operator":"is","value":"1.1.1.1"\},\{"field":"session.src\_ip","operator":"is","value":"2.2.2.2"\},\{"field":"session.dst\_ip","operator":"is","value":"2.2.2.2"\}\]\}
- |  |  | Optional |
-| IP | IP to query |  |  | Optional |
-| Hash | Hash to query |  |  | Optional |
-| URL | URL to query |  |  | Optional |
-| Domain | Domain to query |  |  | Optional |
-| Search Type | Values can be session, sample, tag,all
- |  |  | Required |
-| Wildfire Verdict | Values can be Malware,Benign,Phishing,Greyware |  |  | Optional |
-| Sessions time before | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for sessions prior to this timestamp |  |  | Optional |
-| Sessions time after | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for sessions after this timestamp |  |  | Optional |
-| Sample first seen | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for when the sample was first seen after this date. |  |  | Optional |
-| Sample last modified | Timestamp in the following format
-2019\-09\-12T00:00:00
-This parameter checks for when the sample was last modified after this date. |  |  | Optional |
-| Tags scope | Values can be industry, organization, all, global. |  |  | Optional |
-| Tags class | Values can be Actor, Campaign, Exploit, Malicious Behavior, Malware Family |  |  | Optional |
-| Tags private | Values can be True, False. If true the search will only focus on private \(non public\) objects. Default is false |  |  | Optional |
-| Tags public | Values can be True, False. If true the search will only focus on public \(non private\) objects. Default is false. |  |  | Optional |
-| Commodity | Values can be True, False. Default is false. |  |  | Optional |
-| Unit 42 | Values can be True, False. Default is false objects that have been analyzed by Palo Alto's Unit 42 global threat intelligence team. |  |  | Optional |
+ |Optional |
+| IP | The IP address to query. |Optional |
+| Hash | The hash to query. |Optional |
+| URL | The URL to query. |Optional |
+| Domain | The domain to query. |Optional |
+| Search Type | The values can be, "session", "sample", "tag", or "all".| Required |
+| Wildfire Verdict | The values can be "Malware", "Benign", "Phishing",or "Greyware". |Optional |
+| Sessions time before | The timestamp in the following format 2019-09-12T00:00:00. This parameter checks for sessions prior to this timestamp. |Optional |
+| Sessions time after | The timestamp in the following format 2019-09-12T00:00:00. This parameter checks for sessions after this timestamp. | Optional |
+| Sample first seen | The timestamp in the following format 2019-09-12T00:00:00. This parameter checks for when the sample was first seen after this date. |Optional |
+| Sample last modified | The timestamp in the following format 2019-09-12T00:00:00. This parameter checks for when the sample was last modified after this date. |Optional |
+| Tags scope | The values can be "industry", "organization", "all", or "global". |Optional |
+| Tags class | The values can be "Actor", "Campaign", "Exploit", "Malicious Behavior", or "Malware Family". |Optional |
+| Tags private | The values can be "True" or "False". If true the search will only focus on private (non public) objects. The default is false. | Optional |
+| Tags public | The values can be "True" or "False". If true the search will only focus on public (non private) objects. The default is false. |Optional |
+| Commodity | The values can be "True" or "False". The default is false. |Optional |
+| Unit 42 | The values can be "True" or "False". The default is false. This parameter refers to objects that have been analyzed by Palo Alto's Unit 42 global threat intelligence team. | Optional |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| AutoFocus.SessionsResults | Results of Autofocus sessions search. | string |
-| AutoFocus.SamplesResults | Results of Autofocus samples search. | string |
-| AutoFocus.TopTagResults | Results of Autofocus tags search. | string |
+| AutoFocus.SessionsResults | \The results of Autofocus sessions search. | string |
+| AutoFocus.SamplesResults | The results of Autofocus samples search. | string |
+| AutoFocus.TopTagResults | The results of Autofocus tags search. | string |
 
 ![Autofocus_Query_Samples__Sessions_and_Tags](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Autofocus_Query_Samples__Sessions_and_Tags.png)
