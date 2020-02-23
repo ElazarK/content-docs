@@ -1,4 +1,5 @@
 Enriches accounts using one or more integrations.
+
 Supported integrations:
 - Active Directory
 
