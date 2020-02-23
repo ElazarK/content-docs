@@ -1,4 +1,4 @@
-Calculate incident severity by indicators reputation and user/endpoint membership in critical groups.
+Calculates incident severity by indicators reputation and user/endpoint membership in critical groups.
 
 Note - current severity will be overwritten and new severity may be lower than the current one.
 
@@ -27,11 +27,11 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| CriticalUsers | The critical users' usernames. |  |  | Optional |
-| CriticalEndpoints | The critical endpoints' hostnames. |  |  | Optional |
-| CriticalGroups | The critical active directory groups DN. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| CriticalUsers | The critical users' usernames. | Optional |
+| CriticalEndpoints | The critical endpoints' hostnames. | Optional |
+| CriticalGroups | The critical active directory groups DN. | Optional |
 
 ## Playbook Outputs
 ---
