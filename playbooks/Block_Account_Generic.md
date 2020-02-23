@@ -21,9 +21,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Username | The array of malicious usernames to block. |  |  | Optional |
+| **Name** | **Description** |  **Required** |
+| --- | --- | --- | 
+| Username | The array of malicious usernames to block. |  Optional |
 
 ## Playbook Outputs
 ---
