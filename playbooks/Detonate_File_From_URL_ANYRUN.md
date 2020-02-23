@@ -1,4 +1,4 @@
-Detonates one or more remote files using the ANYRUN sandbox integration.
+Detonates one or more remote files using the `ANYRUN` sandbox integration.
 Returns relevant reports to the War Room and file reputations to the context data.
 This type of analysis works only for direct download links.
 
@@ -24,8 +24,8 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL of the web file to detonate. | None | URL | Optional |
-| Interval | The duration for executing the pooling (in minutes). | 1 |  | Optional |
-| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 |  | Optional |
+| Interval | The duration for executing the pooling (in minutes). | 1 | - | Optional |
+| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -70,10 +70,10 @@ This playbook does not use any scripts.
 | ANYRUN.Task.OS | The OS of the sandbox in which the file was analyzed. | String |
 | ANYRUN.Task.ID | The unique ID of the task. | String |
 | ANYRUN.Task.MIME | The MIME of the file submitted for analysis. | String |
-| ANYRUN.Task.MD5 | The MD5 file hash of the file submitted for analysis. | String |
-| ANYRUN.Task.SHA1 | The SHA1 file hash of the file submitted for analysis. | String |
-| ANYRUN.Task.SHA256 | The SHA256 file hash of the file submitted for analysis. | String |
-| ANYRUN.Task.SSDeep | SSDeep file hash of the file submitted for analysis. | String |
+| ANYRUN.Task.MD5 | The MD5 hash of the file submitted for analysis. | String |
+| ANYRUN.Task.SHA1 | The SHA1 hash of the file submitted for analysis. | String |
+| ANYRUN.Task.SHA256 | The SHA256 hash of the file submitted for analysis. | String |
+| ANYRUN.Task.SSDeep | SSDeep hash of the file submitted for analysis. | String |
 | ANYRUN.Task.Verdict | The `ANY.RUN` verdict for the maliciousness of the submitted file or URL. | String |
 | ANYRUN.Task.Process.FileName | The file name of the process. | String |
 | ANYRUN.Task.Process.PID | The process identification number. | Number |
@@ -94,12 +94,12 @@ This playbook does not use any scripts.
 | DBotScore.Vendor | The vendor used to calculate the score. | String |
 | File.Extension | The extension of the file submitted for analysis. | String |
 | File.Name | The name of the file submitted for analysis. | String |
-| File.MD5 | The MD5 file hash of the file submitted for analysis. | String |
-| File.SHA1 | The SHA1 file hash of the file submitted for analysis. | String |
-| File.SHA256 | The SHA256 file hash of the file submitted for analysis. | String |
-| File.SSDeep | The SSDeep file hash of the file submitted for analysis. | String |
+| File.MD5 | The MD5 hash of the file submitted for analysis. | String |
+| File.SHA1 | The SHA1 hash of the file submitted for analysis. | String |
+| File.SHA256 | The SHA256 hash of the file submitted for analysis. | String |
+| File.SSDeep | The SSDeep hash of the file submitted for analysis. | String |
 | File.Malicious.Vendor | The vendor that made the decision that decided the file is malicious. | String |
-| File.Malicious.Description | The reason that the vendor made the decision that decided the file is malicious.. | String |
+| File.Malicious.Description | The reason that the vendor made the decision that decided the file is malicious. | String |
 | ANYRUN.Task.Status | The task analysis status. | String |
 
 ![Detonate_File_From_URL_ANYRUN](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Detonate_File_From_URL_ANYRUN.png)
