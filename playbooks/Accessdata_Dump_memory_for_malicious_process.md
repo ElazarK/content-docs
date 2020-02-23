@@ -1,4 +1,4 @@
-Dumps memory if the given process is running on legacy AD agent.
+Dumps memory if the given process is running on legacy AD agent. 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
