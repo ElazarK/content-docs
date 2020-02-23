@@ -1,4 +1,4 @@
-Triggers a backup task on each firewall appliance and pulls the resulting file into the war room via SCP.
+Triggers a backup task on each firewall appliance and pulls the resulting file into the War Room via SCP.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
