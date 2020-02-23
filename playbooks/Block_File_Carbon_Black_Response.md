@@ -1,4 +1,4 @@
-This playbook receives an MD5 hash and adds it to the blacklist in Carbon Black Enterprise Response. Files with that MD5 hash are blocked from execution on the managed endpoints.
+Receives an MD5 hash and adds it to the blacklist in Carbon Black Enterprise Response. Files with that MD5 hash are blocked from execution on the managed endpoints.
 
 If the integration is disabled at the time of running, or if the hash is already on the blacklist, no action is taken on the MD5.
 
@@ -23,7 +23,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | The MD5 file hash of the file you want to block. | MD5 | File | Optional |
+| MD5 | The MD5 hash of the file you want to block. | MD5 | File | Optional |
 
 ## Playbook Outputs
 ---
