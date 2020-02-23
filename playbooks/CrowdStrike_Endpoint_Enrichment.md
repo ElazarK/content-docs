@@ -1,4 +1,4 @@
-Enrich Endpoint with CrowdStrike
+Enriches Endpoints with CrowdStrike.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,9 +19,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hostname | The hostname to enrich. | ${Endpoint.Hostname} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| Hostname | The hostname to enrich. | ${Endpoint.Hostname} | Optional |
 
 ## Playbook Outputs
 ---
