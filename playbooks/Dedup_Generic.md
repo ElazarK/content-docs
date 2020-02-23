@@ -1,4 +1,4 @@
-This playbook identifies duplicate incidents using one of the supported methods.
+Identifies duplicate incidents using one of the supported methods.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,13 +23,13 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| DuplicateMethod | Select a method for identifying duplicate incidents. Can be, "ml", "rules", or "text". | ml |  | Required |
-| DuplicateThreshold | The similarity threshold to consider an incident as a duplicate (0-1). Chose "1" when it is a duplicate and "0" when it is not a duplicate. Use this argument in the ML or text methods. A si | 0.75 |  | Required |
-| TimeFrameHours | The time frame (in hours) in which to check for duplicate incident candidates. | 72 |  | Required |
-| IgnoreCloseIncidents | Whether to ignore closed incidents. Can be, "yes" or "no". | yes |  | Required |
-| MaxNumberOfCandidates | The maximum number of candidates to check for duplication. | 1000 |  | Optional |
-| CloseAsDuplicate | Whether to close incidents identified as duplicates. Can be, "true" or "false". | true |  | Optional |
-| TimeField | The time field by which to query past incidents to check for duplicate incident candidates. The values can be, "created", "occurred", or "modified". | created |  | Optional |
+| DuplicateMethod | Select a method for identifying duplicate incidents. Can be, "ml", "rules", or "text". | ml | Required |
+| DuplicateThreshold | The similarity threshold to consider an incident as a duplicate. Can be, "0" or "1". Chose "1" when it is a duplicate and "0" when it is not a duplicate. Use this argument in the ML or text methods. | 0.75 | Required |
+| TimeFrameHours | The time frame (in hours) in which to check for duplicate incident candidates. | 72 | Required |
+| IgnoreCloseIncidents | Whether to ignore closed incidents. Can be, "yes" or "no". | yes | Required |
+| MaxNumberOfCandidates | The maximum number of candidates to check for duplication. | 1000 | Optional |
+| CloseAsDuplicate | Whether to close incidents identified as duplicates. Can be, "true" or "false". | true | Optional |
+| TimeField | The time field by which to query past incidents to check for duplicate incident candidates. The values can be, "created", "occurred", or "modified". | created | Optional |
 
 ## Playbook Outputs
 ---
