@@ -1,4 +1,4 @@
-Isolate an endpoint, given a hostname.
+Isolates an endpoint and a given hostname.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
