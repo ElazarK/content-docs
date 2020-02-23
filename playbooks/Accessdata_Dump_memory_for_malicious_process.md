@@ -1,4 +1,4 @@
-Use as a sub-playbook to dump memory if given process is running on legacy AD agent
+Dumps memory if the given process is running on legacy AD agent.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,10 +23,10 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| target_ip |  |  |  | Required |
-| process_name |  |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| target_ip |  | Required |
+| process_name |  | Required |
 
 ## Playbook Outputs
 ---
@@ -34,6 +34,6 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
 | Accessdata.IsProcessDetected | Indicates if the process with the specified name was detected on the agent machine during playbook execution. | boolean |
-| Accessdata.MemoryDumpPath | The path for the created memory dump file \(if not created, it will be an empty string\). | string |
+| Accessdata.MemoryDumpPath | The path for the created memory dump file (if not created, it will be an empty string). | string |
 
 ![Accessdata_Dump_memory_for_malicious_process](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Accessdata_Dump_memory_for_malicious_process.png)
