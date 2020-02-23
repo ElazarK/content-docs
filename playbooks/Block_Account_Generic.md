@@ -1,4 +1,4 @@
-This playbook blocks malicious usernames using all integrations that you have enabled.
+Blocks malicious usernames using all integrations that you have enabled.
 
 Supported integrations for this playbook:
 * Active Directory
