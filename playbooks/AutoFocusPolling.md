@@ -27,16 +27,16 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
 | Ids | The list of IDs to poll. | - | - | Required |
-| PollingCommandName | The name of the polling command to run. | - | - | Required |
-| PollingCommandArgName | The argument name of the polling command. | ids | - | Required |
-| Interval | The frequency that the polling command will run (in minutes). | 1 | - | Required |
-| Timeout | The amount of time to poll before declaring a timeout and resuming the playbook (in minutes). | 10 | - | Required |
-| dt | The DT filter for polling IDs. Polling will stop when no results are returned. Use single quotes. For example, `WildFire.Report(val.Status!==''Success'').SHA256`. | - | - | Required |
-| AdditionalPollingCommandArgNames | The Names of additional arguments for the polling command. For example, "arg1,arg2,...". | - | - | Optional |
-| AdditionalPollingCommandArgValues | The values of the additional arguments for the polling command. For example, "value1,value2,...". | - | - | Optional |
+| PollingCommandName | The name of the polling command to run. | - | Required |
+| PollingCommandArgName | The argument name of the polling command. | ids | Required |
+| Interval | The frequency that the polling command will run (in minutes). | 1 | Required |
+| Timeout | The amount of time to poll before declaring a timeout and resuming the playbook (in minutes). | 10 | Required |
+| dt | The DT filter for polling IDs. Polling will stop when no results are returned. Use single quotes. For example, `WildFire.Report(val.Status!==''Success'').SHA256`. | - |Required |
+| AdditionalPollingCommandArgNames | The Names of additional arguments for the polling command. For example, "arg1,arg2,...". | - | Optional |
+| AdditionalPollingCommandArgValues | The values of the additional arguments for the polling command. For example, "value1,value2,...". | - | Optional |
 
 ## Playbook Outputs
 ---
