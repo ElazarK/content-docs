@@ -1,4 +1,4 @@
-Calculate incident severity by indicators reputation and user/endpoint membership in critical groups.
+Calculates incident severity by indicators reputation and user/endpoint membership in critical groups.
 
 Note - current severity will be overwritten and new severity may be lower than the current one.
 
@@ -29,10 +29,10 @@ This playbook does not use any sub-playbooks.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| CriticalUsers | The critical users' usernames. |  |  | Optional |
-| CriticalEndpoints | The critical endpoints' hostnames. |  |  | Optional |
-| CriticalGroups | The critical active directory groups DN. |  |  | Optional |
-| QualysSeverity | The qualys vulnerability severity score \(1\-5\). | Severity | Qualys | Optional |
+| CriticalUsers | The critical users' usernames. | - | - | Optional |
+| CriticalEndpoints | The critical endpoints' hostnames. | - | - | Optional |
+| CriticalGroups | The critical active directory groups DN. | - | - | Optional |
+| QualysSeverity | The qualys vulnerability severity score (1-5). | Severity | Qualys | Optional |
 
 ## Playbook Outputs
 ---
