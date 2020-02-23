@@ -1,4 +1,4 @@
-This playbook accepts a SHA256 file hash and adds the hash to the Global Quarantine list using the Cylance Protect v2 integration.
+Accepts a SHA256 hash and adds it to the Global Quarantine list using the Cylance Protect v2 integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
