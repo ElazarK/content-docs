@@ -1,4 +1,4 @@
-This playbook parses a CSV file with IOCs and blocks them using Palo Alto Networks External Dynamic Lists.
+Parses a CSV file with IOCs and blocks them using Palo Alto Networks External Dynamic Lists.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,19 +20,19 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| IPColumn | The column number that contains IPs. \(First column is column 0\). |  |  | Optional |
-| DomainColumn | The column number that contains domains. \(First column is column 0\). |  |  | Optional |
-| FileColumn | The column number that contains hashes. \(First column is column 0\). |  |  | Optional |
-| Miner | The Miner name to upload the indicators to in MineMeld. |  |  | Optional |
-| IPListName | The IP address list from the instance context with which to override the remote file. | Demisto Remediation - IP EDL |  | Optional |
-| DomainListName | The domain list from the instance context with which to override the remote file. | Demisto Remediation - Domain EDL |  | Optional |
-| EDLServerIP | The EDL server IP address. |  |  | Optional |
-| LogForwarding | The log forwarding object name. |  |  | Optional |
-| AutoCommit | The input establishes whether to commit the configuration automatically. Yes \- Commit automatically. No \- Commit manually. | No |  | Optional |
-| pre-post-rulebase | Either pre\-rulebase or post\-rulebase,  according to the rule structure. | pre-rulebase |  | Optional |
-| rule-position | The position of the rule in the ruleset. Valid values are: "Top", "Bottom", "Before", "After". | Top |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| IPColumn | The column number that contains IP addresses. (First column is column 0). | - | Optional |
+| DomainColumn | The column number that contains domains. (First column is column 0). | - | Optional |
+| FileColumn | The column number that contains hashes. (First column is column 0). | - | Optional |
+| Miner | The Miner name to upload the indicators to in MineMeld. | - | Optional |
+| IPListName | The IP address list from the instance context with which to override the remote file. | Demisto Remediation - IP EDL |Optional |
+| DomainListName | The domain list from the instance context with which to override the remote file. | Demisto Remediation - Domain EDL |Optional |
+| EDLServerIP | The EDL server IP address. | - |Optional |
+| LogForwarding | The log forwarding object name. | - |Optional |
+| AutoCommit | The input establishes whether to commit the configuration automatically. Yes - Commit automatically. No - Commit manually. | No |Optional |
+| pre-post-rulebase | Either pre-rulebase or post-rulebase, according to the rule structure. | pre-rulebase |Optional |
+| rule-position | The position of the rule in the ruleset. Valid values are, "Top", "Bottom", "Before", or "After". | Top | Optional |
 
 ## Playbook Outputs
 ---
