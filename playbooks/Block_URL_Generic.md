@@ -1,4 +1,4 @@
-This playbook blocks malicious URLs using all integrations that are enabled.
+Blocks malicious URLs using all integrations that are enabled.
 
 Supported integrations for this playbook:
 * Palo Alto Networks Minemeld
@@ -25,10 +25,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| URLBlacklistMiner | The name of the URL blacklist Miner in Minemeld. |  |  | Optional |
-| URL | The array of malicious URLs to block. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| URLBlacklistMiner | The name of the URL blacklist Miner in Minemeld. | Optional |
+| URL | The array of malicious URLs to block. | Optional |
 
 ## Playbook Outputs
 ---
