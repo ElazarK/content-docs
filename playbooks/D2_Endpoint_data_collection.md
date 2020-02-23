@@ -29,12 +29,12 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Host | Deploys D2 on a target host. | ${Endpoint.Hostname} |  | Optional |
-| OS | The default OS type of target host. | windows |  | Optional |
-| Credentials | The name of the credential set from Demisto **Settings -> Integrations -> Credentials**. | Admin |  | Optional |
-| Path | If initialized, D2 will try and collect the file at target path. |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Host | Deploys D2 on a target host. | ${Endpoint.Hostname} |Optional |
+| OS | The default OS type of target host. | windows | Optional |
+| Credentials | The name of the credential set from Demisto **Settings -> Integrations -> Credentials**. | Admin | Optional |
+| Path | If initialized, D2 will try and collect the file at target path. | - | Optional |
 
 ## Playbook Outputs
 ---
