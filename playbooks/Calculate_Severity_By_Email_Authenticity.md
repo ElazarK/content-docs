@@ -1,4 +1,4 @@
-Calculates a severity according to the verdict coming from the CheckEmailAuthenticity script.
+Calculates the severity according to the verdict coming from the `CheckEmailAuthenticity` script.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,13 +20,13 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| EmailAuthenticityCheck | The verdict regarding the authenticity of the investigated email. Returned from CheckEmailAuthenticity script. | AuthenticityCheck | Email | Optional |
+| EmailAuthenticityCheck | The verdict regarding the authenticity of the investigated email. Returned from `CheckEmailAuthenticity script`. | AuthenticityCheck | Email | Optional |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| Severities.EmailAuthenticitySeverity | The maliciousness score evaluated by the Calculate Severity \- Email Authenticity playbook. | number |
+| Severities.EmailAuthenticitySeverity | The maliciousness score evaluated by the `Calculate Severity - Email Authenticity` playbook. | number |
 
 ![Calculate_Severity_By_Email_Authenticity](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Calculate_Severity_By_Email_Authenticity.png)
