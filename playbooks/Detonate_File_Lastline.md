@@ -48,9 +48,9 @@ This playbook does not use any integrations.
 | URL.Malicious.Vendor | The vendor that made the decision that the URL is malicious. | string |
 | URL.Malicious.Description | The reason for the vendor to make the decision that the URL is malicious. | string |
 | URL.Malicious.Score | The score from the vendor that the URL is malicious. | number |
-| File.MD5 | The bad MD5 hash of teh file. | string |
-| File.SHA1 | The bad SHA1 hash of teh file. | string |
-| File.SHA256 | The bad SHA256 hash of teh file. | string |
+| File.MD5 | The bad MD5 hash of the file. | string |
+| File.SHA1 | The bad SHA1 hash of the file. | string |
+| File.SHA256 | The bad SHA256 hash of the file. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious. | string |
 | File.Malicious.Score | The score from the vendor that the file is malicious. | number |
 | Lastline.Submission.Status | The status of the submission. | string |
