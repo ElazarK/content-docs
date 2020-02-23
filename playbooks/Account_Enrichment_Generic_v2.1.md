@@ -1,4 +1,4 @@
-Enrich accounts using one or more integrations.
+Enriches accounts using one or more integrations.
 Supported integrations:
 - Active Directory
 
@@ -33,6 +33,6 @@ This playbook does not use any scripts.
 | ActiveDirectory.Users.sAMAccountName | The user's samAccountName. | unknown |
 | ActiveDirectory.Users.userAccountControl | The user's account control flag. | unknown |
 | ActiveDirectory.Users.mail | The user's email address. | unknown |
-| ActiveDirectory.Users.memberOf | Groups the user is a member of. | unknown |
+| ActiveDirectory.Users.memberOf | The groups the user is a member of. | unknown |
 
 ![Account_Enrichment_Generic_v2.1](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Account_Enrichment_Generic_v2.1.png)
