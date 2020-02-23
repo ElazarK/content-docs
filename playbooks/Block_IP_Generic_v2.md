@@ -1,4 +1,4 @@
-This playbook blocks malicious IPs using all integrations that are enabled.
+Blocks malicious IP addressess using all integrations that are enabled.
 
 Supported integrations for this playbook:
 * Check Point Firewall
@@ -29,18 +29,17 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| IPBlacklistMiner | The name of the IP blacklist Miner in  Minemeld. |  |  | Optional |
-| IP | The aof malicious IP addresses to block. |  |  | Optional |
-| CustomBlockRule | This input determines whether Palo Alto Networks Panorama or Firewall Custom Block Rules are used.
-Specify True to use Custom Block Rules. | True |  | Optional |
-| LogForwarding | The panorama log forwarding object name. |  |  | Optional |
-| AutoCommit | This input determines whether to commit the configuration automatically. Yes \- Commit automatically. No \- Commit manually. | No |  | Optional |
-| StaticAddressGroup | This input determines whether Palo Alto Networks Panorama or Firewall Static Address Groups are used. Specify the Static Address Group name for IP address handling. |  |  | Optional |
-| IPListName | This input determines whether Palo Alto Networks Panorama or Firewall External Dynamic Lists are used for blocking IPs. Specify the EDL name for IP handling. |  |  | Optional |
-| EDLServerIP | This input determines whether Palo Alto Networks Panorama or Firewall External Dynamic Lists are used: * The IP address of the web server on which the files are stored. * The web server IP address is configured in the integration instance. |  |  | Optional |
-| DAG | This input determines whether Palo Alto Networks Panorama or Firewall Dynamic Address Groups are used. Specify the Dynamic Address Group tag name for IP handling. |  |  | Optional |
+| **Name** | **Description** | **Default Value** |**Required** |
+| --- | --- | --- | --- |
+| IPBlacklistMiner | The name of the IP address blacklist Miner in Minemeld. | - |Optional |
+| IP | The aof malicious IP addresses to block. | - | Optional |
+| CustomBlockRule | This input determines whether Palo Alto Networks Panorama or Firewall Custom Block Rules are used.Specify True to use Custom Block Rules. | True |Optional |
+| LogForwarding | The Panorama log forwarding object name. | - | Optional |
+| AutoCommit | This input determines whether to commit the configuration automatically. Yes - Commit automatically. No - Commit manually. | No | Optional |
+| StaticAddressGroup | This input determines whether Palo Alto Networks Panorama or Firewall Static Address Groups are used. Specify the Static Address Group name for IP address handling. | - |Optional |
+| IPListName | This input determines whether Palo Alto Networks Panorama or Firewall External Dynamic Lists are used for blocking IP addresses. Specify the EDL name for IP address handling. | - |Optional |
+| EDLServerIP | This input determines whether Palo Alto Networks Panorama or Firewall External Dynamic Lists are used: * The IP address of the web server on which the files are stored. * The web server IP address is configured in the integration instance. | - | Optional |
+| DAG | This input determines whether Palo Alto Networks Panorama or Firewall Dynamic Address Groups are used. Specify the Dynamic Address Group tag name for IP address handling. | - |Optional |
 
 ## Playbook Outputs
 ---
@@ -48,20 +47,20 @@ Specify True to use Custom Block Rules. | True |  | Optional |
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
 | CheckpointFWRule.Destination | The rule destination. | unknown |
-| CheckpointFWRule.DestinationNegate | The rule destination negate status \(True/False\). | unknown |
-| PanoramaRule.Direction | The direction of the panorama rule. Can be, "to","from", "both". | string |
-| PanoramaRule.IP | The IP address the panorama rule blocks. | string |
+| CheckpointFWRule.DestinationNegate | The rule destination negate status. Can be, "True" or "False". | unknown |
+| PanoramaRule.Direction | The direction of the Panorama rule. Can be, "to","from", or "both". | string |
+| PanoramaRule.IP | The IP address the Panorama rule blocks. | string |
 | CheckpointFWRule.Name | The rule name. | unknown |
-| PanoramaRule.Name | The name of the panorama rule. | string |
-| CheckpointFWRule.UID | The rule UID. | unknown |
-| PanoramaRule | The list of panorama rules. | unknown |
+| PanoramaRule.Name | The name of the Panorama rule. | string |
+| CheckpointFWRule.UID | The rule's UID. | unknown |
+| PanoramaRule | The list of Panorama rules. | unknown |
 | CheckpointFWRule.Type | The rule type. | unknown |
-| CheckpointFWRule.Action | The rule action \(Valid values are: Accept, Drop, Apply Layer, Ask, Info\). | unknown |
+| CheckpointFWRule.Action | The rule action. Valid values are, "Accept", 'Drop", "Apply Layer", "Ask", or "Info". | unknown |
 | CheckpointFWRule.ActionSetting | The rule action settings. | unknown |
 | CheckpointFWRule.CustomFields | The rule custom fields. | unknown |
 | CheckpointFWRule.Data | The rule data. | unknown |
 | CheckpointFWRule.DataDirection | The rule data direction. | unknown |
-| CheckpointFWRule.DataNegate | The rule data negate status \(True/False\). | unknown |
+| CheckpointFWRule.DataNegate | The rule data negate status. Can be, "True" or "False". | unknown |
 | CheckpointFWRule.Domain | The rule domain. | unknown |
 | CheckpointFWRule.Enabled | The rule status. | unknown |
 | CheckpointFWRule.Hits | The rule hits count. | unknown |
