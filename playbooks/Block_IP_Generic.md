@@ -1,4 +1,4 @@
-This playbook blocks malicious IPs using all integrations that you have enabled.
+Blocks malicious IP addresses using all integrations that you have enabled.
 
 Supported integrations for this playbook:
 * Check Point Firewall
@@ -25,37 +25,37 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| IPBlacklistMiner | The name of the IP blacklist Miner in Minemeld. |  |  | Optional |
-| IP | The array of malicious IP addresses to block. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| IPBlacklistMiner | The name of the IP address blacklist Miner in Minemeld. | Optional |
+| IP | The array of malicious IP addresses to block. | Optional |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| CheckpointFWRule.Destination | The collection of network objects identified by the name or UID. How much details are returned depends on the details\-level field of the request. This table shows the level of detail shown when details\-level is set to standard. | unknown |
+| CheckpointFWRule.Destination | The collection of network objects identified by the name or UID. How much details are returned depends on the details-level field of the request. This table shows the level of detail shown when details-level is set to standard. | unknown |
 | CheckpointFWRule.DestinationNegate | True if negate is set for destination. | unknown |
-| PanoramaRule.Direction | The direction of the panorama rule. Can be, "to","from", "both". | string |
+| PanoramaRule.Direction | The direction of the panorama rule. Can be, "to","from", or "both". | string |
 | PanoramaRule.IP | The IP address the Panorama rule blocks. | string |
-| CheckpointFWRule.Name | The object name. Should be unique in domain. | unknown |
+| CheckpointFWRule.Name | The object name. This should be unique in the domain. | unknown |
 | PanoramaRule.Name | The name of the panorama rule | string |
 | CheckpointFWRule.UID | The object unique identifier. | unknown |
 | PanoramaRule | The list of panorama rules. | unknown |
 | CheckpointFWRule.Type | The type of the object. | unknown |
-| CheckpointFWRule.Action | The Accept, Drop, Apply Layer, Ask, Info. How much details are returned depends on the details\-level field of the request. This table shows the level of detail shown when details\-level is set to standard. | unknown |
+| CheckpointFWRule.Action | The Accept, Drop, Apply Layer, Ask, Info. How much details are returned depends on the details-level field of the request. This table shows the level of detail shown when details-level is set to standard. | unknown |
 | CheckpointFWRule.ActionSetting | The action settings. | unknown |
 | CheckpointFWRule.CustomFields | The custom fields. | unknown |
-| CheckpointFWRule.Data | How much details are returned depends on the details\-level field of the request. This table shows the level of detail shown when details\-level is set to standard. | unknown |
-| CheckpointFWRule.DataDirection | On which direction the file types processing is applied. | unknown |
+| CheckpointFWRule.Data | How many details are returned depends on the details-level field of the request. This table shows the level of detail shown when details-level is set to standard. | unknown |
+| CheckpointFWRule.DataDirection | Which direction the file types processing is applied to. | unknown |
 | CheckpointFWRule.DataNegate | True if negate is set for data. | unknown |
 | CheckpointFWRule.Domain | The information about the domain the object belongs to. | unknown |
-| CheckpointFWRule.Enabled |The  Enable/Disable the rule. | unknown |
+| CheckpointFWRule.Enabled |Whether to enable or disable the rule. | unknown |
 | CheckpointFWRule.Hits | The hits count object. | unknown |
 | CheckpointFWRule.Data.Name | The object name. Should be unique in domain. | unknown |
 | CheckpointFWRule.Data.Domain | The information about the domain the object belongs to. | unknown |
-| CheckpointFWRule.Domain.Name | The object name. Should be unique in domain. | unknown |
+| CheckpointFWRule.Domain.Name | The object name. This should be unique in the domain. | unknown |
 | CheckpointFWRule.Domain.UID | The objects unique identifier. | unknown |
 | CheckpointFWRule.Domain.Type | The domain type. | unknown |
 | CheckpointFWRule.Hits.FirstDate | The first of hits. | unknown |
