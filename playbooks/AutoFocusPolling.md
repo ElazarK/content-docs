@@ -28,7 +28,7 @@ This playbook does not use any commands.
 ---
 
 | **Name** | **Description** | **Default Value** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | 
 | Ids | The list of IDs to poll. | - | - | Required |
 | PollingCommandName | The name of the polling command to run. | - | Required |
 | PollingCommandArgName | The argument name of the polling command. | ids | Required |
