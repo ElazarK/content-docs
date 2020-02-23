@@ -32,7 +32,7 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | 
 | Host | Deploys D2 on a target host. | ${Endpoint.Hostname} |Optional |
-| OS | The default OS type of target host. | windows | Optional |
+| OS | The default OS type of target host. | Windows | Optional |
 | Credentials | The name of the credential set from Demisto **Settings -> Integrations -> Credentials**. | Admin | Optional |
 | Path | If initialized, D2 will try and collect the file at target path. | - | Optional |
 
