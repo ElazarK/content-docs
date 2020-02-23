@@ -1,4 +1,4 @@
-This playbook uses the QRadar integration to investigate an access incident by gathering user and IP information.
+Investigate an access incident by gathering user and IP address information.
 The playbook then interacts with the user that triggered the incident to confirm whether or not they initiated the access action.
 
 ## Dependencies
