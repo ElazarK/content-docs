@@ -1,5 +1,5 @@
-Detonates one or more URLs using the ANYRUN sandbox integration.
-Returns relevant reports to the War Room and url reputations to the context data.
+Detonates one or more URLs using the `ANYRUN` sandbox integration.
+Returns relevant reports to the War Room and URL reputations to the context data.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,8 +23,8 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL to detonate. | None | URL | Optional |
-| Interval | The duration for executing the pooling (in minutes). | 1 |  | Optional |
-| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 |  | Optional |
+| Interval | The duration for executing the pooling (in minutes). | 1 | - | Optional |
+| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 | - | Optional |
 
 ## Playbook Outputs
 ---
