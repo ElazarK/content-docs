@@ -1,4 +1,4 @@
-Enrich an Endpoint Hostname using one or more integrations.
+Enriches an Endpoint hostname using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -24,9 +24,9 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hostname | The hostname to enrich. | ${Endpoint.Hostname} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| Hostname | The hostname to enrich. | ${Endpoint.Hostname} |Optional |
 
 ## Playbook Outputs
 ---
