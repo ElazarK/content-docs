@@ -1,4 +1,4 @@
-Default playbook to run for all ExtraHop Detection incidents. This playbook handles ticket tracking as well as triggering specific playbooks based on the name of the ExtraHop Detection.
+Handles ticket tracking as well as triggeres specific playbooks based on the name of the ExtraHop Detection. Default playbook to run for all ExtraHop Detection incidents.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
