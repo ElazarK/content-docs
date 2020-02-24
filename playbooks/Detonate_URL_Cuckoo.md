@@ -1,4 +1,4 @@
-Detonating a URL with Cuckoo.
+Detonates a URL with Cuckoo.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,8 +23,8 @@ This playbook does not use any integrations.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL to detonate. | Data | URL | Optional |
-| interval | How often to poll for results. | 1 |  | Optional |
-| timeout | How long to wait before giving up waiting for results. | 10 |  | Optional |
+| interval | How often to poll for results. | 1 | - | Optional |
+| timeout | How long to wait before giving up waiting for results. | 10 | - | Optional |
 
 ## Playbook Outputs
 ---
