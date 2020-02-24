@@ -1,4 +1,6 @@
-Deprecated - We recommend using Entity Enrichment - Generic playbook instead. Enrich data with reputation. Data is expected to be found in the standard locations like File, URL, IP.
+`Deprecated` - We recommend using Entity Enrichment - Generic playbook instead. 
+
+Enriches data with the reputation. Data is expected to be found in the standard locations like File, URL, IP.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
