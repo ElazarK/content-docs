@@ -1,4 +1,4 @@
-This playbook delegates user resources and permissions as part of the IT - Employee Offboarding playbook.
+Delegates user resources and permissions as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -25,7 +25,7 @@ This playbook does not use any scripts.
 | --- | --- | --- | --- | --- |
 | UserManagerEmail | The email of the manager of the user that is being offboarded. | employeemanageremail | incident | Optional |
 | OffboardingUserEmail | The email address of the user that is being offboarded. | employeeemail | incident | Required |
-| AutoreplyMessage | The automatic message that is sent as a reply message from the user that has been offboarded once they no longer have access to their email account. | This employee is no longer with our company. |  | Optional |
+| AutoreplyMessage | The automatic message that is sent as a reply message from the user that has been offboarded once they no longer have access to their email account. | This employee is no longer with our company. | - | Optional |
 
 ## Playbook Outputs
 ---
