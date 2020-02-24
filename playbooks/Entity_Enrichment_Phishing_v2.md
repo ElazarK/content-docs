@@ -1,4 +1,4 @@
-Enrich entities using one or more integrations.
+Enriches entities using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -25,17 +25,17 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | IP | The IP addresses to enrich. | Address | IP | Optional |
-| InternalRange | The list of internal IP address ranges to check the IP addresses against. The list should be provided in CIDR notation, separated by commas. An example of a list of ranges would be: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16" (without quotes). If a list is not provided, the integration will use default list provided in the IsIPInRanges script (the known IPv4 private address ranges). | 172.16.0.0/12,10.0.0.0/8,192.168.0.0/16 |  | Optional |
-| MD5 | The MD5 file hash to enrich. | MD5 | File | Optional |
-| SHA256 | The SHA256 file has to enrich. | SHA256 | File | Optional |
-| SHA1 | The SHA1 file hash to enrich. | SHA1 | File | Optional |
+| InternalRange | The list of internal IP address ranges to check the IP addresses against. The list should be provided in CIDR notation, separated by commas. An example of a list of ranges would be: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16" (without quotes). If a list is not provided, the integration will use default list provided in the IsIPInRanges script (the known IPv4 private address ranges). | 172.16.0.0/12,10.0.0.0/8,192.168.0.0/16 | - | Optional |
+| MD5 | The MD5 hash to enrich. | MD5 | File | Optional |
+| SHA256 | The SHA256 has to enrich. | SHA256 | File | Optional |
+| SHA1 | The SHA1 hash to enrich. | SHA1 | File | Optional |
 | URL | The URL to enrich. | Data | URL | Optional |
 | Email | The email addresses to enrich. | Email.Address | Account | Optional |
 | Hostname | The hostname to enrich. | Hostname | Endpoint | Optional |
 | Username | The Username to enrich. | Username | Account | Optional |
 | Domain | The domain name to enrich. | Name | Domain | Optional |
-| ResolveIP |Whether the IP addess "Enrichment - Generic" playbook should convert IP addresses to hostnames using a DNS query. Can be, "True" or "False". | False |  | Optional |
-| InternalDomains | A CSV list of internal domains. The list will be used to determine whether an email address is "Internal" or "External". | Internal |  | Optional |
+| ResolveIP |Whether the IP addess "Enrichment - Generic" playbook should convert IP addresses to hostnames using a DNS query. Can be, "True" or "False". | False | - | Optional |
+| InternalDomains | A CSV list of internal domains. The list will be used to determine whether an email address is "Internal" or "External". | Internal | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -55,9 +55,9 @@ This playbook does not use any commands.
 | DBotScore.Vendor | The vendor used to calculate the score. | string |
 | DBotScore.Score | The actual score. | number |
 | File | The file object. | unknown |
-| File.SHA1 | The SHA1 file hash of the file. | string |
-| File.SHA256 | The SHA256 file hash of the file. | string |
-| File.MD5 | The MD5 file hash of the file. | string |
+| File.SHA1 | The SHA1 hash of the file. | string |
+| File.SHA256 | The SHA256 hash of the file. | string |
+| File.MD5 | The MD5 hash of the file. | string |
 | File.Malicious | Whether the file is malicious. | unknown |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious. | string |
 | URL | The URL object. | uknown |
@@ -68,7 +68,7 @@ This playbook does not use any commands.
 | Domain | The domain object. | unknown |
 | Account | The account object. | unknown |
 | Account.Email | The email of the account. | unknown |
-| Account.Email.NetworkType | The email account NetworkType. Canbe, "Internal" or "External". | string |
+| Account.Email.NetworkType | The email account NetworkType. Can be, "Internal" or "External". | string |
 | Account.Email.Distance | The object that contains the distance between the email domain and the compared domain.  | unknown |
 | Account.Email.Distance.Domain | The compared domain. | string |
 | Account.Email.Distance.Value | The distance between the email domain and the compared domain.  | number |
