@@ -1,4 +1,4 @@
-Pivots are used to gather data that share a common attribute with a domain. For instance, pivoting on an IP Address will give you back all domains related to that IP address.
+Gathers data though pivots that share a common attribute with a domain. For instance, pivoting on an IP Address will give you back all domains related to that IP address.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,17 +22,17 @@ This playbook does not use any scripts.
 | --- | --- | --- | --- | --- |
 | IPAddress | The IP address to pivot. | Address | IP | Optional |
 | EmailAddress | The Email address for which to pivot. | Email.Address | Account | Optional |
-| NameServerIPAddress | The name server IP address for which to pivot. |  |  | Optional |
-| SSLHash | The SSL Hash for which to pivot. |  |  | Optional |
-| NameServerHostName | The name server host name for which to pivot. |  |  | Optional |
-| MailServerHostName | The mail server host name for which to pivot. |  |  | Optional |
-| IPAddressCount | The number of matches for the IP address. |  |  | Optional |
-| EmailAddressCount | The number of matches for the email address. |  |  | Optional |
-| NameServerIPAddressCount | The number of matches for the name server IP address. |  |  | Optional |
-| SSLHashCount | The number of matches for the SSL Hash. |  |  | Optional |
-| NameServerHostNameCount | The number of matches for the name server host name. |  |  | Optional |
-| MailServerHostNameCount | The number of matches for the mail server host name. |  |  | Optional |
-| PivotThreshold | The threshold for matches less than to pivot on.  | 500 |  | Optional |
+| NameServerIPAddress | The name server IP address for which to pivot. | - | - | Optional |
+| SSLHash | The SSL Hash for which to pivot. | - |-  | Optional |
+| NameServerHostName | The name server host name for which to pivot. | - | - | Optional |
+| MailServerHostName | The mail server host name for which to pivot. | - | - | Optional |
+| IPAddressCount | The number of matches for the IP address. | - | - | Optional |
+| EmailAddressCount | The number of matches for the email address. | - | - | Optional |
+| NameServerIPAddressCount | The number of matches for the name server IP address. | - |-  | Optional |
+| SSLHashCount | The number of matches for the SSL Hash. | - | - | Optional |
+| NameServerHostNameCount | The number of matches for the name server host name. | - | - | Optional |
+| MailServerHostNameCount | The number of matches for the mail server host name. | - | - | Optional |
+| PivotThreshold | The threshold for matches less than to pivot on.  | 500 | - | Optional |
 
 ## Playbook Outputs
 ---
