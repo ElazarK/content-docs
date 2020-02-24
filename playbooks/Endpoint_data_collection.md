@@ -21,7 +21,7 @@ This playbook does not use any commands.
 ---
 
 | **Name** | **Description** | **Default Value** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | 
 | UseD2 |  | False | Optional |
 | Hostname |  | - | Optional |
 
