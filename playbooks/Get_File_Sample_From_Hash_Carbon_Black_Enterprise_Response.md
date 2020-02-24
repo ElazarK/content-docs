@@ -1,4 +1,4 @@
-Returns to the war-room a file sample correlating to MD5 file hashes in the context using Carbon Black Enterprise Response integration.
+Returns to the War Room, a file sample correlating to MD5 hashes in the context using Carbon Black Enterprise Response integration.
 
 * MD5 context path - ${File.MD5}
 
