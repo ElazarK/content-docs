@@ -1,4 +1,4 @@
-Generic playbook to collect data from endpoints for IR purposes. Will use whichever integrations are configured and available.
+Collects data from endpoints for IR purposes. Will use whichever integrations are configured and available.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,10 +20,10 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
-| UseD2 |  | False |  | Optional |
-| Hostname |  |  |  | Optional |
+| UseD2 |  | False | Optional |
+| Hostname |  | - | Optional |
 
 ## Playbook Outputs
 ---
