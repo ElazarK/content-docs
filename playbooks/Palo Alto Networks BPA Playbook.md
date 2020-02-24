@@ -1,4 +1,5 @@
-This playbook runs Palo Alto Best Practice Assessment checks for a Panorama instance.
+
+runs Palo Alto Best Practice Assessment checks for a Panorama instance.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
