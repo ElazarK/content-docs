@@ -1,4 +1,4 @@
-Detonates one or more URLs using the `Joe Security Sandbox` integration.
+Detonates one or more URLs using the Joe Security Sandbox integration.
 Returns relevant reports to the War Room and URL reputations to the context data.
 
 ## Dependencies
