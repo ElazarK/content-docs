@@ -1,4 +1,4 @@
-This playbook will pull Panorama queried threat logs and check for any correlating assets that are found to have a minimum of high level vulnerabilities. If so, it will block the the IP using Panorama's PAN-OS - Block IP and URL - External Dynamic List playbook.
+This playbook will pull Panorama queried threat logs and check for any correlating assets that are found to have a minimum of high level vulnerabilities. If so, it will block the the IP using Panorama's `PAN-OS - Block IP` and `URL - External Dynamic List` playbook.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
