@@ -1,4 +1,4 @@
-Gathers data though pivots that share a common attribute with a domain. For instance, pivoting on an IP Address will give you back all domains related to that IP address.
+Gathers data through pivots that share a common attribute with a domain. For instance, pivoting on an IP Address will give you back all domains related to that IP address.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
