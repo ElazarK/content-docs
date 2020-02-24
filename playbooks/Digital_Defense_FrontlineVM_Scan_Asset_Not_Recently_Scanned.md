@@ -1,4 +1,4 @@
-This playbook will pull the IP address from the details value of an incident and check if that asset has been scanned within the past 60 days. If not then it will then prompt the user to perform a scan on the asset.
+Pulls IP addresses from the detail value of an incident and check if that asset has been scanned within the past 60 days. If not then it will then prompt the user to perform a scan on the asset.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
