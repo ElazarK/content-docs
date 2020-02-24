@@ -1,4 +1,4 @@
-Get an email addresses's reputation using one or more integrations.
+Gets an email addresses's reputation using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -24,9 +24,9 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Domain | The list of internal domains. |  |  | Optional |
+| Domain | The list of internal domains. | - | - | Optional |
 | Email | The email addresses to enrich. | Email.Address | Account | Optional |
-| GetReputation | Whether the playbook should get the reputation for the email address. | True |  | Required |
+| GetReputation | Whether the playbook should get the reputation for the email address. | True | - | Required |
 
 ## Playbook Outputs
 ---
