@@ -1,4 +1,4 @@
-This playbook returns a file sample correlating to a hash in the war-room using the following sub-playbooks:
+Returns a file sample correlating to a hash in the War Room using the following sub-playbooks:
 - Get File Sample By Hash - Carbon Black Enterprise Response
 - Get File Sample By Hash - Cylance Protect v2
 
@@ -23,8 +23,8 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | Returns the file sample from the MD5 file hash input file. | MD5 | File | Optional |
-| SHA256 | Returns the file sample from the SHA256 file hash input file. | SHA256 | File | Optional |
+| MD5 | Returns the file sample from the MD5 hash input file. | MD5 | File | Optional |
+| SHA256 | Returns the file sample from the SHA256 hash input file. | SHA256 | File | Optional |
 
 ## Playbook Outputs
 ---
