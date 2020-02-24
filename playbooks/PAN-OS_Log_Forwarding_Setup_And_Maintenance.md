@@ -1,4 +1,4 @@
-This playbook sets up and maintains log forwarding for the Panorama rulebase.
+Sets up and maintains log forwarding for the Panorama rulebase.
 It can be run when setting up a new instance, or as a periodic job to enforce log forwarding policy.
 You can either update all rules and override previous profiles, or update only rules that do not have a log forwarding profile configured.
 
@@ -24,11 +24,11 @@ This playbook does not use any integrations.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| log-forwarding-name | The name of the log-forwarding object that will be attached to all of the rules. | log_forwarding_101 |  | Required |
-| auto_commit | Whether the rule should be committed automatically or manually. | yes |  | Optional |
-| pre-post-rulebase | Either the pre-rulebase or post-rulebase, depending on the rule structure. | pre-rulebase |  | Required |
-| device-group | The device group to work on. |  |  | Optional |
-| override-existing-profiles | Whether the log-forwarding profiles that were already defined should be overrode. | False |  | Optional |
+| log-forwarding-name | The name of the log-forwarding object that will be attached to all of the rules. | log_forwarding_101 | Required |
+| auto_commit | Whether the rule should be committed automatically or manually. | yes | Optional |
+| pre-post-rulebase | Either the pre-rulebase or post-rulebase, depending on the rule structure. | pre-rulebase | Required |
+| device-group | The device group to work on. | - |Optional |
+| override-existing-profiles | Whether the log-forwarding profiles that were already defined should be overrode. | False | Optional |
 
 ## Playbook Outputs
 ---
