@@ -1,4 +1,4 @@
-Returns a file sample to the war-room from a path on an endpoint using Demisto Dissolvable Agent (D2).
+Returns a file sample, to the War Room from a path on an endpoint using Demisto Dissolvable Agent (D2).
 
 Input:
 * Credentials - The credentials to use when trying to deploy Demisto Dissolvable Agent (D2)  (default: Admin).
@@ -24,11 +24,11 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Credentials | The name of the credential set from Demisto Settings -> Integrations -> Credentials. | Admin |  | Optional |
-| Hostname | The Endpoint hostname. | ${Endpoint.Hostname} |  | Optional |
-| Path | The file path. | ${File.Path} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| Credentials | The name of the credential set from Demisto **Settings -> Integrations -> Credentials.** | Admin | Optional |
+| Hostname | The Endpoint hostname. | ${Endpoint.Hostname} | Optional |
+| Path | The file path. | ${File.Path} | Optional |
 
 ## Playbook Outputs
 ---
