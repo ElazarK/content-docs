@@ -26,12 +26,12 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Host | Deploys Demist D2 agent on the target Host. | 10.254.7.24 |  | Required |
-| OS | The default OS type of target host. | windows |  | Optional |
-| INTEZER_API_KEY | The Intezer api-key |  |  | Required |
-| Credentials | The name of the credential set. Credentials are located in Demisto: Settings > Integrations > Credentials. | Admin |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Host | Deploys Demist D2 agent on the target Host. | 10.254.7.24 | Required |
+| OS | The default OS type of target host. | windows | Optional |
+| INTEZER_API_KEY | The Intezer api-key | - | Required |
+| Credentials | The name of the credential set. Credentials are located in Demisto: Settings > Integrations > Credentials. | Admin | Optional |
 
 ## Playbook Outputs
 ---
