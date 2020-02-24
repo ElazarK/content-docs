@@ -1,4 +1,4 @@
-This playbook upgrades the firewall. The superuser is requiered in order to update the PAN-OS version.
+Upgrades the firewall. The superuser is requiered in order to update the PAN-OS version.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,10 +18,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Required** |
 | --- | --- | --- | --- | --- |
-| target_version | The target PAN-OS version to upgrade. |  |  | Required |
-| FirewallInstanceName | The name of the PAN-OS Integration instance for the firewall to upgrade. |  |  | Required |
+| target_version | The target PAN-OS version to upgrade. |Required |
+| FirewallInstanceName | The name of the PAN-OS Integration instance for the firewall to upgrade. |Required |
 
 ## Playbook Outputs
 ---
