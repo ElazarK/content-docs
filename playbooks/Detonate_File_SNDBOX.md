@@ -1,4 +1,4 @@
-Detonates a file using the `SNDBOX`.
+Detonates a file using the SNDBOX.
 
 Advanced Threat Defense supports the following File Types:
 
