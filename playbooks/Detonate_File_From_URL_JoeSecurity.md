@@ -1,4 +1,4 @@
-Detonates one or more remote files using the `Joe Security` sandbox integration.
+Detonates one or more remote files using the Joe Security sandbox integration.
 Returns relevant reports to the War Room and file reputations to the context data.
 This type of analysis is available for Windows only and works only for direct download links.
 
