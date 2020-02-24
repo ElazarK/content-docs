@@ -1,4 +1,4 @@
-This is a playbook for queuing and displaying vault search result.
+Ques and displays vault search result.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,15 +22,15 @@ This playbook does not use any integrations.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| pollInterval | The interval in which to check the export status (in minutes). | 2 |  | Optional |
-| pollTimeout | The timeout to terminate the poll (in minutes). | 30 |  | Optional |
-| maxResultForDisplay | The maximum number of result to be displayed. | 30 |  | Optional |
-| downloadFile | Whether the export file created will be downloaded into the War Room. "True" means it will. | false |  | Optional |
-| ExportID | The export ID. |  |  | Required |
-| MatterID | The matter ID. |  |  | Required |
-| SearchtType | The type of Search. Can be, "Drive", "Groups" or "Mail". |  |  | Required |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| pollInterval | The interval in which to check the export status (in minutes). | 2 |Optional |
+| pollTimeout | The timeout to terminate the poll (in minutes). | 30 | Optional |
+| maxResultForDisplay | The maximum number of result to be displayed. | 30 |Optional |
+| downloadFile | Whether the export file created will be downloaded into the War Room. "True" means it will. | false |Optional |
+| ExportID | The export ID. | - | Required |
+| MatterID | The matter ID. | - | Required |
+| SearchtType | The type of Search. Can be, "Drive", "Groups" or "Mail". | - | Required |
 
 ## Playbook Outputs
 ---
