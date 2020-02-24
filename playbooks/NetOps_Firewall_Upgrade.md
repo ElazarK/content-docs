@@ -19,7 +19,7 @@ This playbook does not use any scripts.
 ---
 
 | **Name** | **Description** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | target_version | The target PAN-OS version to upgrade. |Required |
 | FirewallInstanceName | The name of the PAN-OS Integration instance for the firewall to upgrade. |Required |
 
