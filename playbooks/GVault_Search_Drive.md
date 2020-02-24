@@ -1,4 +1,4 @@
-This is a playbook for performing Google Vault search in Drive accounts and display the results.
+Performs a Google Vault search in Drive accounts and displays the results.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,27 +21,26 @@ This playbook does not use any integrations.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| matterID | The ID of the matter. |  |  | Required |
-| exportName | The name of the exported file. |  |  | Required |
-| dataScope |The choice of the search scope. | All Data |  | Optional |
-| searchMethod | The choice of search method. The default is: "Specific Accounts" - which requires emails argument. 'Organizational Unit' - requires ou argument.
-'Team Drive' | The specific accounts. |  | Optional |
-| emails | Whether the search method is set to specific accounts (separated by comma). |  |  | Optional |
-| ou | Whether the search method is set to specific accounts (separated by comma). |  |  | Optional |
-| teamDrive | Whether the search method is set to team drives. |  |  | Optional |
-| includeTeamDrives | Include/Exclude team drives. | true |  | Optional |
-| timeFrame | The search time frame. For example, "1 min ago","2 weeks ago","3 months ago". |  |  | Optional |
-| startTime | The UTC start time. For example, 2018-10-16T12:59:02.584000Z. |  |  | Optional |
-| endTime |The  UTC end time. For example, 2018-10-16T12:59:02.584000Z. |  |  | Optional |
-| terms | Adds specific terms for the search. For example, subject:example. |  |  | Optional |
-| exportPST | The export format. | true |  | Optional |
-| exportMBOX | The export format. | false |  | Optional |
-| pollInterval | The interval to check export status (in minutes). For big data inquires increase both `pollInterval` and `pollTimeout`. | 2 |  | Optional |
-| pollTimeout | The timeout to terminate the poll (in minutes). For big data inquires increase both `pollTimeout` and `pollInterval`. | 30 |  | Optional |
-| maxResultForDisplay | The maximal number of result to be displayed. | 30 |  | Optional |
-| downloadFile | Whether the exproted file will be downloaded into the War Room. If set to "Ture" this will happen. | false |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| matterID | The ID of the matter. | - |Required |
+| exportName | The name of the exported file. | - | Required |
+| dataScope |The choice of the search scope. | All Data | Optional |
+| searchMethod | The choice of search method. The default is: "Specific Accounts" - which requires emails argument. 'Organizational Unit' - requires ou argument. 'Team Drive' | The specific accounts. | Optional |
+| emails | Whether the search method is set to specific accounts (separated by comma). | - |  Optional |
+| ou | Whether the search method is set to specific accounts (separated by comma). | - | Optional |
+| teamDrive | Whether the search method is set to team drives. | - | Optional |
+| includeTeamDrives | Include/Exclude team drives. | true | - | Optional |
+| timeFrame | The search time frame. For example, "1 min ago","2 weeks ago","3 months ago". | - | Optional |
+| startTime | The UTC start time. For example, 2018-10-16T12:59:02.584000Z. | - | Optional |
+| endTime |The  UTC end time. For example, 2018-10-16T12:59:02.584000Z. | - | Optional |
+| terms | Adds specific terms for the search. For example, subject:example. | - | Optional |
+| exportPST | The export format. | true | Optional |
+| exportMBOX | The export format. | false | Optional |
+| pollInterval | The interval to check export status (in minutes). For big data inquires increase both `pollInterval` and `pollTimeout`. | 2 | Optional |
+| pollTimeout | The timeout to terminate the poll (in minutes). For big data inquires increase both `pollTimeout` and `pollInterval`. | 30 | Optional |
+| maxResultForDisplay | The maximal number of result to be displayed. | 30 | Optional |
+| downloadFile | Whether the exproted file will be downloaded into the War Room. If set to "Ture" this will happen. | false | Optional |
 
 ## Playbook Outputs
 ---
@@ -59,7 +58,7 @@ This playbook does not use any integrations.
 | GoogleVault.Matter.Export.Results.DateModified | The date the file was modified. | string |
 | GoogleVault.Matter.Export.Results.DateCreated | The date the file was created. | string |
 | GoogleVault.Matter.Export.Results.DocType | The type of the file (extension). | string |
-| GoogleVault.Matter.Export.Results.MD5 | The MD5 file hash of the file (SHA1). | string |
+| GoogleVault.Matter.Export.Results.MD5 | The MD5 hash of the file (SHA1). | string |
 | GoogleVault.Matter.Export.Status | The export status. Can be, "COMPLETED", "FAILED", or "IN_PROGRESS". | string |
 | GoogleVault.Matter.Export.BucketName | The bucket holder name for this export. | string |
 | GoogleVault.Matter.Export.DownloadID | The ID to be used by the download-export command. | string |
