@@ -1,4 +1,4 @@
-Enrich entities using one or more integrations.
+Enriches entities using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -24,18 +24,18 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| IP | The IP addresses to enrich. | ${IP.Address} |  | Optional |
-| InternalRange | The internal range to check against the IP address. |  |  | Optional |
-| MD5 | The MD5 file hash to enrich. | ${File.MD5} |  | Optional |
-| SHA256 | The SHA256 file hash to enrich. | ${File.SHA256} |  | Optional |
-| SHA1 | The SHA1 file hash to enrich. | ${File.SHA1} |  | Optional |
-| url | The URL to enrich. | ${URL.Data} |  | Optional |
-| Email | The email addresses to enrich. | ${Account.Email.Address} |  | Optional |
-| Hostname | The hostname to enrich. | ${Endpoint.Hostname} |  | Optional |
-| Username | The username to enrich. | ${Account.Username} |  | Optional |
-| Domain | The domain name to enrich. | ${Domain.Name} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| IP | The IP addresses to enrich. | ${IP.Address} | Optional |
+| InternalRange | The internal range to check against the IP address. | - | Optional |
+| MD5 | The MD5 hash to enrich. | ${File.MD5} | Optional |
+| SHA256 | The SHA256 hash to enrich. | ${File.SHA256} | Optional |
+| SHA1 | The SHA1 hash to enrich. | ${File.SHA1} | Optional |
+| url | The URL to enrich. | ${URL.Data} | Optional |
+| Email | The email addresses to enrich. | ${Account.Email.Address} | Optional |
+| Hostname | The hostname to enrich. | ${Endpoint.Hostname} | Optional |
+| Username | The username to enrich. | ${Account.Username} | Optional |
+| Domain | The domain name to enrich. | ${Domain.Name} | Optional |
 
 ## Playbook Outputs
 ---
@@ -64,9 +64,9 @@ This playbook does not use any commands.
 | Account.DisplayName | The account display name. | string |
 | Account.Manager | The account's manager. | string |
 | File | The file's object. | unknown |
-| File.MD5 | The MD5 file hash of the file. | string |
-| File.SHA1 | The SHA1 file hash of the file. | string |
-| File.SHA256 | The SHA256 file hash of the file. | string |
+| File.MD5 | The MD5 hash of the file. | string |
+| File.SHA1 | The SHA1 hash of the file. | string |
+| File.SHA256 | The SHA256 hash of the file. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file was malicious. | string |
 | Endpoint | The Endpoint's object. | unknown |
 | Endpoint.Hostname | The hostname to enrich. | string |
