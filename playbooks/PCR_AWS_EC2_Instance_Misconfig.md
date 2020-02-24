@@ -1,4 +1,4 @@
-This playbook remediates Prisma Cloud AWS EC2 alerts.  It calls the following sub-playbooks to perform the remediation:
+Remediates Prisma Cloud AWS EC2 alerts.  It calls the following sub-playbooks to perform the remediation:
 - AWS Default Security Group Does Not Restrict All Traffic
 - AWS Security Groups Allow Internet Traffic
 - AWS Security Groups With Inbound Rule Overly Permissive To All Traffic
@@ -45,7 +45,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| AutoUpdateEC2 | Whether to update the AWS EC2 instance automatically. | no |  | Optional |
+| AutoUpdateEC2 | Whether to update the AWS EC2 instance automatically. | no | - | Optional |
 | policyId | Returns the Prisma Cloud policy ID. | labels.policy | incident | Optional |
 
 ## Playbook Outputs
