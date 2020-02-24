@@ -1,4 +1,4 @@
-Use McAfee Active Response to collect data from an endpoint for IR purposes (requires ePO as well).
+Collect datas using McAfee Active Response, from an endpoint for IR purposes (requires ePO as well).
 
 Input:
 * Hostname (Default: ${Endpoint.Hostname})
@@ -22,9 +22,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
-| Hostname | The hostname to run on. | ${Endpoint.Hostname} |  | Optional |
+| Hostname | The hostname to run on. | ${Endpoint.Hostname} | Optional |
 
 ## Playbook Outputs
 ---
