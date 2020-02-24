@@ -1,4 +1,4 @@
-This playbook provides a manual alternative to the IT - Employee Offboarding playbook. The playbook guides the user in the process of manually offboarding an employee.
+Provides a manual alternative to the IT - Employee Offboarding playbook. The playbook guides the user in the process of manually offboarding an employee.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
