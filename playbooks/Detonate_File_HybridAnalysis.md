@@ -1,4 +1,4 @@
-Detonates one or more files using the Hybrid Analysis integration.
+Detonates one or more files using the Hybrid Analysis integration. 
 Returns relevant reports to the War Room and file reputations to the context data.
 All file types are supported.
 
