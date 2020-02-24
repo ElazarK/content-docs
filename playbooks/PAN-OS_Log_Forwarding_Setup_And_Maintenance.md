@@ -22,8 +22,8 @@ This playbook does not use any integrations.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
 | log-forwarding-name | The name of the log-forwarding object that will be attached to all of the rules. | log_forwarding_101 | Required |
 | auto_commit | Whether the rule should be committed automatically or manually. | yes | Optional |
 | pre-post-rulebase | Either the pre-rulebase or post-rulebase, depending on the rule structure. | pre-rulebase | Required |
