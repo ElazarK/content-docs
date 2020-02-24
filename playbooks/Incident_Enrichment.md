@@ -1,4 +1,6 @@
-Deprecated- We recommend using Default playbook instead. Enrich data with reputation from the incident. Data is extracted to the standard locations like File, URL, IP.
+`Deprecated` We recommend using Default playbook instead. 
+
+Enriches data with the reputation from the incident. Data is extracted to the standard locations like File, URL, IP.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
