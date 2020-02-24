@@ -1,5 +1,5 @@
-This playbook investigates an access incident by gathering user and IP address information, and handling the incident based on the stages in "Handling an incident - Computer Security Incident Handling Guide" by NIST.
-https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+Investigates an access incident by gathering user and IP address information, and handling the incident based on the stages in "[Handling an incident - Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)" by NIST.
+
 
 Used Sub-playbooks:
 - IP Enrichment - Generic v2
@@ -34,14 +34,14 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| SrcIP | The source IP address from which the incident originated. |  |  | Optional |
-| DstIP | The target IP address that was accessed. |  |  | Optional |
-| Username | The email address of the account that was used to access the DstIP. |  |  | Optional |
-| NotifyEmail | The email addresses to notify about the incident. |  |  | Optional |
-| RemediationSLA | The remediation SLA for the "Containment, Eradication, and Recovery" stage (in minutes). |  |  | Optional |
-| IPBlacklistMiner | The name of the IP address blacklist miner in MineMeld. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| SrcIP | The source IP address from which the incident originated. |Optional |
+| DstIP | The target IP address that was accessed. | Optional |
+| Username | The email address of the account that was used to access the DstIP. | Optional |
+| NotifyEmail | The email addresses to notify about the incident. | Optional |
+| RemediationSLA | The remediation SLA for the "Containment, Eradication, and Recovery" stage (in minutes). | Optional |
+| IPBlacklistMiner | The name of the IP address blacklist miner in MineMeld. | Optional |
 
 ## Playbook Outputs
 ---
