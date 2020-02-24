@@ -1,4 +1,4 @@
-This playbook updates the version and the content of the firewall. The superuser is requiered in order to update the PAN-OS version.
+Updates the version and the content of the firewall. The superuser is requiered in order to update the PAN-OS version.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
