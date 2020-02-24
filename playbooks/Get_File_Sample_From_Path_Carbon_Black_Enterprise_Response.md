@@ -1,4 +1,4 @@
-Returns a file sample to the war-room from a path on an endpoint using Carbon Black Enterprise Response.
+Returns a file sample, to the War Room from a path on an endpoint using Carbon Black Enterprise Response.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,10 +19,10 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hostname | The host to get the file from. | ${Endpoint.Hostname} |  | Optional |
-| Path | The Endpoint path of the file. | ${File.Path} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Hostname | The host to get the file from. | ${Endpoint.Hostname} |Optional |
+| Path | The Endpoint path of the file. | ${File.Path} | Optional |
 
 ## Playbook Outputs
 ---
