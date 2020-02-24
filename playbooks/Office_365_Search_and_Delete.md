@@ -21,9 +21,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** |  **Required** |
 | --- | --- | --- | --- | --- |
-| Query | The compliance search query. |  |  | Required |
+| Query | The compliance search query. |  Required |
 
 ## Playbook Outputs
 ---
