@@ -1,4 +1,4 @@
-Returns to the war-room a file sample correlating to SHA256 file hashes in the inputs using Cylance Protect integration.
+Returns to the War Room, a file sample correlating to SHA256 hashes in the inputs using Cylance Protect integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,8 +23,8 @@ This playbook does not use any sub-playbooks.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| SHA256 | The SHA256 file hash of the file to download. | SHA256 | File | Optional |
-| ZipPassword | The password for the zip file. | infected |  | Required |
+| SHA256 | The SHA256 hash of the file to download. | SHA256 | File | Optional |
+| ZipPassword | The password for the zip file. | infected | - | Required |
 
 ## Playbook Outputs
 ---
