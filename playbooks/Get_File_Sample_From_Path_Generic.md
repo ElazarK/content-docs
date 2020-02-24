@@ -1,4 +1,4 @@
-Returns a file sample to the war-room from a path on an endpoint using one or more integrations.
+Returns a file sample, to the War Room from a path on an endpoint using one or more integrations.
 
 inputs:
 * UseD2 - If "True", use the Demisto Dissolvable Agent (D2) to return the file. The default is "False".
@@ -22,11 +22,11 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| UseD2 |  | no |  | Optional |
-| Hostname | The endpoint hostname.  | ${Endpoint.Hostname} |  | Optional |
-| Path | The path of the file. | ${File.Path} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| UseD2 |  | no | Optional |
+| Hostname | The endpoint hostname.  | ${Endpoint.Hostname} | Optional |
+| Path | The path of the file. | ${File.Path} | Optional |
 
 ## Playbook Outputs
 ---
