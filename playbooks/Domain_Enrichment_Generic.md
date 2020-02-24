@@ -1,4 +1,4 @@
-Enrich Domain using one or more integrations.
+Enriches domains using one or more integrations.
 
 Domain enrichment includes:
 * Domain reputation
@@ -25,7 +25,7 @@ This playbook does not use any sub-playbooks.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | Domain | The domain name to enrich. | Name | Domain | Optional |
-| GetReputation | Whether the playbook should get the reputation for the domain. | True |  | Required |
+| GetReputation | Whether the playbook should get the reputation for the domain. | True | - | Required |
 
 ## Playbook Outputs
 ---
