@@ -1,4 +1,4 @@
-Enrich email addresses.  
+Enriches email addresses.  
 
 Email address enrichment involves:
 - Getting information from Active Directory for internal addresses.
