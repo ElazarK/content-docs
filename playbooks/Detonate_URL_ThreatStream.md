@@ -23,12 +23,12 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL to detonate. | None | URL | Optional |
-| Interval | How often to execute polling (in minutes). | 5 |  | Optional |
-| Timeout | The duration after which to stop polling and to resume the playbook (in minutes). | 120 |  | Optional |
-| VM | The VM to use (string). |  |  | Optional |
-| SubmissionClassification | The classification of the sandbox submission. |  |  | Optional |
-| PremiumSandbox | The specifies if the premium sandbox should be used for detonation. |  |  | Optional |
-| Tags | The CSV list of tags applied to this sample. |  |  | Optional |
+| Interval | How often to execute polling (in minutes). | 5 | - | Optional |
+| Timeout | The duration after which to stop polling and to resume the playbook (in minutes). | 120 | - | Optional |
+| VM | The VM to use (string). | - | - | Optional |
+| SubmissionClassification | The classification of the sandbox submission. | - | - | Optional |
+| PremiumSandbox | The specifies if the premium sandbox should be used for detonation. | - | - | Optional |
+| Tags | The CSV list of tags applied to this sample. | - | - | Optional |
 
 ## Playbook Outputs
 ---
