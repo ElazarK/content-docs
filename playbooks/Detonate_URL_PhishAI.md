@@ -1,4 +1,4 @@
-Detonates a URL using the Phish.AI integration.
+Detonates a URL using the `Phish.AI` integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,15 +22,15 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL to detonate. | Data | URL | Optional |
-| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 |  | Optional |
-| Timeout | How much time to wait before a timeout occurs (in minutes). | 15 |  | Optional |
+| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 | - | Optional |
+| Timeout | How much time to wait before a timeout occurs (in minutes). | 15 | - | Optional |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| PhishAI.ScanID | The `Phish.AI` scan ID. | string |
+| PhishAI.ScanID | The Phish.AI scan ID. | string |
 | PhishAI.Status | The scan status. | string |
 | PhishAI.URL | The URL address. | string |
 | URL.Malicious.Vendor | The vendor that made the decision that the URL is malicious. | string |
