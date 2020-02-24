@@ -1,4 +1,4 @@
-This playbook blocks IP addresses using Custom Block Rules in Palo Alto Networks Panorama or Firewall.
+Blocks IP addresses using Custom Block Rules in Palo Alto Networks Panorama or Firewall.
 The playbook receives malicious IP addresses as inputs, creates a custom bi-directional rule to block them, and commits the configuration.
 
 ## Dependencies
@@ -22,9 +22,9 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| LogForwarding | The Panorama log forwarding object name. |  |  | Optional |
+| LogForwarding | The Panorama log forwarding object name. | - | - | Optional |
 | IP | The IP address to block. | Address | IP | Optional |
-| AutoCommit | Whether to commit the configuration automatically. "Yes", will commit automatically. "No" will commit manually. | No |  | Optional |
+| AutoCommit | Whether to commit the configuration automatically. "Yes", will commit automatically. "No" will commit manually. | No | - | Optional |
 
 ## Playbook Outputs
 ---
