@@ -1,4 +1,4 @@
-Assume that malicious IOCs are in the right place in the context and start hunting using available tools.
+Assumes that malicious IOCs are in the right place in the context and starts hunting using available tools.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
