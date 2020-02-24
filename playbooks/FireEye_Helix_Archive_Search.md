@@ -1,4 +1,4 @@
-Create an archive search in FireEye Helix, and fetch the results as events.
+Creates an archive search in FireEye Helix, and fetch the results as events.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,18 +19,18 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Query | The query to execute. This is the search clause in an MQL. |  |  | Required |
-| Start | The start time of the event in date format yyyy-mm-dd or yyyy-mm. |  |  | Optional |
-| Offset | The offset of the result. |  |  | Optional |
-| Groupby | The unique values for the specified field. This input groups them together based on the specified frequency. For example, `groupby="srcipv4 5 100"` will group the top 5 srcipv4 that have at least 100 occurences. Multiple values can be provided using a comma-separated list. |  |  | Optional |
-| Sort_by | Sorts the results by this field. The default is descending order. To change the default, the following command must be used: `argument sort_order="asc"`. |  |  | Optional |
-| Sort_order | Controls the order of the results sorted by the `sort_by` argument. Can be, "ascending" or "descending". |  |  | Optional |
-| Limit | The number of events for which to search. |  |  | Optional |
-| Timeout | The amount of time for which to poll before declaring a timeout and resuming the playbook (in minutes). | 10 |  | Required |
-| Interval | The frequency with which the polling command runs (in minutes). | 1 |  | Required |
-| End | The end time of the event, in date format yyyy-mm-dd or yyyy-mm. |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Query | The query to execute. This is the search clause in an MQL. | - | Required |
+| Start | The start time of the event in date format yyyy-mm-dd or yyyy-mm. | - |Optional |
+| Offset | The offset of the result. | - |Optional |
+| Groupby | The unique values for the specified field. This input groups them together based on the specified frequency. For example, `groupby="srcipv4 5 100"` will group the top 5 srcipv4 that have at least 100 occurences. Multiple values can be provided using a comma-separated list. | - |Optional |
+| Sort_by | Sorts the results by this field. The default is descending order. To change the default, the following command must be used: `argument sort_order="asc"`. | - | Optional |
+| Sort_order | Controls the order of the results sorted by the `sort_by` argument. Can be, "ascending" or "descending". | - | Optional |
+| Limit | The number of events for which to search. | - |Optional |
+| Timeout | The amount of time for which to poll before declaring a timeout and resuming the playbook (in minutes). | 10 | Required |
+| Interval | The frequency with which the polling command runs (in minutes). | 1 | Required |
+| End | The end time of the event, in date format yyyy-mm-dd or yyyy-mm. | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -56,8 +56,8 @@ This playbook does not use any scripts.
 | FireEyeHelixSearch.Result.MalwareType | The malware type of the virus that was detected. | string |
 | FireEyeHelixSearch.Result.CreatedTime | The time at which the event was created. | date |
 | FireEyeHelixSearch.Result.Class | The event class. | string |
-| FireEyeHelixSearch.Result.MD5 | The MD5 file hash of the affected file. | string |
-| FireEyeHelixSearch.Result.SHA1 | The SHA1 file hash of the affected file. | string |
+| FireEyeHelixSearch.Result.MD5 | The MD5 hash of the affected file. | string |
+| FireEyeHelixSearch.Result.SHA1 | The SHA1 hash of the affected file. | string |
 | FireEyeHelixSearch.Result.Protocol | The protocol used in the event. | string |
 | FireEyeHelixSearch.Result.SourceIPv4 | The IPv4 address of the event source. | string |
 | FireEyeHelixSearch.Result.SourceIPv6 | The IPv6 address of the event source. | string |
