@@ -1,4 +1,4 @@
-Detonates a URL using the `Phish.AI` integration.
+Detonates a URL using the Phish.AI integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
