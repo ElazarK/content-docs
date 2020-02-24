@@ -1,4 +1,4 @@
-Deprecated. Use the "PANW - Hunting and threat detection by indicator type V2" playbook instead.
+`Deprecated`. Use the "PANW - Hunting and threat detection by indicator type V2" playbook instead.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -25,11 +25,11 @@ This playbook does not use any integrations.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| SHA256 | The SHA256 file hash for indicator to hunt. | SHA256 | File | Optional |
-| MD5 | The MD5 file hash for indicator to hunt. | MD5 | File | Optional |
-| SHA1 | The SHA1 file hash for indicator to hunt. | SHA1 | File | Optional |
-| IP addresses | The list of IP addresses. | ${IP.Address} |  | Optional |
-| Domain | The list of domains or URLs. | ${Domain.Name} |  | Optional |
+| SHA256 | The SHA256 hash for indicator to hunt. | SHA256 | File | Optional |
+| MD5 | The MD5 hash for indicator to hunt. | MD5 | File | Optional |
+| SHA1 | The SHA1 hash for indicator to hunt. | SHA1 | File | Optional |
+| IP addresses | The list of IP addresses. | ${IP.Address} | - | Optional |
+| Domain | The list of domains or URLs. | ${Domain.Name} | - | Optional |
 
 ## Playbook Outputs
 ---
