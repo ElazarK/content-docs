@@ -22,7 +22,7 @@ This playbook does not use any scripts.
 ---
 
 | **Name** | **Description** |  **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | 
 | Query | The compliance search query. |  Required |
 
 ## Playbook Outputs
