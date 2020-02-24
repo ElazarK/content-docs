@@ -1,4 +1,4 @@
-Detonates a URL using the `McAfee Advanced Threat Defense Sandbox` integration.
+Detonates a URL using the McAfee Advanced Threat Defense Sandbox integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
