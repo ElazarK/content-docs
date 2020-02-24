@@ -1,6 +1,4 @@
-This playbook assists in post-processing an incident and facilitates the lessons learned stage, as presented by SANS Institute ‘Incident Handler’s Handbook’ by Patrick Kral.
-
-https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901
+Assists in post-processing of an incident and facilitates the lessons learned stage, as presented by [SANS Institute ‘Incident Handler’s Handbook’ by Patrick Kral](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901).
 
 ***Disclaimer: This playbook does not ensure compliance to SANS regulations.
 
@@ -22,10 +20,10 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| DataCollection | The data collection to use to task to answer lessons learned questions based on SANS. Select "True" to automatically send the communication task, and "False"  to prevent it. |  |  | Optional |
-| Email | The email address to send the questions to.  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| DataCollection | The data collection to use to task to answer lessons learned questions based on SANS. Select "True" to automatically send the communication task, and "False"  to prevent it. | Optional |
+| Email | The email address to send the questions to.  | Optional |
 
 ## Playbook Outputs
 ---
