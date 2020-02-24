@@ -1,4 +1,4 @@
-Enrich IP using one or more integrations.
+Enriches IP addresses using one or more integrations.
 
 IP enrichment includes:
 * Resolve IP to Hostname (DNS)
@@ -30,15 +30,15 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | IP | The IP address to enrich. | Address | IP | Optional |
-| InternalRange | The internal range to check against the IP address. The default range is taken from the IPv4 protocol. |  |  | Optional |
-| ResolveIP | Convert the IP address to a hostname using a DNS query (True/False). | True |  | Required |
+| InternalRange | The internal range to check against the IP address. The default range is taken from the IPv4 protocol. | - | - | Optional |
+| ResolveIP | Convert the IP address to a hostname using a DNS query (True/False). | True | - | Required |
 
 ## Playbook Outputs
 ---
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| IP | The IP objects. | unknown |
+| IP | The IP address objects. | unknown |
 | DBotScore | The Indicator, Score, Type, and Vendor. | unknown |
 | Endpoint | The Endpoint's object. | unknown |
 | Endpoint.Hostname | The hostname to enrich. | string |
