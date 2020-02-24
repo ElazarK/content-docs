@@ -1,4 +1,5 @@
-xtracts indicators from a file.
+Extracts indicators from a file.
+
 Supported file types:
 - PDF
 - TXT
@@ -37,9 +38,9 @@ This playbook does not use any integrations.
 | --- | --- | --- |
 | Domain.Name | The extracted domains. | unknown |
 | Account.Email.Address | The extracted emails addresses. | unknown |
-| File.MD5 | The extracted MD5 file hash. | unknown |
-| File.SHA1 | The extracted SHA1 file hash. | unknown |
-| File.SHA256 | The extracted SHA256 file hash. | unknown |
+| File.MD5 | The extracted MD5 hash of the file. | unknown |
+| File.SHA1 | The extracted SHA1 hash of the file. | unknown |
+| File.SHA256 | The extracted SHA256 hash of the file. | unknown |
 | IP.Address | The extracted IP addresses. | unknown |
 | File.Text | The text or images extracted from the PDF file. | unknown |
 | File.Producer | The producer of the PDF file. | unknown |
