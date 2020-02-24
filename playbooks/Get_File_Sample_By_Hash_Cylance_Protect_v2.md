@@ -1,4 +1,4 @@
-This playbook returns a file sample to the war-room given the file's SHA256 file hash, using Cylance Protect v2 integration.
+Returns a file sample to the War Room, given the file's SHA256 hash, using Cylance Protect v2 integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,8 +20,8 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| SHA256 | The SHA256 file hash of the file. | SHA256 | File | Optional |
-| unzip | Specifies whether the downloaded file will be unzipped. The default is 'no'. Yes will unzip automatically. No will not unzip automatically. |  |  | Optional |
+| SHA256 | The SHA256 hash of the file. | SHA256 | File | Optional |
+| unzip | Specifies whether the downloaded file will be unzipped. The default is 'no'. Yes will unzip automatically. No will not unzip automatically. | - | - | Optional |
 
 ## Playbook Outputs
 ---
