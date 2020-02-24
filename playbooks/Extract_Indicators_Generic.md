@@ -1,5 +1,6 @@
-Deprecated: We recommend using extractIndicators command instead.
-Extract indicators from input data.
+`Deprecated` We recommend using extractIndicators command instead.
+
+Extracts indicators from input data.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -32,9 +33,9 @@ This playbook does not use any commands.
 
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
-| File.MD5 | The extracted MD5 file hash. | string |
-| File.SHA1 | The extracted SHA1 file hash. | string |
-| File.SHA256 | The extracted SHA256 file hash. | string |
+| File.MD5 | The extracted MD5 hash of the file. | string |
+| File.SHA1 | The extracted SHA1 hash of the file. | string |
+| File.SHA256 | The extracted SHA256 hash of the file. | string |
 | URL.Data | The extracted URLs. | string |
 | IP.Address | The extracted IP addresses. | string |
 | Domain.Name | The extracted domains. | string |
