@@ -1,4 +1,5 @@
-Enrich domains using one or more integrations.
+Enriches domains using one or more integrations.
+
 Domain enrichment includes:
 * Threat information
 
