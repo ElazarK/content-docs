@@ -1,4 +1,4 @@
-This playbook detonates a URL through active integrations that support URL detonation.
+Detonates a URL through active integrations that supports URL detonation.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -26,7 +26,7 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| URL | The URL object of URL to be detonated. | None | URL | Optional |
+| URL | The URL object of the URL to be detonated. | None | URL | Optional |
 
 ## Playbook Outputs
 ---
@@ -37,9 +37,9 @@ This playbook does not use any commands.
 | File.Name | The filename. | string |
 | File.Size | The file size. | number |
 | File.Type | The file type. For example, "PE" (only in case of report type=json). | string |
-| File.SHA256 | The SHA256 file hadsh of the file. | string |
-| File.SHA1 | The SHA1 file hash of the file. | string |
-| File.MD5 | The MD5 file hash of the file. | string |
+| File.SHA256 | The SHA256 hash of the file. | string |
+| File.SHA1 | The SHA1 hash of the file. | string |
+| File.MD5 | The MD5 hash of the file. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious. | string |
 | File.Malicious.Description | The reason for the vendor to make the decision that the file is malicious.| string |
 | DBotScore | The Indicator's object. | unknown |
@@ -55,9 +55,9 @@ This playbook does not use any commands.
 | Joe.Analysis.Result | The analysis results. | string |
 | Joe.Analysis.Errors | The errors raised during sampling. | unknown |
 | Joe.Analysis.Systems | The analysis OS. | unknown |
-| Joe.Analysis.MD5 | The MD5 file hash of the analysis sample. | string |
-| Joe.Analysis.SHA1 | The SHA1 file hash of the analysis sample. | string |
-| Joe.Analysis.SHA256 | The SHA256 file hash of the analysis sample. | string |
+| Joe.Analysis.MD5 | The MD5 hash of the analysis sample. | string |
+| Joe.Analysis.SHA1 | The SHA1 hash of the analysis sample. | string |
+| Joe.Analysis.SHA256 | The SHA256 hash of the analysis sample. | string |
 | Joe.Analysis.SampleName | The sample data. Can be a "filename" or "URL". | string |
 | InfoFile.Name | The filename. | string |
 | InfoFile.EntryID | The EntryID of the sample. | string |
