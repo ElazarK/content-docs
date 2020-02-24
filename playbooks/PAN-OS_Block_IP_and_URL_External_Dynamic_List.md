@@ -1,4 +1,4 @@
-This playbook blocks IP addresses and URLs using Palo Alto Networks Panorama or Firewall External Dynamic Lists.
+Blocks IP addresses and URLs using Palo Alto Networks Panorama or Firewall External Dynamic Lists.
 It checks if the EDL configuration is in place with the `PAN-OS EDL Setup` sub-playbook (otherwise the list will be configured), and adds the input IP addresses and URLs to the relevant lists.
 
 ## Dependencies
@@ -23,17 +23,17 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| IPListName | The IP address list from the instance context with which to override the remote file. | Demisto Remediation - IP EDL |  | Optional |
+| IPListName | The IP address list from the instance context with which to override the remote file. | Demisto Remediation - IP EDL | - | Optional |
 | IP | The IP address to block. | Address | IP | Optional |
 | URL | The URL to block. | Data | URL | Optional |
-| URLListName | The URL list from the instance context with which to override the remote file. | Demisto Remediation - URL EDL |  | Optional |
-| LogForwarding | The log forwarding object name. |  |  | Optional |
-| EDLServerIP | The EDL server IP address. |  |  | Optional |
-| AutoCommit | Whether to commit the configuration automatically. "Yes" will commit automatically. "No" will Commit manually. | No |  | Optional |
-| url-pre-post-rulebase | Either pre-rulebase or post-rulebase, according to the rule structure. | pre-rulebase |  | Optional |
-| ip-pre-post-rulebase | Either pre-rulebase or post-rulebase, according to the rule structure. | pre-rulebase |  | Optional |
-| url-rule-position | The position of the rule in the ruleset. Can be, "Top", "Bottom", "Before", or "After". |  |  | Optional |
-| ip-rule-position | The position of the rule in the ruleset. Can be, "Top", "Bottom", "Before", or "After". |  |  | Optional |
+| URLListName | The URL list from the instance context with which to override the remote file. | Demisto Remediation - URL EDL | - | Optional |
+| LogForwarding | The log forwarding object name. | - | - | Optional |
+| EDLServerIP | The EDL server IP address. | - | - | Optional |
+| AutoCommit | Whether to commit the configuration automatically. "Yes" will commit automatically. "No" will Commit manually. | No | - | Optional |
+| url-pre-post-rulebase | Either pre-rulebase or post-rulebase, according to the rule structure. | pre-rulebase | - | Optional |
+| ip-pre-post-rulebase | Either pre-rulebase or post-rulebase, according to the rule structure. | pre-rulebase | - | Optional |
+| url-rule-position | The position of the rule in the ruleset. Can be, "Top", "Bottom", "Before", or "After". | - | - | Optional |
+| ip-rule-position | The position of the rule in the ruleset. Can be, "Top", "Bottom", "Before", or "After". | - | - | Optional |
 
 ## Playbook Outputs
 ---
