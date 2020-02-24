@@ -1,4 +1,4 @@
-Use this playbook to retrieve the original email in the thread, including headers and attachments, when the reporting user forwarded the original email not as an attachment.
+Retrieves the original email in a thread, including headers and attachments, when the reporting user forwarded the original email not as an attachment.
 
 You must have the necessary permissions in your email service to execute global search.
 
