@@ -1,4 +1,4 @@
-Detonates one or more files using the `Wildfire` integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
+Detonates one or more files using the Wildfire integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
 
 The detonation supports the following file types:
 APK, JAR, DOC, DOCX, RTF, XLS, XLSX, PPT, PPTX, XML, PE32, PDF, DMG, PKG, RAR, 7Z.
