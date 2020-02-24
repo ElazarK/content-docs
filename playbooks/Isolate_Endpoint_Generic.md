@@ -1,4 +1,4 @@
-This playbook isolates a given endpoint using the following integrations:
+Isolates a given endpoint using the following integrations:
 - Carbon Black Enterprise Response
 - Palo Alto Networks Traps
 
@@ -21,10 +21,10 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hostname | The hostname of the endpoint to block. |  |  | Optional |
-| EndpointId | The Endpoint ID to isolate using Traps. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| Hostname | The hostname of the endpoint to block. | Optional |
+| EndpointId | The Endpoint ID to isolate using Traps. | Optional |
 
 ## Playbook Outputs
 ---
