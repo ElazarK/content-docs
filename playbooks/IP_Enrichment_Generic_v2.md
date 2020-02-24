@@ -1,4 +1,4 @@
-Enrich IP addresses using one or more integrations.
+Enriches IP addresses using one or more integrations.
 
 - Resolve IP addresses to hostnames (DNS)
 - Provide threat information
