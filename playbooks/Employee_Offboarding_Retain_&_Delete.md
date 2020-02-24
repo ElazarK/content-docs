@@ -1,4 +1,4 @@
-This playbook playbook performs retention and deletion of user information as part of the IT - Employee Offboarding playbook.
+Performs retention and deletion of user information as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -31,8 +31,8 @@ This playbook does not use any scripts.
 | --- | --- | --- | --- | --- |
 | UserManagerEmail | The email address of the manager of the user you are offboarding. | employeemanageremail | incident | Optional |
 | OffboardingUserEmail | The email address of the user that you are offboarding. | employeeemail | incident | Required |
-| OldEmployeeGroupName | The name of the group in the active directory that contains old employee user accounts. If a group name is specified, the user will be added to that group instead of getting deleted at the end of the offboarding process. | Old Employees |  | Optional |
-| PerformPotentiallyHarmfulActions | Whether to perform potentially harmful actions, such as revoking user permissions and deleting the user. Taking the actions is necessary for a more complete offboarding process, and if set to False - the actions will have to be taken manually. | False |  | Required |
+| OldEmployeeGroupName | The name of the group in the active directory that contains old employee user accounts. If a group name is specified, the user will be added to that group instead of getting deleted at the end of the offboarding process. | Old Employees | - | Optional |
+| PerformPotentiallyHarmfulActions | Whether to perform potentially harmful actions, such as revoking user permissions and deleting the user. Taking the actions is necessary for a more complete offboarding process, and if set to False - the actions will have to be taken manually. | False | - | Required |
 
 ## Playbook Outputs
 ---
