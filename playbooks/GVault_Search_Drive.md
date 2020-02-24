@@ -30,7 +30,7 @@ This playbook does not use any integrations.
 | emails | Whether the search method is set to specific accounts (separated by comma). | - |  Optional |
 | ou | Whether the search method is set to specific accounts (separated by comma). | - | Optional |
 | teamDrive | Whether the search method is set to team drives. | - | Optional |
-| includeTeamDrives | Include/Exclude team drives. | true | - | Optional |
+| includeTeamDrives | Include/Exclude team drives. | true | Optional |
 | timeFrame | The search time frame. For example, "1 min ago","2 weeks ago","3 months ago". | - | Optional |
 | startTime | The UTC start time. For example, 2018-10-16T12:59:02.584000Z. | - | Optional |
 | endTime |The  UTC end time. For example, 2018-10-16T12:59:02.584000Z. | - | Optional |
