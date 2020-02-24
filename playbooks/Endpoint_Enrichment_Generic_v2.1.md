@@ -1,4 +1,4 @@
-Enrich an endpoint by hostname using one or more integrations.
+Enriches an endpoint by hostname using one or more integrations.
 
 Supported integrations:
 - Active Directory Query v2
