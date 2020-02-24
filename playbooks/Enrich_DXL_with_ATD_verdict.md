@@ -1,5 +1,5 @@
-Example of using McAfee ATD and pushing any malicious verdicts over DXL.
-Detonates a file in ATD and if malicious - push its MD5, SHA1 and SHA256 hashes to McAfee DXL.
+Detonates a file in ATD and if malicious, pushes its MD5, SHA1 and SHA256 hashes to McAfee DXL. An example of using McAfee ATD and pushing any malicious verdicts over DXL.
+
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
