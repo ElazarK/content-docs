@@ -1,4 +1,4 @@
-This playbook remediates Prisma Cloud AWS IAM policy alerts.  It uses sub-playbooks that perform the remediation steps.
+Remediates Prisma Cloud AWS IAM policy alerts.  It uses sub-playbooks that perform the remediation steps.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,7 +23,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| AutoUpdatePasswordPolicy | Whether to update AWS IAM password policy automatically. | no |  | Optional |
+| AutoUpdatePasswordPolicy | Whether to update AWS IAM password policy automatically. | no | - | Optional |
 | policyId | Returns the Prisma Cloud policy ID. | labels.policy | incident | Optional |
 
 ## Playbook Outputs
