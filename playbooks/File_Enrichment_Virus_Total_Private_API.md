@@ -1,4 +1,4 @@
-file information using the Virus Total Private API integration.
+Files information using the Virus Total Private API integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,9 +21,9 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | The MD5 file hash to enrich. | MD5 | File | Optional |
-| SHA256 | The SHA256 file hash to enrich. | SHA256 | File | Optional |
-| SHA1 | The SHA1 file hash to enrich. | SHA1 | File | Optional |
+| MD5 | The MD5 hash to enrich. | MD5 | File | Optional |
+| SHA256 | The SHA256 hash to enrich. | SHA256 | File | Optional |
+| SHA1 | The SHA1 hash to enrich. | SHA1 | File | Optional |
 
 ## Playbook Outputs
 ---
@@ -32,10 +32,10 @@ This playbook does not use any scripts.
 | --- | --- | --- |
 | File | The file's object. | unknown |
 | DBotScore.Indicator | The tested indicator. | string |
-| File.SHA1 | The SHA1vfile hash of the file. | string |
-| File.SHA256 | The SHA256 file hash of the file. | string |
+| File.SHA1 | The SHA1 hash of the file. | string |
+| File.SHA256 | The SHA256 hash of the file. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious.| string |
-| File.MD5 | The MD5 file hash of the file. | string |
+| File.MD5 | The MD5 hash of the file. | string |
 | DBotScore | The DBotScore's object. | unknown |
 | DBotScore.Type | The type of the indicator. | string |
 | DBotScore.Vendor | The vendor used to calculate the score. | string |
