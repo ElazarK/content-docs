@@ -1,4 +1,4 @@
-This playbook remediates the following Prisma Cloud AWS IAM password policy alerts.
+Remediates the following Prisma Cloud AWS IAM password policy alerts.
 
 Prisma Cloud policies remediated:
 - AWS IAM password policy allows password reuse
@@ -29,9 +29,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| policyId | Returns the Prisma Cloud policy ID. |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| policyId | Returns the Prisma Cloud policy ID. | Required |
 
 ## Playbook Outputs
 ---
