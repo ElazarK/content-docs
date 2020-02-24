@@ -1,4 +1,4 @@
-Enrich email addresses.
+Enriches email addresses.
 - Get information from Active Directory for internal addresses
 - Get the domain-squatting reputation for external addresses
 
