@@ -1,4 +1,4 @@
-Use this playbook to run quick-scan command with generic-polling
+Runs a quick-scan command with generic-polling.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
