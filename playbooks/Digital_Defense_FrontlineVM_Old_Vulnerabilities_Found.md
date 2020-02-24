@@ -19,7 +19,7 @@ This playbook does not use any sub-playbooks.
 ---
 
 | **Name** | **Description** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | 
 | Days Older Than | The inputed number of days from now in which to search if vulnerabilities exist. |Required |
 
 ## Playbook Outputs
