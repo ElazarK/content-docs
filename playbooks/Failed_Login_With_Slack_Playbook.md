@@ -24,6 +24,6 @@ There are no inputs for this playbook.
 
 ## Playbook Outputs
 ---
-There are no outputs for this playbook.
+There are no outputs for this playbook. 
 
 ![Failed_Login_With_Slack_Playbook](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Failed_Login_Playbook_With_Slack.png)
