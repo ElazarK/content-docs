@@ -1,4 +1,4 @@
-Run a compliance search in Exchange Server 2016, and delete the results.
+Runs a compliance search in Exchange Server 2016, and delete the results.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,9 +22,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Query | The query used to find mail messages. |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| Query | The query used to find mail messages. |Required |
 
 ## Playbook Outputs
 ---
