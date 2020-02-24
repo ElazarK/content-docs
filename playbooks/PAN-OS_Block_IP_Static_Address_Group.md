@@ -1,4 +1,4 @@
-This playbook blocks IP addresses using Static Address Groups in Palo Alto Networks Panorama or Firewall.
+Blocks IP addresses using Static Address Groups in Palo Alto Networks Panorama or Firewall.
 The playbook receives malicious IP addresses and an address group name as inputs, verifies that the addresses are not already a part of the address group, adds them and commits the configuration.
 
 ***Note - The playbook does not block the address group communication using a policy block rule. This step will be taken once outside of the playbook.
@@ -26,9 +26,9 @@ This playbook does not use any scripts.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | IP | The IP address to block. | Address | IP | Optional |
-| LogForwarding | The Panorama log forwarding object name. |  |  | Optional |
-| AddressGroupName | The static address group name. | Demisto Remediation - Static Address Group |  | Optional |
-| AutoCommit | Whether to commit the configuration automatically. "Yes" will commit automatically. "No" will commit manually. | No |  | Optional |
+| LogForwarding | The Panorama log forwarding object name. | - | - | Optional |
+| AddressGroupName | The static address group name. | Demisto Remediation - Static Address Group | - | Optional |
+| AutoCommit | Whether to commit the configuration automatically. "Yes" will commit automatically. "No" will commit manually. | No | - | Optional |
 
 ## Playbook Outputs
 ---
