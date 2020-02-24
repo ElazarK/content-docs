@@ -1,4 +1,4 @@
-Detonate a webpage or a remote file using the WildFire integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
+Detonates a webpage or a remote file using the WildFire integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
 
 The detonation supports the following file types:
 APK, JAR, DOC, DOCX, RTF, OOXLS, XLSX, PPT, PPTX, XML, PE32, PDF, DMG, PKG, RAR, 7Z.
@@ -25,10 +25,10 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| URL | The URL of the webpage or file URL to detonate. The URL is taken from the context. | Data | URL | Optional |
-| Interval | The duration for executing the pooling (in minutes). | 1 |  | Optional |
-| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 |  | Optional |
-| ReportFileType | The resource type to download. The default is pdf. XML is also possible. |  |  | Optional |
+| URL | The URL of the webpage or the file URL to detonate. The URL is taken from the context. | Data | URL | Optional |
+| Interval | The duration for executing the pooling (in minutes). | 1 | - | Optional |
+| Timeout | The duration after which to stop pooling and to resume the playbook (in minutes). | 15 | - | Optional |
+| ReportFileType | The resource type to download. The default is pdf. XML is also possible. | - | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -38,10 +38,10 @@ This playbook does not use any scripts.
 | DBotScore | The DBotScore object. | unknown |
 | DBotScore.Score | The actual score. | number |
 | File.Size | The file size. | number |
-| File.MD5 | The MD5 file hash of the file. | string |
-| File.SHA1 | The SHA1 file hash of the file. | string |
+| File.MD5 | The MD5 hash of the file. | string |
+| File.SHA1 | The SHA1 hash of the file. | string |
 | File.Type | The file type. For example, "PE". | string |
-| File.SHA256 | Thas SHA256 file hash of the file. | string |
+| File.SHA256 | Thas SHA256 hash of the file. | string |
 | File.EntryID | The entry ID of the sample. | string |
 | File.Malicious.Vendor | The vendor that made the decision that the file is malicious. | string |
 | File.Name | The filename | string |
@@ -60,8 +60,8 @@ This playbook does not use any scripts.
 | InfoFile.Type | The type of the report file. | string |
 | File.Malicious | The malicious object. | unknown |
 | WildFire.Report | The submission object. | unknown |
-| WildFire.Report.MD5 | The MD5 file hash of the submission. | string |
-| WildFire.Report.SHA256 | The SHA256 file hash of the submission. | string |
+| WildFire.Report.MD5 | The MD5 hash of the submission. | string |
+| WildFire.Report.SHA256 | The SHA256  hash of the submission. | string |
 | WildFire.Report.FileType | The type of the submission. | string |
 | WildFire.Report.Status | The status of the submission. | string |
 | WildFire.Report.Size | The size of the submission. | number |
