@@ -24,9 +24,9 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | --- |
-| incident | The incident used the integration.  | ${incident} |  | Optional |
+| incident | The incident used the integration.  | ${incident} | Optional |
 
 ## Playbook Outputs
 ---
