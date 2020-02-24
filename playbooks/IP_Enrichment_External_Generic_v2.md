@@ -1,4 +1,4 @@
-Enrich IP addresses using one or more integrations.
+Enriches IP addresses using one or more integrations.
 
 - Resolve IP addresses to hostnames (DNS)
 - Provide threat information
@@ -27,7 +27,7 @@ This playbook does not use any sub-playbooks.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | IP | The IP address to enrich. | Address | IP | Optional |
-| InternalRange | A CSV list of IP address ranges (in CIDR notation). Use this list to check if an IP address is found within a set of IP address ranges. For example: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16" (without quotes). If a list is not provided, will use default list provided in the `IsIPInRanges` script (the known IPv4 private address ranges). | inputs.InternalRange |  | Optional |
+| InternalRange | A CSV list of IP address ranges (in CIDR notation). Use this list to check if an IP address is found within a set of IP address ranges. For example: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16" (without quotes). If a list is not provided, will use default list provided in the `IsIPInRanges` script (the known IPv4 private address ranges). | inputs.InternalRange | - | Optional |
 | ResolveIP | Whether to convert the IP address to a hostname using a DNS query (True/False). | None | inputs.ResolveIP | Required |
 
 ## Playbook Outputs
