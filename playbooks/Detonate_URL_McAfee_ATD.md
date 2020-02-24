@@ -1,4 +1,4 @@
-Detonates a URL using the McAfee Advanced Threat Defense sandbox integration.
+Detonates a URL using the `McAfee Advanced Threat Defense Sandbox` integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,8 +23,8 @@ This playbook does not use any integrations.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | URL | The URL to detonate. | Data | URL | Optional |
-| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 |  | Optional |
-| Timeout | How much time to wait before a timeout occurs (in minutes). | 15 |  | Optional |
+| Interval | The polling frequency. How often the polling command should run (in minutes). | 1 | - | Optional |
+| Timeout | How much time to wait before a timeout occurs (in minutes). | 15 | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -37,14 +37,14 @@ This playbook does not use any integrations.
 | ATD.Task.url | The URL detonated. | string |
 | ATD.Task.srcIp | The source IPv4 address. | string |
 | ATD.Task.destIp | The destination IPv4 address. | string |
-| ATD.Task.MD5 | The MD5 file hash of the sample uploaded. | string |
-| ATD.Task.SHA1 | The SHA1 file hash of the sample uploaded. | string |
-| ATD.Task.SHA256 | The SHA256 file hash of the sample uploaded. | string |
+| ATD.Task.MD5 | The MD5 hash of the sample uploaded. | string |
+| ATD.Task.SHA1 | The SHA1 hash of the sample uploaded. | string |
+| ATD.Task.SHA256 | The SHA256 hash of the sample uploaded. | string |
 | File.Name | The filename (only in case of report type=json). | string |
 | File.Type | The file type. For example, "PE" (only in case of report type=json). | string |
-| File.MD5 | The MD5 file hash of the file (only in case of report type=json). | string |
-| File.SHA1 | The SHA1 file hash of the file (only in case of report type=json). | string |
-| File.SHA256 | The SHA256 file hash of the file (only in case of report type=json). | string |
+| File.MD5 | The MD5 hash of the file (only in case of report type=json). | string |
+| File.SHA1 | The SHA1 hash of the file (only in case of report type=json). | string |
+| File.SHA256 | The SHA256 hash of the file (only in case of report type=json). | string |
 | File.EntryID | The entry ID of the sample. | string |
 | DBotScore.Indicator | The indicator that was tested (only in case of report type=json). | string |
 | DBotScore.Type | The type of the indicator (only in case of report type=json). | string |
