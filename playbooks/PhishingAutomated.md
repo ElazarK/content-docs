@@ -1,4 +1,4 @@
-`Deprecated` We recommend using Phishing investigation - Generic playbook instead.
+`Deprecated` We recommend using Phishing investigation - Generic playbook instead.  
 
 Investigates suspected Phishing attempts. This is an automated playbook.
 It picks up the required information from the incident metadata as created by the mail listener.
