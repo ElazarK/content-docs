@@ -33,14 +33,14 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| SrcIP | The source IP address from which the incident originated. |  |  | Optional |
-| DstIP | The target IP address that was accessed. |  |  | Optional |
-| Username | The email address of the account that was used to access the destionation IP address. |  |  | Optional |
-| NotifyEmail | The email addresses to notify about the incident. |  |  | Optional |
-| RemediationSLA | The Remediation SLA for the "Containment", "Eradication", and "Recovery" stage (in minutes). |  |  | Optional |
-| IPBlacklistMiner | The name of the IP address blacklist miner in MineMeld. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| SrcIP | The source IP address from which the incident originated. | Optional |
+| DstIP | The target IP address that was accessed. | Optional |
+| Username | The email address of the account that was used to access the destionation IP address. | Optional |
+| NotifyEmail | The email addresses to notify about the incident. | Optional |
+| RemediationSLA | The Remediation SLA for the "Containment", "Eradication", and "Recovery" stage (in minutes). | Optional |
+| IPBlacklistMiner | The name of the IP address blacklist miner in MineMeld. | Optional |
 
 ## Playbook Outputs
 ---
