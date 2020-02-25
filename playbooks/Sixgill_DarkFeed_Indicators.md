@@ -1,4 +1,4 @@
-The playbook extracts a STIX bundle then uses `StixParser` automation in order to parse and push indicators into demisto's platform.
+Extracts a STIX bundle then uses `StixParser` automation in order to parse and push indicators into demisto's platform.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
