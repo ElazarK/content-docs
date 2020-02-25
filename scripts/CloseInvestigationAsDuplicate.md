@@ -1,4 +1,4 @@
-Use this script to close the current investigation as a duplicate to another investigation.
+Closes the current investigation as a duplicate to another investigation.
 ## Script Data
 ---
 
