@@ -1,4 +1,4 @@
-Enriches a URLs using one or more integrations.
+Enriches URLs using one or more integrations.
 
 URL enrichment includes:
 * SSL verification for URLs
