@@ -1,4 +1,4 @@
-Use this script to check if a given value is true. If not  it will return "no".
+Checks if a given value is true. If not a "no" will be returned.
 ## Script Data
 ---
 
