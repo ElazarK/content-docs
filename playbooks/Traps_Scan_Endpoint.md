@@ -1,4 +1,4 @@
-Use this playbook to initiate an endpoint scan and retrieve the scan results.
+Initiates an endpoint scan and retrieve the scan results.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,9 +19,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| endpoint_id | The ID of the endpoint. |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| endpoint_id | The ID of the endpoint. | Required |
 
 ## Playbook Outputs
 ---
