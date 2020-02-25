@@ -28,7 +28,7 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | SrcIP | The source IP address from which the incident originated. | src | incident | Optional |
 | DstIP | The target IP address that was accessed. | dest | incident | Optional |
 | Username | The username of the account that was used to access the destination IP address. | srcuser | incident | Optional |
-| Role | The default role to assign the incident to. | Administrator |  | Required |
+| Role | The default role to assign the incident to. | Administrator | - | Required |
 
 ## Playbook Outputs
 ---
