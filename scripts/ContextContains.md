@@ -1,4 +1,5 @@
-Use this script to search for a value in a context path.
+Searches for a value in a context path.
+
 ## Script Data
 ---
 
@@ -14,7 +15,7 @@ Use this script to search for a value in a context path.
 | **Argument Name** | **Description** |
 | --- | --- |
 | path | The path in the context. |
-| value | The value to search. |
+| value | The value to search for. |
 
 ## Outputs
 ---
