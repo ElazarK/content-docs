@@ -1,4 +1,4 @@
-Collect endpoint information based on SentinelOne commands.
+Collects endpoint information based on SentinelOne commands.
 
 Input:
 * Hostname (Default: ${Endpoint.Hostname})
@@ -23,9 +23,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hostname | The hostname of the device to run on. | ${Endpoint.Hostname} |  | Optional |
+| **Name** | **Description** | **Default Value** |  **Required** |
+| --- | --- | --- | --- |  
+| Hostname | The hostname of the device to run on. | ${Endpoint.Hostname} | Optional |
 
 ## Playbook Outputs
 ---
