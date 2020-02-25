@@ -1,4 +1,4 @@
-Default playbook, Enrich indicators in incident using one or more integrations
+Enriches indicators in incident using one or more integrations. This is a default playbook.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,9 +18,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Enrich | Whether to preform enrichment on all the indicators in the incident. | True |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Enrich | Whether to preform enrichment on all the indicators in the incident. | True | Optional |
 
 ## Playbook Outputs
 ---
