@@ -1,4 +1,4 @@
-Used in jobs to populate indicators from PhishLabs, according to a defined period of time.
+Populates indicators from PhishLabs, according to a defined period of time.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
