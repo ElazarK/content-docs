@@ -1,4 +1,4 @@
-Enrich the URL using one or more integrations.
+Enriches a URL using one or more integrations.
 
 URL enrichment includes:
 * Verify URL SSL
@@ -31,9 +31,9 @@ This playbook does not use any sub-playbooks.
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
 | url | The URL to enrich. | Data | URL | Optional |
-| Rasterize | Whether the system should take safe screenshots of input URLs. | False |  | Optional |
-| VerifyURL | Whether the system should verify the input URLs. | False |  | Optional |
-| GetReputation | Whether the playbook should get the reputation for the URL. | True |  | Required |
+| Rasterize | Whether the system should take safe screenshots of input URLs. | False | - | Optional |
+| VerifyURL | Whether the system should verify the input URLs. | False | - | Optional |
+| GetReputation | Whether the playbook should get the reputation for the URL. | True | - | Required |
 
 ## Playbook Outputs
 ---
