@@ -1,4 +1,4 @@
-This playbook shows how to use automation scripts to interact with Tanium.
+Shows how to use automation scripts to interact with Tanium.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
