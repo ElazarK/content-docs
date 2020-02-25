@@ -1,4 +1,4 @@
-This playbook used generic polling to gets saved question result.
+Uses generic polling to gets saved question result.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,9 +18,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| saved-question-id | The unique IDs of the saved questons. |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| saved-question-id | The unique IDs of the saved questons. | Required |
 
 ## Playbook Outputs
 ---
