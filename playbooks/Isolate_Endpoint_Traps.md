@@ -1,4 +1,4 @@
-This playbook accepts an endpoint ID from Traps integration and performs isolation on this endpoint.
+Accepts an endpoint ID from the Traps integration and performs isolation on this endpoint.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,9 +19,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| EndpointId | The Endpoint ID of the Endpoint to isolate, provided by the Palo Alto Networks Traps integration. |  |  | Optional |
+| **Name** | **Description** |**Required** |
+| --- | --- | --- | 
+| EndpointId | The Endpoint ID of the Endpoint to isolate, provided by the Palo Alto Networks Traps integration. |Optional |
 
 ## Playbook Outputs
 ---
