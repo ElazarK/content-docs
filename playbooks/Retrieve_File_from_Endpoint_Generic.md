@@ -1,4 +1,4 @@
-This playbook retrieves a file sample from an endpoint using the following playbooks:
+Retrieves file samples from an endpoint using the following playbooks:
 - Get File Sample From Path - Generic
 - Get File Sample By Hash - Generic v2
 
@@ -23,8 +23,8 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| MD5 | Get file sample from MD5 file hash input. | MD5 | File | Optional |
-| SHA256 | Get file sample from SHA256 file hash input. | SHA256 | File | Optional |
+| MD5 | Get file sample from MD5 hash input. | MD5 | File | Optional |
+| SHA256 | Get file sample from SHA256 hash input. | SHA256 | File | Optional |
 | Hostname | The hostname of the machine on which the file is located. | Hostname | Endpoint | Optional |
 | Path | The file path. | Path | File | Optional |
 | UseD2 | Whether a D2 agent will be used to retrieve the file. The default is "no". | no |  | Optional |
