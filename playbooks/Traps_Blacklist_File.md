@@ -1,4 +1,4 @@
-This playbook accepts a SHA256 file hash and adds it to a blacklist using Traps integration.
+Accepts and adds a SHA256 hash to a blacklist using the Traps integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
