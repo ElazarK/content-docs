@@ -1,4 +1,4 @@
-This playbook can be used in a job to whitelist indicators from PhishLabs that were classified as false positives, according to a defined period of time.
+Whitelists indicators from PhishLabs that were classified as false positives, according to a defined period of time.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -18,9 +18,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Since | The whitelist indicators within this duration (from now). | 1h |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| Since | The whitelist indicators within this duration (from now). | 1h | Optional |
 
 ## Playbook Outputs
 ---
