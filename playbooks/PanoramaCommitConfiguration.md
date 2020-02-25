@@ -1,5 +1,6 @@
-DEPRECATED - Use PAN-OS Commit Configuration instead.
-If specified as Panorama, will also push the Policies to the specified Device Group in the instance. (Use `pan-os-commit-configuration` instead)
+`DEPRECATED` - Use PAN-OS Commit Configuration instead.
+
+Pushes the policies to the specified device group in the instance, if it is specified as Panorama. (Use `pan-os-commit-configuration` instead)
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,9 +23,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| FIrewall_OR_Panorama | Determines if the configured instance is Palo Alto Networks Firewall or Panorama. | Firewall |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| FIrewall_OR_Panorama | Determines if the configured instance is Palo Alto Networks Firewall or Panorama. | Firewall | Optional |
 
 ## Playbook Outputs
 ---
