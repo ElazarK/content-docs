@@ -1,4 +1,5 @@
-Use this script to set incident severity according to indicators found in a Confer alert.
+Sets incident severity according to indicators found in a Confer alert.
+
 ## Script Data
 ---
 
