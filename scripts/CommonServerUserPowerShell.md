@@ -1,4 +1,4 @@
-UMerges common user defined code into each server script when it runs.
+Merges common user defined code into each server script when it runs.
 
 ## Script Data
 ---
