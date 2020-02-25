@@ -1,4 +1,4 @@
-Get information about processes which open connections to known bad IP addresses.
+Gets information about processes which open connections to known bad IP addresses.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -24,9 +24,9 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| alert_id | The unique Uptycs ID for a particular alert. | ${incident.alertid} |  | Required |
+| **Name** | **Description** | **Default Value** |  **Required** |
+| --- | --- | --- | --- |
+| alert_id | The unique Uptycs ID for a particular alert. | ${incident.alertid} | Required |
 
 ## Playbook Outputs
 ---
