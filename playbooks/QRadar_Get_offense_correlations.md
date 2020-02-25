@@ -1,4 +1,4 @@
-Gets mor information when running on a QRadar offense.
+Gets more information when running on a QRadar offense.
 
 * Get all correlations relevant to the offense
 * Get all logs relevant to the correlations. This is not done by default. To put this in place set `GetCorrelationLogs` to "True".
