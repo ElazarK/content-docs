@@ -1,4 +1,4 @@
-Add email details to the relevant context entities and handle the case where original emails are attached.
+Adds email details to the relevant context entities and handle the case where original emails are attached.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -32,7 +32,7 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 | Email/html | The email’s HTML. | labels.Email/html | incident | Optional |
 | Email/headers | The email’s headers. | labels.Email/headers | incident | Optional |
 | Email/format | The email’s format. | labels.Email/format | incident | Optional |
-| GetOriginalEmail | Returns the original email in the thread. The default is "False". You must have the necessary permissions in your email service to execute global,search. **EWS: eDiscovery** and **Gmail: Google Apps Domain-Wide Delegation of Authority**. | False |  | Optional |
+| GetOriginalEmail | Returns the original email in the thread. The default is "False". You must have the necessary permissions in your email service to execute global,search. **EWS: eDiscovery** and **Gmail: Google Apps Domain-Wide Delegation of Authority**. | False | - | Optional |
 
 ## Playbook Outputs
 ---
