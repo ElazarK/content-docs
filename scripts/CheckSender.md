@@ -1,4 +1,4 @@
-Use this script for phishing incidents, check the sender of the email via a `Pipl` search.
+Checks the sender of the email via a `Pipl` search. Use this script for phishing incidents.
 ## Script Data
 ---
 
