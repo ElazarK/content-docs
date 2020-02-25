@@ -21,7 +21,7 @@ This playbook does not use any scripts.
 
 | **Name** | **Description** | **Required** |
 | --- | --- | --- |
-| EventId | The Traps event ID. The playbook quarantines the related files. | Optional |
+| EventId | The Traps event ID. | Optional |
 
 ## Playbook Outputs
 ---
