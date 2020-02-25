@@ -1,4 +1,4 @@
-AWS Cloudtrail is a service which provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services. To remediate Prisma Cloud Alert "CloudTrail is not enabled on the account", this playbook creates a S3 bucket to host Cloudtrail logs and enable Cloudtrail (includes all region events and global service events).
+Provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services. To remediate Prisma Cloud Alert "CloudTrail is not enabled on the account", this playbook creates a S3 bucket to host Cloudtrail logs and enable Cloudtrail (includes all region events and global service events).
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -22,10 +22,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| AutoEnableCloudTrail | The following resources will be created, `S3 bucket cloudtrail-<account_id>`, and `Cloudtrail cloudtrail-<account_id>`. Type "Yes" to auto-enable CloudTrail. | No |  | Optional |
-| CloudTrailRegion | S3 bucket and (global) Cloudtrail will be created on this region | us-west-2 |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |
+| AutoEnableCloudTrail | The following resources will be created, `S3 bucket cloudtrail-<account_id>`, and `Cloudtrail cloudtrail-<account_id>`. Type "Yes" to auto-enable CloudTrail. | No | Optional |
+| CloudTrailRegion | S3 bucket and (global) Cloudtrail will be created on this region | us-west-2 | Optional |
 
 ## Playbook Outputs
 ---
