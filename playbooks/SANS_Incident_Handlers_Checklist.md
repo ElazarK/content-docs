@@ -1,6 +1,6 @@
-his playbook follows the "Incident Handler's Checklist" described in the SANS Institute ‘Incident Handler’s Handbook’ by Patrick Kral.
+Follows the "Incident Handler's Checklist" described in the SANS Institute ‘[Incident Handler’s Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
 
-https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901
+
 
 ***Disclaimer: This playbook does not ensure compliance to SANS regulations.
 
@@ -22,10 +22,10 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| DataCollection | The data collection task to use to answer lessons learned questions based on SANS. Specify 'True' to automatically send the communication task, and 'False'  to prevent it. |  |  | Optional |
-| Email | The email address to which to send the questions. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- |
+| DataCollection | The data collection task to use to answer lessons learned questions based on SANS. Specify "True" to automatically send the communication task, and "False" to prevent it. |Optional |
+| Email | The email address to which to send the questions. | Optional |
 
 ## Playbook Outputs
 ---
