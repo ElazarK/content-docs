@@ -1,4 +1,4 @@
-This playbook extracts the TCP public Security Groups rule and provides manual/automatic options to have the rules revoked.
+Extracts the TCP public Security Groups rule and provides manual/automatic options to have the rules revoked.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,9 +21,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| AutoRevokeRule | Can be, "yes" - public security group rules will be automatically revoked, or "no" - analyst will be prompted whether or not to allow automatic removal of the rules.  | no |  | Required |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| AutoRevokeRule | Can be, "yes" - public security group rules will be automatically revoked, or "no" - analyst will be prompted whether or not to allow automatic removal of the rules.  | no | Required |
 
 ## Playbook Outputs
 ---
