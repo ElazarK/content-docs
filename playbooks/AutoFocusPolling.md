@@ -29,7 +29,7 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | 
-| Ids | The list of IDs to poll. | - | - | Required |
+| Ids | The list of IDs to poll. | - | Required |
 | PollingCommandName | The name of the polling command to run. | - | Required |
 | PollingCommandArgName | The argument name of the polling command. | ids | Required |
 | Interval | The frequency that the polling command will run (in minutes). | 1 | Required |
