@@ -1,4 +1,5 @@
-Use this script to send mail to admin, notifying the admin that classification failed.
+Sends mail to the administrator, notifying the administrator that the classification failed.
+
 ## Script Data
 ---
 
