@@ -1,4 +1,4 @@
-Initial incident details should be the name of the reporting person, or ID of the SIEM alert/incident, and description of the lost device.
+Initial incident details should be the name of the reporting person, or ID of the SIEM alert/incident, and description of the lost device. 
 
 Labels:
  - User: the owner of the device
