@@ -19,9 +19,9 @@ This playbook has no integrations.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Username | The username to enrich. | ${Account.Username} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Username | The username to enrich. | ${Account.Username} |Optional |
 
 ## Playbook Outputs
 ---
