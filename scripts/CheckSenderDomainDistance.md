@@ -1,4 +1,4 @@
-Use this script to get the string distance for the sender from our domain.
+Gets the string distance for the sender from our domain.
 
 ## Script Data
 ---
