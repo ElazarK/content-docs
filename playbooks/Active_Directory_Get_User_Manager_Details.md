@@ -20,7 +20,7 @@ This playbook does not use any sub-playbooks.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| Username | Searches for the user by the sAMAccountName attribute in Active Directory. |  |  | Optional |
+| Username | Searches for the user by the sAMAccountName attribute in Active Directory. | - |-  | Optional |
 | UserEmail | Searches for the user by the email attribute in Active Directory. | Email | Account | Optional |
 
 ## Playbook Outputs
