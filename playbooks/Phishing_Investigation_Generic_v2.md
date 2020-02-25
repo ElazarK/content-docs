@@ -1,4 +1,4 @@
-Use this playbook to investigate and remediate a potential phishing incident. The playbook simultaneously engages with the user that triggered the incident, while investigating the incident itself.
+Investigates and remediates potential phishing incidents. The playbook simultaneously engages with the user that triggered the incident, while investigating the incident itself.
 
 The final remediation tasks are always decided by a human analyst.
 
@@ -36,12 +36,12 @@ This playbook uses the following sub-playbooks, integrations, and scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Role | The default role to assign the incident to. | Administrator |  | Required |
-| SearchAndDelete | Enable the `Search and Delete` capabilit. Can be either "True" or "False". In the case of a malicious email, the `Search and Delete` sub-playbook will look for other instances of the email and delete them pending analyst approval. | False |  | Optional |
-| BlockIndicators | Enable the `Block Indicators` capability. Can be either "True" or "False". In case of a malicious email, the `Block Indicators` sub-playbook will block all malicious indicators in the relevant integrations. | False |  | Optional |
-| AuthenticateEmail | Whether the authenticity of the email should be verified, using SPF, DKIM and DMARC. | False |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Role | The default role to assign the incident to. | Administrator | Required |
+| SearchAndDelete | Enable the `Search and Delete` capabilit. Can be either "True" or "False". In the case of a malicious email, the `Search and Delete` sub-playbook will look for other instances of the email and delete them pending analyst approval. | False | Optional |
+| BlockIndicators | Enable the `Block Indicators` capability. Can be either "True" or "False". In case of a malicious email, the `Block Indicators` sub-playbook will block all malicious indicators in the relevant integrations. | False | Optional |
+| AuthenticateEmail | Whether the authenticity of the email should be verified, using SPF, DKIM and DMARC. | False | Optional |
 
 ## Playbook Outputs
 ---
