@@ -1,4 +1,4 @@
-Default playbook for parsing Prisma Cloud Compute compliance alerts.  
+Parses Prisma Cloud Compute compliance alerts. This is a default playbook.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
