@@ -1,4 +1,4 @@
-Starts a Nexpose scan by site ID and waits for the scan to finish by polling its status in pre-defined intervals.
+Scans by site ID and waits for the scan to finish by polling its status in pre-defined intervals.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,11 +19,11 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Site | The Site ID to scan. | ${Nexpose.Site.Id} |  | Required |
-| Hosts | The host names of the assets to scan. | ${Nexpose.Asset.HostName} |  | Optional |
-| Name | The scan name. |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Site | The Site ID to scan. | ${Nexpose.Site.Id} | Required |
+| Hosts | The host names of the assets to scan. | ${Nexpose.Asset.HostName} | Optional |
+| Name | The scan name. | - | Optional |
 
 ## Playbook Outputs
 ---
