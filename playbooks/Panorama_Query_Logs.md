@@ -1,4 +1,4 @@
-Query Panorama Logs of types: traffic, threat, url, data-filtering and wildfire.
+Queries Panorama Logs of types: traffic, threat, url, data-filtering and wildfire.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,21 +20,21 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| log_type | The log type to query. Can be, "traffic", "threat", "wildfire", "url" or "data-filtering". |  |  | Required |
-| query | The query string by which to match the criteria for the logs. This is similar to the query provided in the web interface under the **Monitor** tab when viewing the logs. |  |  | Optional |
-| time-generated | The time the log was generated from the timestamp and prior to it. For example, "2019/08/11 01:10:44". |  |  | Optional |
-| addr-src | The source address. |  |  | Optional |
-| addr-dst | The destination address. |  |  | Optional |
-| ip | The source or destination IP address. |  |  | Optional |
-| zone-src | The source zone. |  |  | Optional |
-| zone-dst | The destination zone. |  |  | Optional |
-| action | The rule action. |  |  | Optional |
-| port-dst | The destination port. |  |  | Optional |
-| rule | The rule name. For example, "Allow all outbound". |  |  | Optional |
-| url | The URL. For example, "safebrowsing<span>.googleapis<span>.com". |  |  | Optional |
-| filedigest | The file hash \(for WildFIre logs only). |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| log_type | The log type to query. Can be, "traffic", "threat", "wildfire", "url" or "data-filtering". | Required |
+| query | The query string by which to match the criteria for the logs. This is similar to the query provided in the web interface under the **Monitor** tab when viewing the logs. | Optional |
+| time-generated | The time the log was generated from the timestamp and prior to it. For example, "2019/08/11 01:10:44". | Optional |
+| addr-src | The source address. | Optional |
+| addr-dst | The destination address. | Optional |
+| ip | The source or destination IP address. | Optional |
+| zone-src | The source zone. | Optional |
+| zone-dst | The destination zone. | Optional |
+| action | The rule action. | Optional |
+| port-dst | The destination port. | Optional |
+| rule | The rule name. For example, "Allow all outbound". | Optional |
+| url | The URL. For example, "safebrowsing<span>.googleapis<span>.com". | Optional |
+| filedigest | The file hash (for WildFIre logs only). | Optional |
 
 ## Playbook Outputs
 ---
@@ -42,7 +42,7 @@ This playbook does not use any scripts.
 | **Path** | **Description** | **Type** |
 | --- | --- | --- |
 | Panorama.Monitor | The monitor logs object. | string |
-| Panorama.Monitor.Logs.Action | The action taken for the session. Can be "alert", "allow", "deny", "drop", "drop-all-packets", "reset\-client", "reset-server", "reset-both", or "block-url". | string |
+| Panorama.Monitor.Logs.Action | The action taken for the session. Can be "alert", "allow", "deny", "drop", "drop-all-packets", "reset-client", "reset-server", "reset-both", or "block-url". | string |
 | Panorama.Monitor.Logs.Application | The application associated with the session. | string |
 | Panorama.Monitor.Logs.Category | For URL subtype, it is the URL category. For WildFire subtype, it is the verdict on the file and is either "malicious", "phishing", "grayware", or "benign". For other subtypes, the value is "any". | string |
 | Panorama.Monitor.Logs.DeviceName | The hostname of the firewall on which the session was logged. | string |
