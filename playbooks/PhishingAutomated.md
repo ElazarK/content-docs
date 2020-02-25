@@ -45,6 +45,6 @@ This playbook does not use any commands.
 
 ## Playbook Outputs
 ---
-There are no outputs for this playbook.
+There are no outputs for this playbook. 
 
 ![PhishingAutomated](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/PhishingAutomated.png)
