@@ -1,4 +1,6 @@
-Deprecated - We recommend using Process Email - Generic playbook instead. Add email details into the relevant context entities and handle the case where you have attached original emails.
+`Deprecated` - We recommend using Process Email - Generic playbook instead. 
+
+Adds email details into the relevant context entities and handle the case where you have attached original emails.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
