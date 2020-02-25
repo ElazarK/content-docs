@@ -23,4 +23,4 @@ There are no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![Phishing]()
+![Phishing]() 
