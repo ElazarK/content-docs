@@ -1,4 +1,4 @@
-Pauses the execution until the date and time that was specified in the plabyook input is reached.
+Pauses execution until the date and time that is specified in the plabyook input, is reached.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -21,9 +21,9 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| DatetimeToWaitUntil | The date and time to wait until before finishing the playbook. Should be in ISO-8601 format. For example, 2019-11-13T15:33:10.314406457Z |  |  | Required |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| DatetimeToWaitUntil | The date and time to wait until before finishing the playbook. Should be in ISO-8601 format. For example, 2019-11-13T15:33:10.314406457Z | Required |
 
 ## Playbook Outputs
 ---
