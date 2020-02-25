@@ -1,4 +1,4 @@
-Use this playbook to retrieve and download files.
+Retrieves and downloads files.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,11 +19,11 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| endpoint_id | The ID of the endpoint. |  |  | Required |
-| file_name | The name of the file to retrieve (including path). |  |  | Required |
-| event_id | The ID of the Event. |  |  | Required |
+| **Name** | **Description** |  **Required** |
+| --- | --- | --- |  
+| endpoint_id | The ID of the endpoint. | Required |
+| file_name | The name of the file to retrieve (including path). | Required |
+| event_id | The ID of the Event. | Required |
 
 ## Playbook Outputs
 ---
