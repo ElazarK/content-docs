@@ -19,11 +19,11 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| ScanID | The scan ID to launch. | ${TenableSC.Scan.ID} |  | Required |
-| diagnosticTarget | The valid IP address/hostname of a specific target to scan. Must be provided with `diagnosticPassword`. | ${Endpoint.IPAddress} |  | Optional |
-| diagnosticPassword | The non-empty string password. | ${Endpoint.Password} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| ScanID | The scan ID to launch. | ${TenableSC.Scan.ID} | Required |
+| diagnosticTarget | The valid IP address/hostname of a specific target to scan. Must be provided with `diagnosticPassword`. | ${Endpoint.IPAddress} | Optional |
+| diagnosticPassword | The non-empty string password. | ${Endpoint.Password} | Optional |
 
 ## Playbook Outputs
 ---
