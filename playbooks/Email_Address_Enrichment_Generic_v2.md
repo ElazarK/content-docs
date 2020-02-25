@@ -29,7 +29,7 @@ This playbook does not use any commands.
 | --- | --- | --- | --- | --- |
 | InternalDomains | The CSV list of internal domains. The list will be used to determine whether an email address is internal or external. | None | inputs.InternalDomains | Optional |
 | Email | The email addresses to enrich. | Email.Address | Account | Optional |
-| Domain | The domains associated with the incident. | inputs.Domain |  | Optional |
+| Domain | The domains associated with the incident. | inputs.Domain | - | Optional |
 
 ## Playbook Outputs
 ---
