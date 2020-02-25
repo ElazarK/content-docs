@@ -1,4 +1,4 @@
-Hunt for sightings of MD5 file hash, SHA1 file hash and/or SHA256 file hashes on endpoints, using McAfee TIE (requires ePO as well).
+Hunts for sightings of MD5 hash, SHA1  hash and/or SHA256 hashes on endpoints, using McAfee TIE (requires ePO as well).
 
 Input:
 * Hash (default, takes all deferent hashes from context)
@@ -25,9 +25,9 @@ This playbook does not use any sub-playbooks.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| Hash | The Hash to hunt. Can be, "MD5", "SHA1", or "SHA256". The default is set to all hashes. | ${.=val.File.map(function(f) {return [f.MD5, f.SHA1, f.SHA256];}).reduce(function(a, b){return a.concat(b);}, []).filter(function (val1) {return val1;})} |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| Hash | The Hash to hunt. Can be, "MD5", "SHA1", or "SHA256". The default is set to all hashes. | ${.=val.File.map(function(f) {return [f.MD5, f.SHA1, f.SHA256];}).reduce(function(a, b){return a.concat(b);}, []).filter(function (val1) {return val1;})} |Optional |
 
 ## Playbook Outputs
 ---
