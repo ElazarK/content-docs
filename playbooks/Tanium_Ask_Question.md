@@ -20,7 +20,7 @@ This playbook does not use any scripts.
 ---
 
 | **Name** | **Description** | **Required** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | question-text |  |  Optional |
 | parameters |  | ptional |
 
