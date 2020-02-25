@@ -1,4 +1,4 @@
-Playbook to quickly react to discovery of new IOCs. Receive a list of IOCs as attached text or csv files, extract IOCs using regular expressions and hunt rapidly across the infrastructure using various integrations. This also supports attaching multiple files.
+Receives a list of IOCs as attached text or csv files, extracts IOCs using regular expressions and hunts rapidly across the infrastructure using various integrations. This playbok reacts quickly to the discovery of new IOCs. This also supports attaching multiple files.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
