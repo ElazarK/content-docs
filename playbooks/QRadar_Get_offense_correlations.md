@@ -1,7 +1,7 @@
-Run on a QRadar offense to get more information.
+Gets mor information when running on a QRadar offense.
 
 * Get all correlations relevant to the offense
-* Get all logs relevant to the correlations. This is not done by default. TO put this in place set `GetCorrelationLogs` to "True".
+* Get all logs relevant to the correlations. This is not done by default. To put this in place set `GetCorrelationLogs` to "True".
 
 Inputs:
 * GetCorrelationLogs (default: False)
@@ -28,8 +28,8 @@ This playbook does not use any commands.
 
 | **Name** | **Description** | **Default Value** | **Source** | **Required** |
 | --- | --- | --- | --- | --- |
-| GetCorrelationLogs | Get all of the offense's correlations logs when set to "True". | False |  | Optional |
-| MaxLogsCount | THe maximum number of log entires to query from QRadar. The default is 20. | 20 |  | Optional |
+| GetCorrelationLogs | Get all of the offense's correlations logs when set to "True". | False | - | Optional |
+| MaxLogsCount | THe maximum number of log entires to query from QRadar. The default is 20. | 20 | - | Optional |
 | ID | The QRadar offense ID.  | labels.id | incident | Required |
 | StartTime | The QRadar offense start time. | labels.start_time | incident | Required |
 
