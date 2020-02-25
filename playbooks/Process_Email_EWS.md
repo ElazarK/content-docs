@@ -1,4 +1,4 @@
-Process an EWS email.
+Processes an EWS email.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
