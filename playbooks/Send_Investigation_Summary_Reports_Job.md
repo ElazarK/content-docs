@@ -1,4 +1,4 @@
-You should run this playbook as a scheduled job, whicn should run on a 15 minute interval. This playbook functions by calling the sub-playbook, `Send Investigation Summary Reports`, and closes the incident. By default, the playbook will search all incidents closed within the last hour. If you want to run the playbook more frequently, you should adjust the search query of the child playbook, `Send Investigation Summary`. Reports.
+Calls the sub-playbook, `Send Investigation Summary Reports`, and closes the incident. By default, the playbook will search all incidents closed within the last hour. This playbook should be run as as a scheduled job, whicn should run on a 15 minute interval. If you want to run the playbook more frequently, you should adjust the search query of the child playbook, `Send Investigation Summary`. Reports.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
