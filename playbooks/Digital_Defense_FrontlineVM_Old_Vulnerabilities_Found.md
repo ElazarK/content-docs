@@ -1,4 +1,4 @@
-This will query Frontline.Cloud's active view for any critical level vulnerabilities found to be older than 90 days.
+This will query `Frontline.Cloud`'s active view for any critical level vulnerabilities found to be older than 90 days.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
