@@ -1,4 +1,4 @@
-Detonating file with VMRay.
+Detonates a file with VMRay.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -23,18 +23,18 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| File | The file to detonate. | ${File} |  | Optional |
-| interval | The frequency in which to poll for results. | 1 |  | Optional |
-| timeout | The amount of time to wait before giving up waiting for results. | 10 |  | Optional |
-| document_password | The field to fill if the file is a password-protected document. |  |  | Optional |
-| archive_password | The field to fill if the file is a password-protected archive. |  |  | Optional |
-| sample_type | The sample type. |  |  | Optional |
-| shareable | Whether to make the file shareable. |  |  | Optional |
-| reanalyze | Whether VMRay should re-analyze the file. |  |  | Optional |
-| max_jobs | The  maximum jobs to create in VMRay. |  |  | Optional |
-| tags | The tags of the file (comma-separated). |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| File | The file to detonate. | ${File} | Optional |
+| interval | The frequency in which to poll for results. | 1 | Optional |
+| timeout | The amount of time to wait before giving up waiting for results. | 10 | Optional |
+| document_password | The field to fill if the file is a password-protected document. | - | Optional |
+| archive_password | The field to fill if the file is a password-protected archive. | - | Optional |
+| sample_type | The sample type. | - | Optional |
+| shareable | Whether to make the file shareable. | - | Optional |
+| reanalyze | Whether VMRay should re-analyze the file. | - | Optional |
+| max_jobs | The  maximum jobs to create in VMRay. | - | Optional |
+| tags | The tags of the file (comma-separated). | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -51,16 +51,16 @@ This playbook does not use any scripts.
 | VMRay.Submission.SubmissionID | The submission ID. | number |
 | VMRay.Submission.HadErrors | Whether there are any errors in the submission. | unknown |
 | VMRay.Submission.IsFinished | The status of submission. Can be, "true" or "false". | boolean |
-| VMRay.Submission.MD5 | The MD5 file hash of the sample in submission. | string |
-| VMRay.Submission.SHA1 | The SHA1 file hash of the sample in submission. | string |
-| VMRay.Submission.SHA256 | The SHA256 file hash of the sample in submission. | string |
+| VMRay.Submission.MD5 | The MD5 hash of the sample in submission. | string |
+| VMRay.Submission.SHA1 | The SHA1 hash of the sample in submission. | string |
+| VMRay.Submission.SHA256 | The SHA256 hash of the sample in submission. | string |
 | VMRay.Submission.Severity | The severity of the sample in submission. Can be, "Malicious", "Suspicious", "Good", "Blacklisted", "Whitelested", or "Unknown". | string |
 | VMRay.Submission.SSDeep | The SSDeep of the sample in submission. | string |
 | VMRay.Submission.SampleID | The ID of the sample in submission. | number |
 | VMRay.Sample.FileName | The file name of the sample. | string |
-| VMRay.Sample.MD5 | The MD5  file hash of the sample. | string |
-| VMRay.Sample.SHA1 | The SHA1 file hash of the sample. | string |
-| VMRay.Sample.SHA256 | The SHA256 file hash of the sample. | string |
+| VMRay.Sample.MD5 | The MD5 hash of the sample. | string |
+| VMRay.Sample.SHA1 | The SHA1 hash of the sample. | string |
+| VMRay.Sample.SHA256 | The SHA256 hash of the sample. | string |
 | VMRay.Sample.SSDeep | The SSDeep of the sample. | string |
 | VMRay.Sample.Severity | The severity of the sample in submission. Can be, "Malicious", "Suspicious", "Good", "Blacklisted", "Whitelested", or "Unknown". | string |
 | VMRay.Sample.Type | The file type. | string |
@@ -89,10 +89,10 @@ This playbook does not use any scripts.
 | VMRay.Sample.IOC.File.Operation | The operation of the given file. | unknown |
 | VMRay.Sample.IOC.File.ID | The ID of the file. | unknown |
 | VMRay.Sample.IOC.File.Type | The type of the file. | unknown |
-| VMRay.Sample.IOC.File.Hashes.MD5 | The MD5 file hash of the given file. | unknown |
+| VMRay.Sample.IOC.File.Hashes.MD5 | The MD5 hash of the given file. | unknown |
 | VMRay.Sample.IOC.File.Hashes.SSDeep | The SSDeep of the given file. | unknown |
-| VMRay.Sample.IOC.File.Hashes.SHA256 | The SHA256 file hash of the given file. | unknown |
-| VMRay.Sample.IOC.File.Hashes.SHA1 | The SHA1 file hash of the given file. | unknown |
+| VMRay.Sample.IOC.File.Hashes.SHA256 | The SHA256 hash of the given file. | unknown |
+| VMRay.Sample.IOC.File.Hashes.SHA1 | The SHA1 hash of the given file. | unknown |
 | VMRay.ThreatIndicator.AnalysisID | The list of the connected analysis IDs. | unknown |
 | VMRay.ThreatIndicator.Category | The category of the threat indicators. | unknown |
 | VMRay.ThreatIndicator.Classification | The classifications of the threat indicators. | unknown |
