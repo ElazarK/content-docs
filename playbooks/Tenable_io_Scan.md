@@ -1,4 +1,4 @@
-Run a Tenable.io scan
+Runs a Tenable.io scan.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,10 +20,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| scan-id | The ID of the tenable scan to run. |  |  | Required |
-| targets | The alternative targets list to the scan's configured targets. |  |  | Optional |
+| **Name** | **Description** | **Required** |
+| --- | --- | --- | 
+| scan-id | The ID of the tenable scan to run. | Required |
+| targets | The alternative targets list to the scan's configured targets. | Optional |
 
 ## Playbook Outputs
 ---
