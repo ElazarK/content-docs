@@ -1,4 +1,4 @@
-Master playbook for ransomware incidents. This playbook is a manual playbook.
+Master playbook for ransomware incidents. This playbook is a manual playbook. 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
