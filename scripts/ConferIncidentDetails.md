@@ -1,4 +1,5 @@
-Use this script to display the incident details retrieved from Confer in a readable format.
+Displays the incident details retrieved from Confer in a readable format.
+
 ## Script Data
 ---
 
