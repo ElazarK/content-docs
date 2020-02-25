@@ -1,6 +1,6 @@
-Deprecated: We recommend using Phishing investigation - Generic playbook instead.
+`Deprecated` We recommend using Phishing investigation - Generic playbook instead.
 
-This is an automated playbook to investigate suspected Phishing attempts.
+Investigates suspected Phishing attempts. This is an automated playbook.
 It picks up the required information from the incident metadata as created by the mail listener.
 
 Labels:
@@ -39,9 +39,9 @@ This playbook does not use any commands.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| CompanyDomains | The domains for the company to try and match closeness of sender. Comma-separated. | company.com |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| CompanyDomains | The domains for the company to try and match closeness of sender. (comma-separated) | company.com | Optional |
 
 ## Playbook Outputs
 ---
