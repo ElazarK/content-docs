@@ -23,12 +23,7 @@ This playbook does not use any commands.
 | **Name** | **Description** | **Default Value** | **Required** |
 | --- | --- | --- | --- | 
 | similarIncidentKeys | The identical incident keys. | - | Optional |
-| similarLabels | The identical similar labels keys.
-You allow difference in X words between labels. For example, the input:
-Email\\subject:2,Email\\from
-Will demand:
-1. Email\\from to be identical 
-2. Email\\subject to be similar with 2 max words difference | - | Optional |
+| similarLabels | The identical similar labels keys. You allow difference in X words between labels. For example, the input: Email\\subject:2,Email\\from Will demand: 1. Email\\from to be identical 2. Email\\subject to be similar with 2 max words difference | - | Optional |
 | similarContextKeys | Identical Similar context keys. You allow difference in X words between values.  | - | Optional |
 | similarCustomFields | Identical Similar custom fields. You allow difference in X words between values. | - | Optional |
 | hoursBack | Checks incidents within X hours back. | 24 | Optional |
