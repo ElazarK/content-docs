@@ -1,4 +1,4 @@
-This playbook searches and delete emails with similar attributes of a malicious email.
+Searches and deletes emails with similar attributes of a malicious email.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
