@@ -1,4 +1,5 @@
-Use this script on common user defined code that will be merged into each server script when it runs.
+Merges common user defined code into each server script when it runs.
+
 ## Script Data
 ---
 
