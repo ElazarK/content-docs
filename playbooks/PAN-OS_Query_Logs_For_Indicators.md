@@ -1,4 +1,4 @@
-Queries the following PAN-OS log types: traffic, threat, url, data-filtering and wildfire. The playbook accepts inputs such as IP addresses, hash, and url.
+Queries the following PAN-OS log types: traffic, threat, URL, data-filtering and wildfire. The playbook accepts inputs such as IP addresses, hash, and URL.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
