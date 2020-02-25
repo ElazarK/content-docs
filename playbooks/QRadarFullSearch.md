@@ -1,4 +1,4 @@
-This playbook runs a QRadar query and return its results to the context.
+Runs a QRadar query and return its results to the context.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -20,13 +20,13 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| timeout | The amount of time to wait before a timeout occurs (in minutes). | 600 |  | Optional |
-| interval | The polling frequency. How often the polling command should run (in minutes). | 1 |  | Optional |
-| query_expression | The query expressions in AQL. |  |  | Required |
-| range | The range of results to return (e.g. 0-20). |  |  | Optional |
-| headers | The table headers. |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- |  
+| timeout | The amount of time to wait before a timeout occurs (in minutes). | 600 | Optional |
+| interval | The polling frequency. How often the polling command should run (in minutes). | 1 |Optional |
+| query_expression | The query expressions in AQL. | - |Required |
+| range | The range of results to return. For example, 0-20. | - | Optional |
+| headers | The table headers. | - | Optional |
 
 ## Playbook Outputs
 ---
