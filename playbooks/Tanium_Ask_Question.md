@@ -1,4 +1,4 @@
-This playbook used generic polling to gets question result.
+Uses generic polling to gets question result.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,10 +19,10 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
+| **Name** | **Description** | **Required** |
 | --- | --- | --- | --- | --- |
-| question-text |  |  |  | Optional |
-| parameters |  |  |  | Optional |
+| question-text |  |  Optional |
+| parameters |  | ptional |
 
 ## Playbook Outputs
 ---
