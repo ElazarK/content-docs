@@ -1,6 +1,6 @@
-This playbook contains the phases for handling an incident as they are described in the SANS Institute ‘Incident Handler's Handbook’ by Patrick Kral.
+Contains the phases for handling an incident as they are described in the SANS Institute ‘[Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
 
-https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901
+
 
 ***Disclaimer: This playbook does not ensure compliance to SANS regulations.
 
