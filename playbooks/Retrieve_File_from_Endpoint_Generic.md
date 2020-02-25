@@ -27,7 +27,7 @@ This playbook does not use any commands.
 | SHA256 | Get file sample from SHA256 hash input. | SHA256 | File | Optional |
 | Hostname | The hostname of the machine on which the file is located. | Hostname | Endpoint | Optional |
 | Path | The file path. | Path | File | Optional |
-| UseD2 | Whether a D2 agent will be used to retrieve the file. The default is "no". | no |  | Optional |
+| UseD2 | Whether a D2 agent will be used to retrieve the file. The default is "no". | no | - | Optional |
 
 ## Playbook Outputs
 ---
