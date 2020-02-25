@@ -1,4 +1,4 @@
-Gets a file's reputation using one or more integrations
+Gets a file's reputation using one or more integrations.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
