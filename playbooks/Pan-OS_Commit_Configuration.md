@@ -1,4 +1,4 @@
-Commit the PAN-OS Panorama or Firewall configuration.\nIf specified as Panorama, it also pushes the Policies to the specified Device Group in the instance.
+Commits the PAN-OS Panorama or Firewall configuration. If specified as Panorama, it also pushes the policies to the specified device group in the instance.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
