@@ -1,4 +1,4 @@
-Use this script to designate common code that will be merged into each D2 agent script when it runs.
+Designates common code that will be merged into each D2 agent script when it runs.
 ## Script Data
 ---
 
