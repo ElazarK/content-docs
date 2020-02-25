@@ -1,4 +1,5 @@
-Use this script with common code that will be merged into each server script when it runs.
+Merges common code into each server script when it runs.
+
 ## Script Data
 ---
 
