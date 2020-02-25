@@ -1,4 +1,4 @@
-Starts a Nexpose scan according to asset IP addresses or host names, and waits for the scan to finish by polling the scan status in pre-defined intervals.
+Scans according to asset IP addresses or host names, and waits for the scan to finish by polling the scan status in pre-defined intervals.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
@@ -19,11 +19,11 @@ This playbook does not use any scripts.
 ## Playbook Inputs
 ---
 
-| **Name** | **Description** | **Default Value** | **Source** | **Required** |
-| --- | --- | --- | --- | --- |
-| IPs | The asset IP addresses to scan. | ${IP.Address} |  | Optional |
-| HostNames | The hostnames of the assets to scan. | ${Nexpose.Asset.HostName} |  | Optional |
-| Name | The scan name as specified by the user. |  |  | Optional |
+| **Name** | **Description** | **Default Value** | **Required** |
+| --- | --- | --- | --- | 
+| IPs | The asset IP addresses to scan. | ${IP.Address} | Optional |
+| HostNames | The hostnames of the assets to scan. | ${Nexpose.Asset.HostName} |Optional |
+| Name | The scan name as specified by the user. | - | Optional |
 
 ## Playbook Outputs
 ---
@@ -36,7 +36,7 @@ This playbook does not use any scripts.
 | Nexpose.Scan.Assets | The number of assets found in the scan | unknown |
 | Nexpose.Scan.TotalTime | The duration of the scan (in minutes). | unknown |
 | Nexpose.Scan.Id | The identifier of the scan. | unknown |
-| Nexpose.Scan.Status | The scan status. Can ve, "aborted", "unknown", "running", "finished", "stopped", "error", "paused", "dispatched", or "integrating". | unknown |
+| Nexpose.Scan.Status | The scan status. Can be, "aborted", "unknown", "running", "finished", "stopped", "error", "paused", "dispatched", or "integrating". | unknown |
 | Nexpose.Scan.Vulnerabilities.Critical | The number of critical vulnerabilities. | unknown |
 | Nexpose.Scan.Vulnerabilities.Moderate | The number of moderate vulnerabilities. | unknown |
 | Nexpose.Scan.Vulnerabilities.Severe | The number of severe vulnerabilities. | unknown |
