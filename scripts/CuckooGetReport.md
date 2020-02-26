@@ -1,4 +1,4 @@
-Use this script to get the report of a completed analysis.
+Gets the report of a completed analysis.
 ## Script Data
 ---
 
