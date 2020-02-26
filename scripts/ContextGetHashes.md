@@ -1,4 +1,4 @@
-Use this script to get hashes (such as, MD5, SHA1, SHA256) from context.
+Gets hashes (such as, MD5, SHA1, SHA256) from context.
 ## Script Data
 ---
 
