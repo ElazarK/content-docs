@@ -1,4 +1,4 @@
-Use this script to show local accounts.
+Shows local accounts.
 
 ## Script Data
 ---
