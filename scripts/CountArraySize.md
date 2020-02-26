@@ -1,4 +1,4 @@
-Use this script to count an array size.
+Counts an array size.
 ## Script Data
 ---
 
