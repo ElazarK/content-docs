@@ -1,4 +1,4 @@
-Use this script to detonate a URL in the Cuckoo sandbox.
+Detonates a URL in the Cuckoo sandbox.
 ## Script Data
 ---
 
