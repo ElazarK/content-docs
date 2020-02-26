@@ -1,4 +1,4 @@
-Use this script to convert an array to an HTML table.
+Converts an array in to a HTML table.
 ## Script Data
 ---
 
