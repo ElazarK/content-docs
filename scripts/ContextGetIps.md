@@ -1,4 +1,4 @@
-Use this script to get all IP addresses in context, excluding ones given.
+Gets all IP addresses in context, excluding ones given.
 ## Script Data
 ---
 
