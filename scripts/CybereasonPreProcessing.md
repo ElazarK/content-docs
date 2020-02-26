@@ -1,5 +1,5 @@
-Use the pre-processing script to run when fetching Cybereason malops.
-This script will check if the malop was already fetched, and will then update the existing incident, otherwise it will create a new incident.
+Checks if the malop was already fetched, and will update the existing incident accordingly. Otherwise, it will create a new incident. Run the pre-processing script when fetching Cybereason malops.
+
 ## Script Data
 ---
 
