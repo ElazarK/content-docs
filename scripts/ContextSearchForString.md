@@ -1,4 +1,4 @@
-Use this script to search for a string in a path in context. If path is null, the string will be searched in full context.
+Searches for a string in a path in context. If path is null, the string will be searched in full context.
 
 ## Script Data
 ---
