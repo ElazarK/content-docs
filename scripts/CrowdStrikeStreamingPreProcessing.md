@@ -1,5 +1,5 @@
-Use this script for as the pre-processing script for CrowdStrike Streaming. This will not duplicate incidents (detection events) that have the same Host.
-This will add an entry to duplicate (older) incidents notifying that a duplicate incident was ignored.
+Adds an entry to duplicate (older) incidents, notifying that a duplicate incident was ignored. Use this script as the pre-processing script for CrowdStrike Streaming. This will not duplicate incidents (detection events) that have the same Host.
+
 
 ## Script Data
 ---
