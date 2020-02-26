@@ -1,4 +1,4 @@
-Use this script to convert XML file entry to JSON format.
+Converts a XML file entry into JSON format.
 ## Script Data
 ---
 
@@ -13,9 +13,9 @@ Use this script to convert XML file entry to JSON format.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| entryID | The entry ID of a valid xml file to convert to json format. |
-| contextKey | The context key to push the json result to. |
-| verbose | Prints the json result to War Room. |
+| entryID | The entry ID of a valid XML file to convert to JSON format. |
+| contextKey | The context key to push the JSON result to. |
+| verbose | Prints the JSON result to War Room. |
 
 ## Outputs
 ---
