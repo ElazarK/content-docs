@@ -1,4 +1,4 @@
-Use this script to use D2 agent on endpoint to run `SysInternals Autoruns`.
+Runs `SysInternals Autoruns` when used on a D2 agent on Endpoint.
 
 Used by the server-side script "Autoruns".
 
