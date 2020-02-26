@@ -1,4 +1,5 @@
-Use this script tp det a file from a system using a D2 agent.
+Gets a file from a system using a D2 agent.
+
 ## Script Data
 ---
 
