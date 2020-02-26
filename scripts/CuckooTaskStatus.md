@@ -1,4 +1,4 @@
-Use this script to check the current status of a task in Cuckoo sandbox.
+Checks the current status of a task in Cuckoo sandbox.
 
 ## Script Data
 ---
