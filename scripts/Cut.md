@@ -1,4 +1,4 @@
-Use this script to cut a string by delimiter and return specific fields.
+Cuts a string by delimiter and returns specific fields.
 
 Examples:
 =================
