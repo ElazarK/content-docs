@@ -1,4 +1,5 @@
-Use this script to copy a log file. This scripts works on Windows and Unix differently.
+Copies a log file. This scripts works on Windows and Unix differently.
+
 ## Script Data
 ---
 
