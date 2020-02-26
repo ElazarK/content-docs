@@ -1,4 +1,4 @@
-Use this script to show system information.
+Shows system information.
 ## Script Data
 ---
 
