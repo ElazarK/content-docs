@@ -1,4 +1,4 @@
-Use this script to search for a string in context and return the context path, returns null if not found.
+Searches for a string in context and returns the context path, it will return null if nothing is found.
 ## Script Data
 ---
 
