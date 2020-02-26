@@ -1,5 +1,5 @@
-Use this script to send an HTML email, using a template stored as a list item under **Lists (Settings -> Advanced -> Lists)**.
-Placeholders are marked in DT format. For example, ${incident.id} for incident ID.
+Sends a HTML email, using a template stored as a list item under **Lists (Settings -> Advanced -> Lists)**.
+Placeholders are marked in DT format. For example, `${incident.id}` for the incident ID.
 
 Examples of available placeholders:
 - ${incident.labels.Email/from}
