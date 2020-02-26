@@ -1,4 +1,4 @@
-Use this script to display the contents of a Cuckoo report file from a War Room entry.
+Displays the contents of a Cuckoo report file from a War Room entry.
 ## Script Data
 ---
 
@@ -18,8 +18,8 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| reportentryid | The ID of the War Eoom entry containing the report file. |
-| sections | The sections to show (comma-separated).Can be, "info", "statistics", "network", "dropped", "suricata", "debug", "procmemory", "signatures", "decompression", "malfamily", "behavior", "target", "malscore", "static", "feeds", "strings", or "virustotal". |
+| reportentryid | The ID of the War Room entry containing the report file. |
+| sections | The sections to show (comma-separated). Can be, "info", "statistics", "network", "dropped", "suricata", "debug", "procmemory", "signatures", "decompression", "malfamily", "behavior", "target", "malscore", "static", "feeds", "strings", or "virustotal". |
 | reportfilepath | The local file path to the report file. |
 | reportdata | The report to be parsed.  |
 
