@@ -1,4 +1,4 @@
-Use this script to provide the severity of the CVE based on CVSS score where available.
+Provides the severity of the CVE based on the CVSS score if it is available.
 ## Script Data
 ---
 
