@@ -1,4 +1,4 @@
-Use this script to execute the command and pack the output back to server.
+Executes the command and packs the output back to server.
 
 ## Script Data
 ---
