@@ -1,4 +1,4 @@
-Use this script to get all email addresses in context, excluding ones given.
+Gets all email addresses in context, excluding ones given.
 ## Script Data
 ---
 
