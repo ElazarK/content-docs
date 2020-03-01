@@ -1,3 +1,8 @@
+---
+id: d2-get-system-log
+title: D2 Get System Log
+---
+
 Copies a log file. This scripts works on Windows and Unix differently.
 
 ## Script Data
