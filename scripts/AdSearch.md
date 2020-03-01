@@ -1,3 +1,8 @@
+---
+id: ad-search
+title: Ad Search (Deprecated)
+---
+
 `Deprecated`
 
 Run Active Directory queries.
