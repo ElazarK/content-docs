@@ -1,3 +1,8 @@
+---
+id: cbp-approve-hash
+title: CBP Approve Hash
+---
+
 Approves a whitelist a hash in CBEP/Bit9.
 
 ## Script Data
