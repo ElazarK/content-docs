@@ -1,3 +1,8 @@
+---
+id: common-d2
+title: Common D2
+---
+
 Designates common code that will be merged into each D2 agent script when it runs.
 ## Script Data
 ---
