@@ -1,6 +1,6 @@
 ---
 id: ad-get-group-computers
-title: AD Get Group Computers
+title: AD Get Group Computers (Deprecated)
 ---
 
 `Deprecated`
