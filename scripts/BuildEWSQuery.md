@@ -1,3 +1,8 @@
+---
+id: build-ews-query
+title: Build EWS Query
+---
+
 Returns an EWS query according to the automation's arguments.
 
 ## Script Data
