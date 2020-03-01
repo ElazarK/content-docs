@@ -1,3 +1,8 @@
+---
+id: common-server-python
+title: Common Server Python
+---
+
 Merges common code into each server script when it runs.
 
 ## Script Data
