@@ -1,3 +1,8 @@
+---
+id: create-email-html-body
+title: Create Email HTML Body
+---
+
 Sends a HTML email, using a template stored as a list item under **Lists (Settings -> Advanced -> Lists)**.
 Placeholders are marked in DT format. For example, `${incident.id}` for the incident ID.
 
