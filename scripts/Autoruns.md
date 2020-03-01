@@ -1,5 +1,11 @@
+---
+id: Autoruns
+title: Autoruns
+---
+
 Collects autorun items from an endpoint as well as hashes for each item.
-THis uses a D2 agent to run `SysInternals` autoruns.
+This uses a D2 agent to run `SysInternals` autoruns.
+
 ## Script Data
 ---
 
