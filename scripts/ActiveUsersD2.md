@@ -1,3 +1,8 @@
+---
+id: active-users-d2
+title: Active Users D2
+---
+
 Gets active users from a D2 agent and parsed them into context.
 
 ## Script Data
