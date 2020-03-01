@@ -1,3 +1,8 @@
+---
+id: dbot-prepare-phishing-data
+title: DBot Prepare Phishing Data
+---
+
 Prepares an email's data for machine learning text classification automation.
 ## Script Data
 ---
