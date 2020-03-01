@@ -1,3 +1,8 @@
+---
+id: classifier-notify-admin
+title: Classifier Notify Admin
+---
+
 Sends mail to the administrator, notifying the administrator that the classification failed.
 
 ## Script Data
