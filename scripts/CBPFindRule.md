@@ -1,3 +1,8 @@
+---
+id: cbp-find-rule
+title: CBP Find Rule
+---
+
 Finds the rule state for a hash value in CBEP/Bit9.
 
 ## Script Data
