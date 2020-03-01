@@ -5,7 +5,7 @@ title: AD Get Email For All Users (Deprecated)
 
 `Deprecated`
 
-Use Active Directory to retrieve the email address associated with all users.
+Retrieves the email address associated with all users.
 
 ## Script Data
 ---
