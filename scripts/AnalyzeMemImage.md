@@ -1,3 +1,8 @@
+---
+id: analyze-mem-image
+title: Analyze Mem Image
+---
+
 Runs common memory image analysis commands.
 
 ## Script Data
