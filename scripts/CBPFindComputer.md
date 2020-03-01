@@ -1,3 +1,8 @@
+---
+id: cbp-find-computer
+title: CBP Find Computer
+---
+
 Finds a computer in CBEP/Bit9.
 
 ## Script Data
