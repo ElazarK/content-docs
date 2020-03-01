@@ -1,3 +1,8 @@
+---
+id: context-get-emails
+title: Context Get Emails
+---
+
 Gets all email addresses in context, excluding ones given.
 ## Script Data
 ---
