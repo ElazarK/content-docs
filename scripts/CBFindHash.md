@@ -1,6 +1,11 @@
+---
+id: cb-find-hash
+title: CB Find Hash  (Deprecated)
+---
+
 `Deprecated`
 
-This script searches Carbon Black for a connection to the specified MD5 file hash(es).
+This script searches Carbon Black for a connection to the specified MD5 hash(es) of a file(s).
 
 ## Script Data
 ---
