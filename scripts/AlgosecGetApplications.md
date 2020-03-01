@@ -1,4 +1,10 @@
+---
+id: algosec-get-applications
+title: Algosec Get Applications
+---
+
 Finds applications containing network objects related to IP address using BusinessFlow.
+
 ## Script Data
 ---
 
