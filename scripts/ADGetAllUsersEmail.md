@@ -1,3 +1,8 @@
+---
+id: ad-get-all-users-email
+title: AD Get All Users Email
+---
+
 `Deprecated`
 
 Use Active Directory to retrieve the email address associated with all users.
