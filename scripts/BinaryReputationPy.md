@@ -1,3 +1,8 @@
+---
+id: binary-reputation-py
+title: Binary Reputation Py (Deprecated)
+---
+
 `Deprecated`
 
 This script gets the reputation for any hash or file in the incident details.
@@ -26,4 +31,4 @@ This script uses the following commands and scripts.
 
 ## Outputs
 ---
-There are no outputs for this script.
+There are no outputs for this script. 
