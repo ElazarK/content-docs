@@ -1,3 +1,8 @@
+---
+id: convert-keys-to-table-field-format
+title: Convert Keys to Table Field Format
+---
+
 Converts object keys to match table keys. Use this when mapping object/collection to table (grid) field.
 (An array of objects/collections is also supported).
 
