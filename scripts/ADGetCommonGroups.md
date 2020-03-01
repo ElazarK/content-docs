@@ -1,3 +1,9 @@
+---
+id: ad-get-common-groups
+title: AD Get Common Groups
+---
+
+
 `Deprecated` 
 
 Use Active Directory to get common groups between supplied users.
