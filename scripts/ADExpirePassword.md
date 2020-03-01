@@ -1,6 +1,6 @@
 ---
 id: ad -expire password
-title: AD Expire Password
+title: AD Expire Password (Deprecated)
 ---
 
 `Deprecated` 
