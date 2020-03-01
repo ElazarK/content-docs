@@ -1,3 +1,8 @@
+---
+id: common-server-user-power-shell
+title: Common Server User Power Shell
+---
+
 Merges common user defined code into each server script when it runs.
 
 ## Script Data
