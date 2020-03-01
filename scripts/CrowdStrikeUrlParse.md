@@ -1,3 +1,8 @@
+---
+id: crowd-strike-url-parse
+title: Crowd Strike URL Parse
+---
+
 Parses a CrowdStrike alert URL and pull out the agent ID. This is useful when passing it to the `cs-device-details` command to return a device's details.
 This script will also return the detection ID for the specific alert. This is used for modifying the state of the alert for CrowdStrike.
 
