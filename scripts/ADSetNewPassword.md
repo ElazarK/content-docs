@@ -1,6 +1,10 @@
+---
+id: ad-set-new-password
+title: AD Set New Password (Deprecated)
+---
 `Deprecated`
 
-Set a new password for an Active Directory user.
+Sets a new password for an Active Directory user.
 
 ## Script Data
 ---
