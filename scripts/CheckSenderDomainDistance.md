@@ -1,3 +1,8 @@
+---
+id: check-sender-domain-distance
+title: Check Sender Domain Distance
+---
+
 Gets the string distance for the sender from our domain.
 
 ## Script Data
