@@ -1,3 +1,8 @@
+---
+id: cbp-ban-hash
+title: CBP Ban Hash
+---
+
 Bans/blacklists a hash in CBEP/Bit9.
 ## Script Data
 ---
