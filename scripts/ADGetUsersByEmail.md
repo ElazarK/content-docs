@@ -6,7 +6,7 @@ title: AD Get Users By Email  (Deprecated)
 
 `Deprecated`
 
-Use Active Directory to retrieve the user associated with the specified email address.
+Retrieves the user associated with the specified email address.
 
 ## Script Data
 ---
