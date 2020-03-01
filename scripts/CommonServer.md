@@ -1,3 +1,8 @@
+---
+id: common-server
+title: Common Server
+---
+
 Merges common code into each server script when it runs.
 
 ## Script Data
