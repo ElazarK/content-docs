@@ -1,3 +1,8 @@
+---
+id: block-ip
+title: Block IP
+---
+
 Blocks an IP address in a configured firewall.
 
 ## Script Data
