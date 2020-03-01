@@ -1,6 +1,6 @@
 ---
 id: ad-get-computer
-title: AD Get Computer
+title: AD Get Computer (Deprecated)
 ---
 
 
