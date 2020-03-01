@@ -1,3 +1,8 @@
+---
+id: autofocus-polling
+title: Autofocus Polling
+---
+
 Queries the PANW Autofocus Threat Intelligence System. This sub-playbook is the same as the generic polling sub-playbook besides that it provides outputs in the playbook. The reason for that is that in Autofocus its impossible to query the results of the same query more than once so the outputs have to be in the polling context.
 
 This playbook implements polling by continuously running the command in Step #2 until the operation completes.
