@@ -5,7 +5,7 @@ title: AD List Users Ex  (Deprecated)
 
 `Deprecated`
 
-Retrieve the list of user objects stored in Active Directory and include an extended list of attributes and information about each user. Use the `attributes` argument to include additional specific attributes in the results.
+Retrieves the list of user objects stored in Active Directory and include an extended list of attributes and information about each user. Use the `attributes` argument to include additional specific attributes in the results.
 
 ## Script Data
 ---
