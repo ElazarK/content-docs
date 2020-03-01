@@ -1,4 +1,9 @@
-Adds provided entries to the incident Evidence Board. The playbook, can be positioned after a task to add the previous task's entries to the Evidence Board automatically (with no need to provide arguments).
+---
+id: add-evidence
+title: Add Evidence
+---
+
+Adds the provided entries to the incident Evidence Board. The playbook, can be positioned after a task to add the previous task's entries to the Evidence Board automatically (with no need to provide arguments).
 
 ## Script Data
 ---
