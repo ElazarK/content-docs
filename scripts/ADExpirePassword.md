@@ -1,5 +1,11 @@
+---
+id: ad -expire password
+title: AD Expire Password
+---
+
 `Deprecated` 
-Expire the password of an Active Directory user
+
+Expires the password of an Active Directory user.
 
 ## Script Data
 ---
