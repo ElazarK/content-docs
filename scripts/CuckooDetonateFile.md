@@ -1,3 +1,8 @@
+---
+id: cuckoo-detonate-file
+title: Cuckoo Detonate File
+---
+
 Adds a file to the list of pending tasks. Returns the ID of the newly created task.
 
 ## Script Data
