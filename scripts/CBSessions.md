@@ -1,3 +1,8 @@
+---
+id: cb-sessions
+title: CB Sessions
+---
+
 Returns lists of Carbon Black sessions.
 
 ## Script Data
