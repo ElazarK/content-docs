@@ -1,3 +1,8 @@
+---
+id: cut
+title: Cut
+---
+
 Cuts a string by delimiter and returns specific fields.
 
 Examples:
