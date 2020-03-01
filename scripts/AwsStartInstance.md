@@ -1,3 +1,8 @@
+---
+id: aws-start-instance
+title: AWS Start Instance
+---
+
 Starts an Amazon EBS-backed AMI that was previously stopped.
 ## Script Data
 ---
