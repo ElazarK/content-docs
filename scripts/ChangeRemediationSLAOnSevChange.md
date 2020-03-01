@@ -1,3 +1,8 @@
+---
+id: change-remediation-sla-on-sev-change
+title: Change Remediation SLA On Sev Change
+---
+
 Change the remediation SLA once a change in incident severity occurs.
 This is automatic and changes can be configured to your needs.
 ## Script Data
