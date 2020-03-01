@@ -1,3 +1,8 @@
+---
+id: aws-stop-instance
+title: AWS Stop Instance
+---
+
 Stops an EC2 AWS instance.
 
 ## Script Data
