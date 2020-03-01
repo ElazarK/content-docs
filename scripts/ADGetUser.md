@@ -1,3 +1,8 @@
+---
+id: ad-get-user
+title: AD Get User
+---
+
 Use Active Directory to retrieve detailed information about a user account. The user can be specified by "name", "email" or as an "Active Directory Distinguished Name" (DN).
 If no filter is provided, the result will show all users.
 
