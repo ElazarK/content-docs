@@ -1,3 +1,8 @@
+---
+id: checkpoint-fw-backup-status
+title: Checkpoint FW Backup Status
+---
+
 Connects a Checkpoint firewall appliance using SSH and retrieves the status of backup tasks. The user account that accesses the device must be setup to use the SSH shell and not the built in Checkpoint CLI. Consult the Checkpoint documentation for instructions on how to do this.
 
 ## Script Data
