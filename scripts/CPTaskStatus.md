@@ -1,6 +1,6 @@
 ---
 id: cp-task-status
-title: CP Task Status
+title: CP Task Status (Deprecated)
 ---
 
 `Deprecated`
