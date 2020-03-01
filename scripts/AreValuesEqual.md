@@ -1,3 +1,8 @@
+---
+id: are-values-equal
+title: Are Values Equal
+---
+
 Checks whether the values provided in the arguments are equal. If either of the arguments are missing, "no" is returned.
 
 ## Script Data
