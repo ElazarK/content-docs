@@ -1,3 +1,8 @@
+---
+id: d2-hardware
+title: D2 Hardware
+---
+
 Shows system information.
 ## Script Data
 ---
