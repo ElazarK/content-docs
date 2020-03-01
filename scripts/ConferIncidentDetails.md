@@ -1,3 +1,8 @@
+---
+id: confer-incident-details
+title: Confer Incident Details
+---
+
 Displays the incident details retrieved from Confer in a readable format.
 
 ## Script Data
