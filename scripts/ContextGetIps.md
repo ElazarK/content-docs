@@ -1,3 +1,8 @@
+---
+id: context-get-ips
+title: Context Get IPs
+---
+
 Gets all IP addresses in context, excluding ones given.
 ## Script Data
 ---
