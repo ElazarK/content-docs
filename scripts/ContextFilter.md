@@ -1,3 +1,8 @@
+---
+id: context-filter
+title: Context Filter
+---
+
 Filters context keys by applying one of the various available manipulations and stores a new context key. The resulting context key will not be available automatically but you can still specify it as an option.
 
 ## Script Data
