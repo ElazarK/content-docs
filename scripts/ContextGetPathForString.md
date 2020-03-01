@@ -1,3 +1,8 @@
+---
+id: context-get-path-for-string
+title: Context Get Path For String
+---
+
 Searches for a string in context and returns the context path, it will return null if nothing is found.
 ## Script Data
 ---
