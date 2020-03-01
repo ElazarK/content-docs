@@ -1,3 +1,8 @@
+---
+id: d2-autoruns
+title: D2 Autoruns
+---
+
 Runs `SysInternals Autoruns` when used on a D2 agent on Endpoint.
 
 Used by the server-side script "Autoruns".
