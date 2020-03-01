@@ -1,3 +1,8 @@
+---
+id: aws-createvolume-snapshot
+title: AWS Create Volume Snapshot
+---
+
 Creates a snapshot of an EBS volume and stores it in Amazon S3. Snapshots can be used for backups, to make copies of EBS volumes, and to save data before shutting down an instance.
 
 ## Script Data
