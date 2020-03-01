@@ -1,3 +1,8 @@
+---
+id: checkpoint-fw-create-backup
+title: Checkpoint FW Create Backup
+---
+
 Connects to a Checkpoint firewall appliance using SSH and trigger a task to create a configuration backup of the device. The user account that accesses the device must be setup to use the SSH shell and not the built in Checkpoint CLI. Consult the Checkpoint documentation for instructions on how to do this.
 
 ## Script Data
