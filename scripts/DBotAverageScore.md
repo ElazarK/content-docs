@@ -1,3 +1,8 @@
+---
+id: dbot-average-score
+title: DBot Average Score
+---
+
 Calculates the average score for each indicator from context.
 
 ## Script Data
