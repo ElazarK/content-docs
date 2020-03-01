@@ -1,3 +1,8 @@
+---
+id: abuse-ip-db-populate-indicators
+title: Abuse IP DB Populate Indicators
+---
+
 Extracts blacklisted IP addresses from AbuseIPDB, and populates indicators accordingly.
 
 ## Script Data
