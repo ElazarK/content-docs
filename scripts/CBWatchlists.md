@@ -1,3 +1,8 @@
+---
+id: cb-watchlists
+title: CB Watchlists
+---
+
 Displays all watchlists and their details, queries, etc.
 
 ## Script Data
