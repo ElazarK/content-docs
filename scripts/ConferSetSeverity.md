@@ -1,3 +1,8 @@
+---
+id: confer-set-severity
+title: Confer Set Severity
+---
+
 Sets incident severity according to indicators found in a Confer alert.
 
 ## Script Data
