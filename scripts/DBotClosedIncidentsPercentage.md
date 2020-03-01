@@ -1,3 +1,8 @@
+---
+id: dbot-closed-incidents-percentage
+title: DBot Closed Incidents Percentage
+---
+
 Populates the dashboard pie graph widget with the percentage of incidents closed by DBot vs. incidents closed by analysts.
 
 ## Script Data
