@@ -1,3 +1,7 @@
+---
+id: algosec-create-ticket
+title: Algosec Create Ticket
+---
 Creates a new FireFlow change request. 
 
 ## Script Data
