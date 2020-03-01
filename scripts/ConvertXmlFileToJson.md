@@ -1,3 +1,8 @@
+---
+id: convert-xml-file-to-json
+title: Convert XML File to JSON
+---
+
 Converts a XML file entry into JSON format.
 ## Script Data
 ---
