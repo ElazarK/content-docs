@@ -1,4 +1,9 @@
-Get AWS EC2 instance details.
+---
+id: aws-get-instance-info
+title: AWS Get Instance Info
+---
+
+Gets AWS EC2 instance details.
 
 ## Script Data
 ---
