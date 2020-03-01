@@ -1,3 +1,8 @@
+---
+id: cb-alerts
+title: CB Alerts
+---
+
 Gets the list of alerts from Carbon Black Enterprise Response. This script supports the same arguments as the `cb-alerts` command.
 
 ## Script Data
