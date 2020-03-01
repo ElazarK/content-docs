@@ -1,3 +1,8 @@
+---
+id: ad-list-users
+title: AD List Users  (Deprecated)
+---
+
 `Deprecated`
 
 Retrieve the list of User objects stored in Active Directory. Use the `attributes` argument to include specific attributes in the results. 
