@@ -1,3 +1,8 @@
+---
+id: copy-file-d2
+title: Copy File D2
+---
+
 Copies a file from an entry to the destination path on the specified system. This uses the dissolvable agent's HTTPS communication channel rather than SCP or other out-of-band methods.
 
 Example usage: `!CopyFileD2 destpath=/home/sansforensics/collectedbinaries/inv8_suspiciousPE1.exe.evil entryid=21@8 system=Analyst1`
