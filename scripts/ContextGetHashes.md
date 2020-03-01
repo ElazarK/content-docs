@@ -1,3 +1,8 @@
+---
+id: context-get-hashes
+title: Context Get Hashes
+---
+
 Gets hashes (such as, MD5, SHA1, SHA256) from context.
 ## Script Data
 ---
