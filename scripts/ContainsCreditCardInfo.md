@@ -1,3 +1,8 @@
+---
+id: contains-credit-card-info
+title: Contains Credit Card Info
+---
+
 Checks if a given value is true. If not a "no" will be returned.
 ## Script Data
 ---
