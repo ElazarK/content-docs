@@ -1,3 +1,9 @@
+---
+id: ad-get-email-for-user
+title: AD Get Email For User
+---
+
+
 `Deprecated`
 
 Use Active Directory to retrieve the email address associated with the specified user. The user can be specified by "name", "email" or as an "Active Directory Distinguished Name" (DN).
