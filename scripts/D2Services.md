@@ -1,3 +1,8 @@
+---
+id: d2-services
+title: D2 Services
+---
+
 Shows the systems services.
 
 ## Script Data
