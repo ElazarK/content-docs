@@ -1,3 +1,8 @@
+---
+id: cuckoo-display-report
+title: Cuckoo Display Report
+---
+
 Displays the contents of a Cuckoo report file from a War Room entry.
 ## Script Data
 ---
