@@ -1,3 +1,8 @@
+---
+id: d2-exec
+title: D2 Exec
+---
+
 Executes the command and packs the output back to server.
 
 ## Script Data
