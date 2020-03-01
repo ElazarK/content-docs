@@ -1,3 +1,8 @@
+---
+id: fetch-from-instance
+title: Fetch From Instance
+---
+
 Creates a file (using the given data input or entry ID) and uploads it to the current investigation's War Room.
 
 ## Script Data
