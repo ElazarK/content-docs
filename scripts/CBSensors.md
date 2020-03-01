@@ -1,3 +1,8 @@
+---
+id: cb-sensors
+title: CB Sensors
+---
+
 Returns lists of the Carbon Black sensors.
 
 ## Script Data
