@@ -1,3 +1,8 @@
+---
+id: decode-mime-header
+title: Decode Mime Header
+---
+
 Decodes MIME base64 headers.
 
 ## Script Data
