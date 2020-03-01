@@ -1,3 +1,8 @@
+---
+id: cuckoo-detonate-url
+title: Cuckoo Detonate URL
+---
+
 Detonates a URL in the Cuckoo sandbox.
 ## Script Data
 ---
