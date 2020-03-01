@@ -1,6 +1,6 @@
 ---
 id: ad-get-group-members
-title: AD Get Group Members
+title: AD Get Group Members (Deprecated)
 ---
 
 `Deprecated`
