@@ -1,3 +1,8 @@
+---
+id: default-incident-classifier
+title: Default Incident Classifier
+---
+
 Classifies an incident from mail.
 
 ## Script Data
