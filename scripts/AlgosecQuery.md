@@ -1,3 +1,8 @@
+---
+id: algosec-query
+title: Algosec Query
+---
+
 Performs a batch traffic simulation query using Firewall Analyzer.
 
 ## Script Data
