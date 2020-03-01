@@ -1,3 +1,8 @@
+---
+id: account-enrichment-generic
+title: Account Enrichment Generic.
+---
+
 Enriches accounts using one or more integration.
 
 ## Dependencies
