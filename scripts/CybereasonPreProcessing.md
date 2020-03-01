@@ -1,3 +1,8 @@
+---
+id: cybereason-pre-processing
+title: Cybereason Pre Processing
+---
+
 Checks if the malop was already fetched, and will update the existing incident accordingly. Otherwise, it will create a new incident. Run the pre-processing script when fetching Cybereason malops.
 
 ## Script Data
