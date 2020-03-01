@@ -1,3 +1,8 @@
+---
+id: base64-list-to-file
+title: Base64 List to File
+---
+
 Converts a Base64 file in a list to a binary file and upload it to the War Room.
 
 ## Script Data
