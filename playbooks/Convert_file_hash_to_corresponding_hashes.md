@@ -1,3 +1,8 @@
+---
+id: convert-file-hash-to-corresponding-hashes
+title: Convert File Hash to Corresponding Hashes
+---
+
 Gets all of the corresponding hashes for a file even if there is only one hash type available.
 For example, if we have only the SHA256 hash, the playbook will get the SHA1 hash and MD5 hash as long as the
 original searched hash is recognized by any our the threat intelligence integrations.
