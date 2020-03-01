@@ -1,3 +1,8 @@
+---
+id: cy-file-rep
+title: CY File Rep
+---
+
 Retrieves a file's reputation and upload the file if required for analysis.
 
 ## Script Data
