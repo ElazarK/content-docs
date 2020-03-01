@@ -1,3 +1,8 @@
+---
+id: demisto-get-incident-tasks-by-state
+title: Demisto Get Incident Tasks by State
+---
+
 Gets all tasks for a specific incident by the given state.
 
 ## Script Data
