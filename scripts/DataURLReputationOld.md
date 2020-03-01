@@ -1,4 +1,10 @@
+---
+id: data-url-reputation-old
+title: Data URL Reputation Old
+---
+
 Evaluates the reputation of a URL and returns a score between 0 and 3. Where, 0 - unknown, 1 - known good, 2 - suspicious, 3 - known bad. If the indicator reputation was manually set, the manual value will be returned.
+
 ## Script Data
 ---
 
