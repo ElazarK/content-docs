@@ -1,3 +1,8 @@
+---
+id: cuckoo-task-status
+title: Cuckoo Task Status
+---
+
 Checks the current status of a task in Cuckoo sandbox.
 
 ## Script Data
