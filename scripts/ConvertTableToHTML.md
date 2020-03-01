@@ -1,3 +1,8 @@
+---
+id: convert-table-to-html
+title: Convert Table To HTML
+---
+
 Converts an array in to a HTML table.
 ## Script Data
 ---
