@@ -1,3 +1,8 @@
+---
+id: cve-reputation
+title: CVE Reputation
+---
+
 Provides the severity of the CVE based on the CVSS score if it is available.
 ## Script Data
 ---
