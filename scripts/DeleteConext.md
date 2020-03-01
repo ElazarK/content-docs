@@ -1,3 +1,8 @@
+---
+id: delete-conext
+title: Delete Conext
+---
+
 Deletes fields from context.
 
 ## Script Data
