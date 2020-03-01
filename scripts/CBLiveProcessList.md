@@ -1,3 +1,8 @@
+---
+id: cb-live-process-list
+title: CB Live Process List
+---
+
 Runs a `process list` command on a remote Carbon Black sensor.
 
 ## Script Data
