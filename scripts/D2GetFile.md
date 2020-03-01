@@ -1,3 +1,8 @@
+---
+id: d2-get-file
+title: D2 Get File
+---
+
 Gets a file from a system using a D2 agent.
 
 ## Script Data
