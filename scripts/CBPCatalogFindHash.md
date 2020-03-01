@@ -1,4 +1,9 @@
-Searches the CBP/Bit9 file catalog for an MD5 file hash.
+---
+id: cbp-catalog-find-hash
+title: CBP Catalog Find Hash
+---
+
+Searches the CBP/Bit9 file catalog for an MD5 hash of a file.
 
 ## Script Data
 ---
@@ -19,7 +24,7 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| md5 | The MD5 file hash to find. |
+| md5 | The MD5 hash of a file to find. |
 
 ## Outputs
 ---
