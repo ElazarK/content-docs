@@ -5,7 +5,7 @@ title: AD Is User Member  (Deprecated)
 
 `Deprecated`
 
-Use Active Directory to check to see if the specified user is a member of the specified group. A simple yes or no answer will be returned. The user can be specified by name, email or as an Active Directory Distinguished Name (DN).
+Checks to see if the specified user is a member of the specified group. A simple yes or no answer will be returned. The user can be specified by name, email or as an Active Directory Distinguished Name (DN).
 
 ## Script Data
 ---
