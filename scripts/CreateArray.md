@@ -1,3 +1,8 @@
+---
+id: create-array
+title: Create Array
+---
+
 Creates an array object in context from a given string's input. 
 ## Script Data
 ---
