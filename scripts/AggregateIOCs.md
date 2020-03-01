@@ -1,3 +1,8 @@
+---
+id: aggregate-iocs
+title: Aggregate IOCs (Deprecated)
+---
+
 `Deprecated`
 
 Use this script to aggregate several context items for IOCs into a single list.
