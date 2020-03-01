@@ -1,3 +1,8 @@
+---
+id: cb-events
+title: CB Events
+---
+
 Returns all events associated with a process query.
 
 ## Script Data
