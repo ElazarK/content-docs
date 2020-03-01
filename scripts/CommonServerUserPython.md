@@ -1,3 +1,8 @@
+---
+id: common-server-user-python
+title: Common Server User Python
+---
+
 Merges common user defined code into each server script when it runs.
 
 ## Script Data
