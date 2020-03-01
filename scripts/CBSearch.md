@@ -1,3 +1,8 @@
+---
+id: cb-search
+title: CB Search (Deprecated)
+---
+
 `Deprecated`
 
 Uses the `cb-binary` command and `cb-get-processes` command.
