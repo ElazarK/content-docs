@@ -1,3 +1,8 @@
+---
+id: d2-pe-dump
+title: D2 PE Dump
+---
+
 Executes a PE Dump on a file that is under /tmp path (relative). This is used internally by StaticAnalyze.
 ## Script Data
 ---
