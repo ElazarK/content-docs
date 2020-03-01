@@ -1,3 +1,8 @@
+---
+id: analyze-osx
+title: Analyze OSX
+---
+
 Uses this script to get file and URL reputation for osxcollector result.
 
 This script will use `VirusTotal` for URL checks, and IBM XForce for MD5 file hash checks.
