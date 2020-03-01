@@ -1,3 +1,8 @@
+---
+id: binary-search-py
+title: Binary Search Py
+---
+
 Searches for a binary on an endpoint using Carbon Black.
 
 ## Script Data
