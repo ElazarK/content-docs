@@ -1,3 +1,8 @@
+---
+id: common-user-server
+title: Common User Server
+---
+
 Merges common user defined code into each server script when it runs.
 
 ## Script Data
