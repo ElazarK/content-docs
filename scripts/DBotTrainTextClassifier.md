@@ -1,3 +1,8 @@
+---
+id: dbot-train-text-classifier
+title: DBot Train Text Classifier
+---
+
 Creates a text classifier model using machine learning.
 Each line of the text file is sample data, and it has to have a tag.
 
