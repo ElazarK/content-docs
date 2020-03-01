@@ -1,3 +1,8 @@
+---
+id: check-sender
+title: Check Sender
+---
+
 Checks the sender of the email via a `Pipl` search. Use this script for phishing incidents.
 ## Script Data
 ---
