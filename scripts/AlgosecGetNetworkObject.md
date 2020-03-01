@@ -1,3 +1,8 @@
+---
+id: algosec-get-network-object
+title: Algosec Get Network Object
+---
+
 Finds network objects related to the IP address.
 ## Script Data
 ---
@@ -18,7 +23,7 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| address | The IPaddress/Subnet to search. |
+| address | The IP address/Subnet to search. |
 | type | The search method for the address. The default is INTERSECT. |
 
 ## Outputs
