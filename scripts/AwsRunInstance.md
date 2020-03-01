@@ -1,3 +1,8 @@
+---
+id: aws-run-instance
+title: AWS Run Instance
+---
+
 Creates an EC2 AWS instances from an image.
 ## Script Data
 ---
