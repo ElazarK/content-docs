@@ -1,3 +1,8 @@
+---
+id: cuckoo-get-report
+title: Cuckoo Get Report
+---
+
 Gets the report of a completed analysis.
 ## Script Data
 ---
