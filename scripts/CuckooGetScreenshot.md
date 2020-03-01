@@ -1,3 +1,8 @@
+---
+id: cuckoo-get-screenshot
+title: Cuckoo-Get-Screenshot
+---
+
 Retrieves screenshots taken during a task analysis
 
 ## Script Data
