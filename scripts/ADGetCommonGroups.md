@@ -1,6 +1,6 @@
 ---
 id: ad-get-common-groups
-title: AD Get Common Groups
+title: AD Get Common Groups (Deprecated)
 ---
 
 
