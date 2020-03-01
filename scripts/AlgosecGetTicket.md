@@ -1,4 +1,10 @@
+---
+id: algosec-get-ticket
+title: Algosec Get Ticket
+---
+
 Retrieves a FireFlow change request by its ID.
+
 ## Script Data
 ---
 
