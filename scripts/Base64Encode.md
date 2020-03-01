@@ -1,3 +1,7 @@
+---
+id: base64-encode
+title: Base64 Encode
+---
 Encodes an input using Base64 format.
 
 ## Script Data
