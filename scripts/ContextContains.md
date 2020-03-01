@@ -1,3 +1,8 @@
+---
+id: context-contains
+title: Context Contains
+---
+
 Searches for a value in a context path.
 
 ## Script Data
