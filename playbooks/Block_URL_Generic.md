@@ -1,3 +1,8 @@
+---
+id: block-url-generic
+title: Block URL Generic
+---
+
 Blocks malicious URLs using all integrations that are enabled.
 
 Supported integrations for this playbook:
