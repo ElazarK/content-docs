@@ -1,4 +1,11 @@
-Counts an array size.
+---
+id: count-array-size
+title: Count Array Size
+---
+
+Counts an array's size.
+
+
 ## Script Data
 ---
 
