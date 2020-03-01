@@ -1,3 +1,9 @@
+---
+id: ad-get-computer
+title: AD Get Computer
+---
+
+
 `Deprecated` 
 
 Use the `ad-get-computer` command in the Active Directory Query v2 instead.
