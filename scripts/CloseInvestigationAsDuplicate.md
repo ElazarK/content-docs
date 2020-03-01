@@ -1,3 +1,8 @@
+---
+id: close-investigation-as-duplicate
+title: Close Investigation as Duplicate
+---
+
 Closes the current investigation as a duplicate to another investigation.
 ## Script Data
 ---
