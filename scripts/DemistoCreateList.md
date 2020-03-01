@@ -1,3 +1,8 @@
+---
+id: demisto-create-list
+title: Demisto Create List
+---
+
 Creates a new list.
 
 ## Script Data
