@@ -1,3 +1,8 @@
+---
+id: cb-live-fetch-files
+title: CB Live Fetch Files
+---
+
 Fetches all of the files from the endpoints where they were found using Carbon Black Live.
 
 ## Script Data
