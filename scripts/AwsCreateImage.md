@@ -1,3 +1,8 @@
+---
+id: aws-create-image
+title: AWS Create Image
+---
+
 Creates an Amazon EBS-backed AMI from an Amazon EBS-backed instance that is either running or stopped.
 
 ## Script Data
