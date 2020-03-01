@@ -1,3 +1,8 @@
+---
+id: d2-reg-query
+title: D2 Reg Query
+---
+
 Retrieves the value of the given registry key.
 
 ## Script Data
