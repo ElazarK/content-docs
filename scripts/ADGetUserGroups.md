@@ -5,7 +5,7 @@ title: AD Get User Groups (Deprecated)
 
 `Deprecated`
 
-Use Active Directory to retrieve the groups in which the specified user is a member. The user can be specified by "name", "email" or as an "Active Directory Distinguished Name" (DN).
+Retrieves the groups in which the specified user is a member. The user can be specified by "name", "email" or as an "Active Directory Distinguished Name" (DN).
 
 ## Script Data
 ---
