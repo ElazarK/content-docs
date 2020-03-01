@@ -1,3 +1,8 @@
+---
+id: ad-user-logon-info
+title: AD User Logon Info (Deprecated)
+---
+
 `Deprecated`
 
 Use Active Directory to retrieve detailed information about a user account. The user can be specified by name, email or as an Active Directory Distinguished Name (DN).
