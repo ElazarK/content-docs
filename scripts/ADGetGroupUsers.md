@@ -1,3 +1,8 @@
+---
+id: ad-get-group-users
+title: AD Get Group Users
+---
+
 `Deprecated`
 
 Use Active Directory to retrieve the list of users who are members of the specified group. Group must be given by its AD Distinguished Name. The `attributes` argument receives a comma-separated list of additional attributes you wish to be displayed in the results.
