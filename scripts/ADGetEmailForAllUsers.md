@@ -1,6 +1,6 @@
 ---
 id: ad-get-email-for-all-users
-title: AD Get Email For All Users
+title: AD Get Email For All Users (Deprecated)
 ---
 
 `Deprecated`
