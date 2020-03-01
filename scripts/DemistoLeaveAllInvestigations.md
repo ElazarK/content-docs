@@ -1,3 +1,8 @@
+---
+id: demisto-leave-all-investigations
+title: Demisto Leave All Investigations
+---
+
 Leaves all investigations that the user is part of (clears out the incidents in the left pane). The incidents owner by the user will remain in the left pane. This requires Demisto REST API integration to be configured for the server.
 ## Script Data
 ---
