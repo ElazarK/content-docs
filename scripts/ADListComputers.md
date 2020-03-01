@@ -1,3 +1,9 @@
+---
+id: ad-list-computers
+title: AD List Computers  (Deprecated)
+---
+
+
 `Deprecated`
 
 Retrieve the list of computer objects stored in Active Directory. Use the `attributes` argument to include specific attributes in the results. 
