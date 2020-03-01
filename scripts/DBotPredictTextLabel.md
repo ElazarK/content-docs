@@ -1,3 +1,8 @@
+---
+id: dbot-predict-text-label
+title: DBot Predict Text Label
+---
+
 Predicts the text label using pre-trained machine learning phishing model.
 Note: The training playbook must run successfully first.
 
