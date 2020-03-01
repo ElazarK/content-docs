@@ -5,7 +5,7 @@ title: AD Get Computer Groups (Deprecated)
 
 `Deprecated`
 
-Use Active Directory to retrieve the groups in which the specified computer is a member. The member computer can be specified by name or by DN.
+Retrieves the groups in which the specified computer is a member. The member computer can be specified by name or by DN.
 
 ## Script Data
 ---
