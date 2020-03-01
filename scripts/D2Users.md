@@ -1,3 +1,8 @@
+---
+id: d2-users
+title: D2 Users
+---
+
 Shows local accounts.
 
 ## Script Data
