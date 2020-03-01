@@ -1,3 +1,8 @@
+---
+id: demisto-link-incidents
+title: Demisto Link Incidents
+---
+
 Links two or more incidents.
 
 ## Script Data
