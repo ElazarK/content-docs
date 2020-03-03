@@ -1,3 +1,8 @@
+---
+id: extract-domain-old
+title: Extract Domain Old
+---
+
 Extracts Domains from the given text and places both of them as output and in the context of a playbook. If an object is given, it will convert it to JSON.
 
 ## Script Data
