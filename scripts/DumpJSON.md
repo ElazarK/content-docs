@@ -1,4 +1,9 @@
-Dumps a json from the context key input, and returns a json object string result.
+---
+id: design-best-practices
+title: Dump JSON
+---
+
+Dumps a JSON from the context key input, and returns a JSON object string result.
 
 ## Script Data
 ---
@@ -14,7 +19,7 @@ Dumps a json from the context key input, and returns a json object string result
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| key | The context path to the json object. |
+| key | The context path to the JSON object. |
 
 ## Outputs
 ---
