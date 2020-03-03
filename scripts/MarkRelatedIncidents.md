@@ -1,3 +1,8 @@
+---
+id: mark-related-incidents
+title: Mark Related Incidents
+---
+
 Marks given incidents as related, to the current incident.
 
 ## Script Data
