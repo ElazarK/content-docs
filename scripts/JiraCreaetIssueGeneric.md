@@ -1,4 +1,10 @@
+---
+id: jira-creaet-issue-generic
+title: JIRA Creaet Issue Generic
+---
+
 Simplifies the process of creating a new issue in Jira. Fields can be added in the record as script arguments and or in the code, and have a newly created issue easily.
+
 ## Script Data
 ---
 
