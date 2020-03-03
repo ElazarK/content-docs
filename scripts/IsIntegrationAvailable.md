@@ -1,3 +1,8 @@
+---
+id: is-integration-available
+title: Is Integration Available
+---
+
 Returns "yes" if the integration brand is available. Otherwise it will return "no".
 
 ## Script Data
