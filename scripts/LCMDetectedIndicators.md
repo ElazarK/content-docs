@@ -1,3 +1,8 @@
+---
+id: lcm-detected-indicators
+title: LCM Detected Indicators
+---
+
 Shows detected indicators from LightCyber Magna.
 
 ## Script Data
