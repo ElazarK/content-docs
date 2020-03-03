@@ -1,3 +1,8 @@
+---
+id: intezer-run-scanner
+title: Intezer Run Scanner
+---
+
 Runs the Intezer Endpoint Analysis scanner.
 ## Script Data
 ---
