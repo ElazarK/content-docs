@@ -1,6 +1,12 @@
+---
+id: imp-sf-schedule-task
+title: Imp Sf Schedule Task
+---
+
 Creates a schedule task that's called `ImpSfRevokeUnaccessedDevices`.
 Gets all of a device's data from the server. If a device hasn't been accessed in over two months (and is still managed), the script will send the corresponding user a warning mail.
 If the device hasn't been accessed in over three months, the script will revoke the device credentials and notify the user by mail.
+
 ## Script Data
 ---
 
