@@ -1,3 +1,8 @@
+---
+id: is-malicious-indicator-found
+title: Is Malicious Indicator Found
+---
+
 Checks if the investigation found any malicious indicators (file, URL, IP address, domain, or email). It will returns "yes" if at least one malicious indicator is found.
 
 ## Script Data
