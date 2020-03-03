@@ -1,3 +1,8 @@
+---
+id: ip-to-host
+title: IPToHost
+---
+
 Gets the hostname correlated with the inputed IP address.
 
 ## Script Data
@@ -6,7 +11,7 @@ Gets the hostname correlated with the inputed IP address.
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
