@@ -1,4 +1,10 @@
+---
+id: google-auth-url
+title: Google Auth URL
+---
+
 Generates a Google authorized URL to authenticate a given list of scopes.
+
 ## Script Data
 ---
 
