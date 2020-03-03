@@ -1,3 +1,8 @@
+---
+id: incap-get-domain-approver-email
+title: Incap Get Domain Approver Email
+---
+
 Gets the list of email addresses that can be used when adding an SSL site.
 ## Script Data
 ---
