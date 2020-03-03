@@ -1,3 +1,8 @@
+---
+id: incap-get-app-info
+title: Incap Get App Info
+---
+
 Retrieves a list of all the clients applications.
 ## Script Data
 ---
