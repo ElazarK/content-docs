@@ -1,3 +1,8 @@
+---
+id: incap-list-sites
+title: Incap List Sites
+---
+
 Lists the sites for an account.
 
 ## Script Data
