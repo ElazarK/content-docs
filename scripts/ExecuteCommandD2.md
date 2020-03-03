@@ -1,3 +1,8 @@
+---
+id: execute-command-d2
+title: Execute Command D2
+---
+
 Runs a D2 built-in command on a D2 agent.
 
 ## Script Data
