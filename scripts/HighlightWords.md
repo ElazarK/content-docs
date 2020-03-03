@@ -1,3 +1,8 @@
+---
+id: highlight-words
+title: Highlight Words
+---
+
 Highlights words inside a given text.
 
 ## Script Data
@@ -6,7 +11,7 @@ Highlights words inside a given text.
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
