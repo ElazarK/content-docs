@@ -1,3 +1,8 @@
+---
+id: fire-eye-detonate-file
+title: Fire Eye Detonate File
+---
+
 Detonates a file or URL through FireEye.
 
 ## Script Data
