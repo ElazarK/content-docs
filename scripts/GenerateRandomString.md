@@ -1,3 +1,8 @@
+---
+id: generate-random-string
+title: Generate Random String
+---
+
 Generates a random string.
 
 ## Script Data
@@ -6,7 +11,7 @@ Generates a random string.
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
