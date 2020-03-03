@@ -1,3 +1,8 @@
+---
+id: link-incidents-with-retry
+title: Link Incidents With Retry
+---
+
 Avoids DB version errors when simultaneously running multiple linked incidents.
 
 ## Script Data
