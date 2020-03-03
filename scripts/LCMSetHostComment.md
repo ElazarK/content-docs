@@ -1,3 +1,8 @@
+---
+id: lcm-set-host-comment
+title: LCM Set Host Comment
+---
+
 Changes a hosts comment in LightCyber Magna.
 
 ## Script Data
