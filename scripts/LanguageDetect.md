@@ -1,3 +1,8 @@
+---
+id: language-detect
+title: Language Detect
+---
+
 Detects language based on Google's language-detection.
 ## Script Data
 ---
