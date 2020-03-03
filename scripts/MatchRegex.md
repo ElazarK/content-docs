@@ -1,4 +1,10 @@
+---
+id: match-regex
+title: Match Regex
+---
+
 Extracts regex data from a given text. This supports groups and looping as well.
+
 ## Script Data
 ---
 
