@@ -1,3 +1,8 @@
+---
+id: example-js-script
+title: Example JS Script
+---
+
 Showcases how to use and write JavaScript scripts. (This is only an example script.)
 ## Script Data
 ---
