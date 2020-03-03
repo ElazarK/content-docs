@@ -1,3 +1,8 @@
+---
+id: incident-add-system
+title: Incident AddS ystem
+---
+
 Adds a remote system (such as a desktop under investigation) to an investigation. This allows you to install an agent on the system.
 
 ## Script Data
