@@ -1,3 +1,8 @@
+---
+id: get-strings-distance
+title: Get Strings Distance
+---
+
 Gets the string distance between `inputString` and `compareString` (can be a comma separated list) based on the Levenshtein Distance algorithm.
 
 ## Script Data
