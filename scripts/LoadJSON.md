@@ -1,3 +1,8 @@
+---
+id: load-json
+title: Load JSON
+---
+
 Loads a JSON from a string input, and returns a JSON object result.
 
 ## Script Data
