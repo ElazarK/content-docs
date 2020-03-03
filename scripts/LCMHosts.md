@@ -1,3 +1,8 @@
+---
+id: lcm-hosts
+title: LCM Hosts
+---
+
 Shows hosts from LightCyber Magna. When searching for a specific host, specify either a name or an IP address. Otherwise, all hosts will be listed.
 
 ## Script Data
