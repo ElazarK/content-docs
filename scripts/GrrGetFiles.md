@@ -1,3 +1,8 @@
+---
+id: grr-get-files
+title: Grr Get Files
+---
+
 Downloads files from a specified machine without requiring approval.
 
 ## Script Data
