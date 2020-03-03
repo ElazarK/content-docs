@@ -1,4 +1,10 @@
+---
+id: failed-instances
+title: Failed Instances
+---
+
 Executes a test for all integration instances available and returns a detailed table with information about any failed integration instances.
+
 ## Script Data
 ---
 
