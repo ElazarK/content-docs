@@ -1,3 +1,8 @@
+---
+id: lcm-detected-entities
+title: LCM Detected Entities
+---
+
 Shows detected entities from LightCyber Magna.
 
 ## Script Data
