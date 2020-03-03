@@ -1,3 +1,8 @@
+---
+id: is-greater-than
+title: Is Greater Than
+---
+
 Checks if one number (float) is bigger than the other (float).
 Returns yes: if the first > second.
 Returns no: if first <= second.
