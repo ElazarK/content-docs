@@ -1,3 +1,8 @@
+---
+id: is-true
+title: Is True
+---
+
 Checks if a given value is true. Will return "no" otherwise.
 
 ## Script Data
