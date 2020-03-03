@@ -1,3 +1,8 @@
+---
+id: lcm-resolve-host
+title: LCM Resolve Host
+---
+
 Marks a host as resolved in LightCyber Magna. If you attempt to resolve a host that isn't in the detected entities list or if the host is already resolved, an error will be returned. "Unresolve" can be used to change this property back.
 
 ## Script Data
