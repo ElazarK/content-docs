@@ -1,3 +1,8 @@
+---
+id: is-email-address-internal
+title: Is Email Address Internal
+---
+
 Checks if the email address is part of the internal domain.
 
 ## Script Data
