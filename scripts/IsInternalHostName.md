@@ -1,3 +1,8 @@
+---
+id: is-internal-host-name
+title: Is Internal Host Name
+---
+
 Checks if the supplied hostnames match either the organization's internal naming convention or the domain suffix.
 
 ## Script Data
@@ -15,8 +20,8 @@ Checks if the supplied hostnames match either the organization's internal naming
 | **Argument Name** | **Description** |
 | --- | --- |
 | hostName | A comma-separated list of hostnames to check. |
-| internalRegex | The regex pattern for the organization's hostname for example wwwd$|www$. for hosts that look like pcx1 or pcx. |
-| domainName | The domain name for the organization. For a single domain use this format: "bla.com". For multiple domains use this format: (bla<span>.com|blabla<span>.com), where the pipe and the brackets are the OR condition for regex. |
+| internalRegex | The regex pattern for the organization's hostname for example wwwd$\|www$. for hosts that look like pcx1 or pcx. |
+| domainName | The domain name for the organization. For a single domain use this format: "bla.com". For multiple domains use this format: (bla<span>.com\|blabla<span>.com), where the pipe and the brackets are the OR condition for regex. |
 
 ## Outputs
 ---
