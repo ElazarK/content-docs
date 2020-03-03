@@ -1,3 +1,8 @@
+---
+id: esm-example
+title: Esm Example
+---
+
 Examples of using McAfee ESM (Nitro) with advanced filters.
 
 ## Script Data
