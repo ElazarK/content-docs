@@ -1,4 +1,10 @@
+---
+id: generate-summary-reports
+title: Generate Summary Reports
+---
+
 Generates a report summary for past incidents.
+
 ## Script Data
 ---
 
