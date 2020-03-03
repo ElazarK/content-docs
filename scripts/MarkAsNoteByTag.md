@@ -1,3 +1,8 @@
+---
+id: mark-as-note-by-tag
+title: Mark As Note By Tag
+---
+
 Marks entries as notes if they are tagged with a given tag.
 
 ## Script Data
