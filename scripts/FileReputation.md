@@ -1,3 +1,8 @@
+---
+id: file-reputation
+title: File Reputation
+---
+
 A context script for hash entities.
 
 ## Script Data
