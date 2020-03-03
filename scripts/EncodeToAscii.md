@@ -11,7 +11,7 @@ Returns inputed text data that will be encoded into ASCII. This ignores any char
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
