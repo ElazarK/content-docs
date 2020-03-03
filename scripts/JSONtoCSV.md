@@ -1,3 +1,8 @@
+---
+id: json-to-csv
+title: JSON to CSV
+---
+
 Converts a JSON War Room output via EntryID into a CSV file.
 ## Script Data
 ---
@@ -5,7 +10,7 @@ Converts a JSON War Room output via EntryID into a CSV file.
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
