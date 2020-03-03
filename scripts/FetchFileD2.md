@@ -1,3 +1,8 @@
+---
+id: fetch-file-d2
+title: Fetch File D2
+---
+
 Gets a File from using a D2 agent.
 
 ## Script Data
