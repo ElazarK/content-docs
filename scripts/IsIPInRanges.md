@@ -1,3 +1,8 @@
+---
+id: is-ip-in-ranges
+title: Is IP In Ranges
+---
+
 Returns "yes" if the IP address is within one of the ranges provided. Otherwise it will return "no".
 
 ## Script Data
