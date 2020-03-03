@@ -1,0 +1,30 @@
+---
+id: cve-latest
+title: CVE Latest (Deprecated)
+---
+
+`Deprecated`
+
+Displays the latest updated CVE entries.
+
+## Script Data
+---
+
+| **Name** | **Description** |
+| --- | --- |
+| Script Type | javascript |
+| Tags | cve |
+| Demisto Version | 0.0.0 |
+
+## Dependencies
+---
+This script uses the following commands and scripts.
+* cve-latest
+
+## Inputs
+---
+There are no inputs for this script.
+
+## Outputs
+---
+There are no outputs for this script.
