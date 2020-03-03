@@ -1,3 +1,9 @@
+---
+id: exchange-search-mailbox
+title: Exchange Search Mailbox
+---
+
+
 Searches all mailboxes on an Exchange server and copies the results to a specified target mailbox. This script runs through the agent on a Windows machine, and pulls and executes a `PowerShell` script - which talks to the Exchange server.
 
 ## Script Data
