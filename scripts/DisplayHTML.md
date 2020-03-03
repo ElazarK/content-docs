@@ -1,3 +1,8 @@
+---
+id: display-html
+title: Display HTML
+---
+
 Displays HTML in the War Room.
 
 ## Script Data
