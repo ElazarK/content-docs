@@ -1,3 +1,8 @@
+---
+id: domain-reputation
+title: Domain Reputation
+---
+
 A context script for domain entities.
 
 ## Script Data
