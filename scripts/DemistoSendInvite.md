@@ -1,4 +1,10 @@
+---
+id: demisto-send-invite
+title: Demisto Send Invite
+---
+
 Sends an invitation to join Demisto.
+
 ## Script Data
 ---
 
