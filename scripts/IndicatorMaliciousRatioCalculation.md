@@ -1,3 +1,8 @@
+---
+id: indicator-malicious-ratio-calculation
+title: Indicator Malicious Ratio Calculation
+---
+
 Returns indicators that appear under resolved incidents, and resolved incident IDs.
 ## Script Data
 ---
