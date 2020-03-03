@@ -1,3 +1,8 @@
+---
+id: lcm-indicators-for-entity
+title: LCM Indicators For Entity
+---
+
 Shows detected indicators pertaining to a specific host from LightCyber Magna.
 
 ## Script Data
