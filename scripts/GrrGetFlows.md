@@ -1,3 +1,8 @@
+---
+id: grr-get-flows
+title: Grr Get Flows
+---
+
 Lists flows launched on a given client.
 
 ## Script Data
