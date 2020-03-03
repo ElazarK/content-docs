@@ -3,7 +3,7 @@ id: join-if-single-element-only
 title: Join If Single Element Only
 ---
 
-Returns the single element in a situation where an array has only 1 element in it, otherwise return the whole array
+Returns the single element in a situation where an array has only 1 element in it, otherwise return the whole array.
 
 ## Script Data
 ---
