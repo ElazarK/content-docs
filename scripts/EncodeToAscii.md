@@ -1,3 +1,8 @@
+---
+id: encode-to-ascii
+title: Encode To Ascii
+---
+
 Returns inputed text data that will be encoded into ASCII. This ignores any chars that can't be interpreted as ASCII.
 
 ## Script Data
