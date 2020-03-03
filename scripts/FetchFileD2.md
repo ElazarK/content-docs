@@ -11,7 +11,7 @@ Gets a File from using a D2 agent.
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | javascript |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
