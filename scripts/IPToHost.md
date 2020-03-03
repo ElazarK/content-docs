@@ -1,6 +1,6 @@
 ---
 id: ip-to-host
-title: IPToHost
+title: IP To Host
 ---
 
 Gets the hostname correlated with the inputed IP address.
