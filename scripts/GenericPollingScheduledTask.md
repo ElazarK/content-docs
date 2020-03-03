@@ -1,3 +1,8 @@
+---
+id: generic-polling-scheduled-task
+title: Generic Polling Scheduled Task
+---
+
 Runs the polling command repeatedly and completes a blocking manual task when polling is done.
 ## Script Data
 ---
@@ -5,7 +10,7 @@ Runs the polling command repeatedly and completes a blocking manual task when po
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | javascript |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
