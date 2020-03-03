@@ -1,3 +1,8 @@
+---
+id: export-to-csv
+title: Export To CSV
+---
+
 Exports a given array to a CSV file.
 ## Script Data
 ---
