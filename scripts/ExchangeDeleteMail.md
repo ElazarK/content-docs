@@ -1,4 +1,10 @@
+---
+id: exchange-delete-mail
+title: Exchange Delete Mail
+---
+
 Searches all mailboxes on an Exchange server for a query and deletes all the messages which satisfy the query. This script runs through the agent on a Windows machine, it pulls and executes a `PowerShell` script, which talks to the Exchange server.
+
 ## Script Data
 ---
 
