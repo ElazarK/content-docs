@@ -3,7 +3,7 @@ id: check-value
 title: Check Value
 ---
 
-Gets a value and returns it. Use this in a playbook conditional tasks. Get a value from incident field, label or context, and act accordingly. 
+Gets a value and returns it. Use this in playbook conditional tasks. Get a value from incident field, label or context, and act accordingly. 
 If an array is returned. the first value will be the decision making value.
 
 ## Script Data
