@@ -1,3 +1,8 @@
+---
+id: malicious-ratio-reputation
+title: Malicious Ratio Reputation
+---
+
 Sets the indicators reputation to "suspicious" when the malicious ratio is above the threshold.
 The malicious ratio is the ration between the number of "bad" incidents to the total number of incidents the indicator appears in.
 
