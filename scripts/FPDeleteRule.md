@@ -1,3 +1,8 @@
+---
+id: fp-delete-rule
+title: FP Delete Rule
+---
+
 Generates a password and allows various parameters to customize the properties of the password depending on the use case. For example, password complexity requirements.  The default behavior is to generate a password of  *random length* including all four character classes (upper, lower, digits, symbols) with at least five and at most ten characters per class. 
 
 The `min_*` values all default to 0. This means that if the command is executed in this way:
