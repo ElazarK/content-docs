@@ -1,3 +1,8 @@
+---
+id: lcm-path-finder-scan-host
+title: Integration Design Best Practices
+---
+
 Scans a host using LightCyber Magna's "PathFinder" agent ("Pathfinder OnDemand").
 
 On demand pathfinder scans are performed after a host is suspected (this is automatic by Magna, however, an external factor from Magna can cause suspicion). 
