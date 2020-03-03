@@ -1,3 +1,8 @@
+---
+id: demisto-logs-bundle
+title: Demisto Logs Bundle
+---
+
 Gets the Demisto Log Bundle to the War Room.
 
 ## Script Data
