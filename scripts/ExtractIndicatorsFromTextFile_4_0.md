@@ -1,3 +1,8 @@
+---
+id: extract-indicators-from-text-file-4.0
+title: Extract Indicators From Text File 4.0
+---
+
 Extracts indicators from a text-based file.
 
 Indicators that can be extracted:
