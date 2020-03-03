@@ -1,3 +1,8 @@
+---
+id: expose-incident-owner
+title: Expose Incident Owner
+---
+
 Exposes the incident owner into `IncidentOwner` context key.
 
 ## Script Data
