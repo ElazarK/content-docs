@@ -1,3 +1,8 @@
+---
+id: fp-set-rule
+title: FP Set Rule
+---
+
 Adds (or updates an existing) rule in Forcepoint Triton. Preserves orders of rules and modifies policy in-place if a rule exists with the exact type and value.
 
 ## Script Data
