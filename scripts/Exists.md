@@ -1,3 +1,8 @@
+---
+id: exists
+title: Exists
+---
+
 Checks if a given value exists in the context. The script will return "no" for an empty arrays. This script should be used mostly with DQ and selectors.
 
 ## Script Data
