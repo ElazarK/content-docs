@@ -1,3 +1,8 @@
+---
+id: extract-html-tables
+title: Extract HTML Tables
+---
+
 Finds tables inside HTML and extract the contents into objects using the following logic:
 - If the table has a single column, just create an array of strings from the values.
 - If the table has 2 columns and has no header row, treat the first column as the key and the second column as the value and create a table for the key/value.
