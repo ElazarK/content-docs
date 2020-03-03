@@ -1,3 +1,8 @@
+---
+id: math-util
+title: Math Util
+---
+
 Runs the provided mathematical action on 2 provided values and produce a result.
 The result can be stored on the context using the `contextKey` argument.
 
