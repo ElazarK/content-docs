@@ -11,7 +11,7 @@ Executes a test for all integration instances available and returns a detailed t
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | javascript |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 4.0.0 |
 
 ## Inputs
