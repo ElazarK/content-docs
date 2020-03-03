@@ -1,3 +1,7 @@
+---
+id: email-ask-user-to-v3.6.0
+title: Email Ask User To V3.6.0
+
 Asks a user a question via email and process the reply directly into the investigation.
 
 ## Script Data
