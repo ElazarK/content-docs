@@ -1,3 +1,8 @@
+---
+id: ip-reputation
+title: IP Reputation
+---
+
 A context script for IP address entities.
 
 ## Script Data
