@@ -1,3 +1,8 @@
+---
+id: epo-find-system
+title: EPO Find System
+---
+
 Returns system information.
 
 ## Script Data
