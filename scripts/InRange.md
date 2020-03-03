@@ -1,3 +1,8 @@
+---
+id: in-range
+title: In Range
+---
+
 Checks if the left side is in range of the right side (from,to anotation).
 
 Example - InRange left=4right=1,8 will return true
