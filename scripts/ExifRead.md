@@ -1,4 +1,10 @@
+---
+id: exif-read
+title: Exif Read
+---
+
 Reads an image file's metadata and provides `Exif` tags.
+
 ## Script Data
 ---
 
