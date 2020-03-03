@@ -1,3 +1,8 @@
+---
+id: incap-whitelist-compliance
+title: Incap Whitelist Compliance
+---
+
 Gets all sites from Incapsula.
 Each site will be returned through a ssh server (which should not be on the whitelist), to ensure that the site is compliant and that the whitelist is being enforced. If the site is not compliant , a warning mail will be sent to the domain owner. 
  
