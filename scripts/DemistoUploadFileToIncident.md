@@ -1,3 +1,8 @@
+---
+id: demisto-upload-file-to-incident
+title: Demisto Upload File To Incident
+---
+
 Copies a file from an incident to the specified incident. The file is uploaded as an attachment to the specified incident's summary page, and recorded as an entry in the War Room.
 
 ## Script Data
