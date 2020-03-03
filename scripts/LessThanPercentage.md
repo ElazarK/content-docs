@@ -1,3 +1,8 @@
+---
+id: less-than-percentage
+title: Less Than Percentage
+---
+
 Checks if one percentage is less than another.
 
 Returns less: if firstPercentage < secondPercentage.
