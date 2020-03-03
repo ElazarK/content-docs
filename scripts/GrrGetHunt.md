@@ -1,3 +1,8 @@
+---
+id: grr-get-hunt
+title: Grr Get Hunt
+---
+
 Renders the hunts summary.
 
 ## Script Data
