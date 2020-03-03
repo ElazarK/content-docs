@@ -1,3 +1,8 @@
+---
+id: googleapps-revoke-user-role
+title: Googleapps Revoke User Role
+---
+
 Deletes a role's assignment.
 
 ## Script Data
