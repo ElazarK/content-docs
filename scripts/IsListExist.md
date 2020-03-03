@@ -1,3 +1,8 @@
+---
+id: is-list-exist
+title: Is List Exist
+---
+
 Checks if a list exists in the Demisto lists.
 
 ## Script Data
