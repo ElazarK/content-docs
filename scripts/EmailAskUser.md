@@ -1,3 +1,8 @@
+---
+id: email ask user
+title: Email Ask User
+---
+
 Asks a user a question via email and process the reply directly into the investigation.
 
 ## Script Data
