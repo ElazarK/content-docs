@@ -1,3 +1,8 @@
+---
+id: grr-set-hunts
+title: Grr Set Hunts
+---
+
 Handles hunt creation requests.
 
 ## Script Data
@@ -20,7 +25,7 @@ This script uses the following commands and scripts.
 | **Argument Name** | **Description** |
 | --- | --- |
 | hunt_runner_args | The hunt runner arguments. |
-| hunt_args | The hunt arguments |
+| hunt_args | The hunt arguments. |
 
 ## Outputs
 ---
