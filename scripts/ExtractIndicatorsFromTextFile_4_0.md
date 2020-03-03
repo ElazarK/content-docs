@@ -18,7 +18,7 @@ Indicators that can be extracted:
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 3.6.0 |
 
 ## Inputs
@@ -27,7 +27,7 @@ Indicators that can be extracted:
 | **Argument Name** | **Description** |
 | --- | --- |
 | entryID | The War Room entryID of the file to read. |
-| maxFileSize | The maximal file size to load, in bytes. The default is 1000000 (1MB). |
+| maxFileSize | The maximum file size to load, in bytes. The default is 1000000 (1MB). |
 
 ## Outputs
 ---
@@ -36,8 +36,8 @@ Indicators that can be extracted:
 | --- | --- | --- |
 | Domain.Name | The extracted domains. | string |
 | Account.Email.Address | The extracted emails. | string |
-| File.MD5 | The extracted MD5 file hash. | string |
-| File.SHA1 | The extracted SHA1 file hash. | string |
-| File.SHA256 | The extracted SHA256 file hash. | string |
+| File.MD5 | The extracted MD5 hash of a file. | string |
+| File.SHA1 | The extracted SHA1 hash of a file. | string |
+| File.SHA256 | The extracted SHA256 hash of a file. | string |
 | IP.Address | The extracted IP addresses. | string |
 | URL.Data | The extracted URLs. | string |
