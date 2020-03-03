@@ -1,3 +1,8 @@
+---
+id: is-value-in-array
+title: Is Value In Array
+---
+
 Indicates whether a given value is a member of given array.
 
 ## Script Data
