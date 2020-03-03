@@ -1,3 +1,8 @@
+---
+id: map-values
+title: Map Values
+---
+
 Maps the given values to the translated values. 
 
 If given values: "a,b,c" and translated: 1,2,3 then input "a" will return a 1.
