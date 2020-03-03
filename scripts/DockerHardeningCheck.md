@@ -1,3 +1,8 @@
+---
+id: docker-hardening-check
+title: Docker Hardening Check
+---
+
 Checks if the Docker container running this script has been hardened according to the recommended settings located ![here](https://support.demisto.com/hc/en-us/articles/360040922194)
 
 ## Script Data
