@@ -1,3 +1,8 @@
+---
+id: grr-get-hunts
+title: Grr Get Hunts
+---
+
 Renders the list of available hunts.
 ## Script Data
 ---
