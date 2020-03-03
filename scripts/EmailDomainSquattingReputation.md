@@ -1,3 +1,8 @@
+---
+id: email-domain-squatting-reputation
+title: Email Domain Squatting Reputation
+---
+
 Checks if an email address's domain is trying to squat other domain using Levenshtein distance algorithm.
 
 ## Script Data
