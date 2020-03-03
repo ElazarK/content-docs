@@ -1,4 +1,10 @@
+---
+id: jira-print-issue
+title: JIRA Print Issue
+---
+
 Pretty prints a JIRA issue into the incident War Room.
+
 ## Script Data
 ---
 
