@@ -1,3 +1,8 @@
+---
+id: file-enrichment-virus-total-private-api
+title: File Enrichment Virus Total Private API
+---
+
 Files information using the Virus Total Private API integration.
 
 ## Dependencies
