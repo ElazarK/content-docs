@@ -1,3 +1,8 @@
+---
+id: d2-endpoint-data-collection
+title: D2 Endpoint Data Collection
+---
+
 Uses Demisto's D2 agent to collect data from an endpoint for IR purposes.
 
 Input:
