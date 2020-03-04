@@ -1,3 +1,8 @@
+---
+id: detonate-url-threatgrid
+title: Detonate URL ThreatGrid
+---
+
 Detonates one or more URLs using the Threat Grid integration. This playbook returns relevant reports to the War Room and URL reputations to the context data.
 
 ## Dependencies
