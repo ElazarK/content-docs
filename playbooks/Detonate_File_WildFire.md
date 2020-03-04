@@ -1,3 +1,8 @@
+---
+id: detonate-file-wildfire
+title: Detonate File WildFire
+---
+
 Detonates one or more files using the Wildfire integration. This playbook
 returns relevant reports to the War Room and file reputations to the context data.
 
