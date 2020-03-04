@@ -1,3 +1,8 @@
+---
+id: pager-duty-assign-on-call-user
+title: Pager Duty Assign on Call User
+---
+
 Assigns the first on-call user to an investigation by default. All incidents in the investigation will be owned by the on call user.
 
 ## Script Data
