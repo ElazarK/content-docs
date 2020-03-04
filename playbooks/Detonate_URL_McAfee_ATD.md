@@ -1,3 +1,8 @@
+---
+id: detonate-url-mcafee-atd
+title: Detonate URL McAfee ATD
+---
+
 Detonates a URL using the McAfee Advanced Threat Defense Sandbox integration.
 
 ## Dependencies
