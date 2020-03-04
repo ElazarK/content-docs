@@ -1,3 +1,8 @@
+---
+id: enrich-mcafee-dxlusing-3rd-party-sandbox
+title: Enrich McAfee DXL Using 3rd Party Sandbox
+---
+
 Detonates a file in Wildfire and if malicious, pushes its MD5, SHA1 and SHA256 file hashes to McAfee DXL. Example of bridging DXL to a third party sandbox.
 
 
