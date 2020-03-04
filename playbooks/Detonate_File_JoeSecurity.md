@@ -1,3 +1,8 @@
+---
+id: detonate-file-joe-security
+title: Detonate File Joe Security
+---
+
 Detonates one or more files using the Joe Security - Joe Sandbox integration.
 Returns relevant reports to the War Room and file reputations to the context data.
 All file types are supported.
