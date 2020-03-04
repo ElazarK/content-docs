@@ -1,3 +1,8 @@
+---
+id: dedup-generic
+title: Dedup Generic
+---
+
 Identifies duplicate incidents using one of the supported methods.
 
 ## Dependencies
