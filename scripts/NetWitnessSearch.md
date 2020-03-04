@@ -1,6 +1,6 @@
 ---
 id: netwitness-search
-title: Netwitness Search
+title: NetWitness Search
 ---
 
 Searches for matches in a session or packet's content.
