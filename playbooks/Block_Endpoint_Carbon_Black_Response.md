@@ -1,3 +1,8 @@
+---
+id: block-endpoint-carbon-black-response
+title: Block Endpoint Carbon Black Response
+---
+
 Isolates an endpoint and a given hostname.
 
 ## Dependencies
