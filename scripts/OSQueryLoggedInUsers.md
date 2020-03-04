@@ -1,3 +1,8 @@
+---
+id: os-query-logged-in-users
+title: OS Query Logged In Users
+---
+
 Returns the logged in users details from a remote system using OSQuery.
 
 ## Script Data
