@@ -1,3 +1,8 @@
+---
+id: parse-excel
+title: Parse Excel
+---
+
 Takes Excel files (entryID) as an input and parses the contents to the War Room and context.
 
 ## Script Data
@@ -6,7 +11,7 @@ Takes Excel files (entryID) as an input and parses the contents to the War Room 
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
