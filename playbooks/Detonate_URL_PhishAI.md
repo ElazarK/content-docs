@@ -1,3 +1,8 @@
+---
+id: detonate-url-phish-ai
+title: Detonate URL Phish AI
+---
+
 Detonates a URL using the Phish.AI integration.
 
 ## Dependencies
