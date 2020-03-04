@@ -1,3 +1,8 @@
+---
+id: archer-initiate-incident
+title: Archer Initiate Incident
+---
+
 Initiates an Archer incident.
 
 ## Dependencies
