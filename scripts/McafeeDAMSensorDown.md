@@ -1,3 +1,8 @@
+---
+id: mcafee-dam-sensor-down
+title: Mcafee DAM Sensor Down
+---
+
 Ignores second notifications, but will process first notification into incidents. This is a pre-processing script for Emails from Mcafee DAM, about sensor disconnected.
 
 
