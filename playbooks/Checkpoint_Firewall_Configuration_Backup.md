@@ -1,3 +1,8 @@
+---
+id: checkpoint firewall configuration backup
+title: Checkpoint Firewall Configuration Backup
+---
+
 Triggers a backup task on each firewall appliance and pulls the resulting file into the War Room via SCP.
 
 ## Dependencies
