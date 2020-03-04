@@ -1,3 +1,8 @@
+---
+id: block-iocs-from-csv-external-dynamic-list
+title: Block IOCs from CSV External Dynamic List
+---
+
 Parses a CSV file with IOCs and blocks them using Palo Alto Networks External Dynamic Lists.
 
 ## Dependencies
