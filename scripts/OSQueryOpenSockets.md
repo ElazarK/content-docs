@@ -1,3 +1,8 @@
+---
+id: os-query-open-sockets
+title: OS Query Open Sockets
+---
+
 Returns the details of the open sockets from a remote system using OSQuery.
 
 ## Script Data
