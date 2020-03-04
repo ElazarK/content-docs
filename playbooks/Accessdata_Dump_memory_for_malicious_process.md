@@ -1,3 +1,8 @@
+---
+id: accessdata-dump-memory-for-malicious-process
+title: Accessdata Dump Memory for Malicious Process
+---
+
 Dumps memory if the given process is running on legacy AD agent. 
 
 ## Dependencies
