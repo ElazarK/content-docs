@@ -1,3 +1,8 @@
+---
+id: failed-login-slack-v2
+title: Failed Login Slack V2
+---
+
 When there are three failed login attempts to Demisto that originate from the same user ID, a direct message is sent to the user on Slack requesting that they confirm the activity. If the reply is "no", then the incident severity is set to "high". If the reply is "yes", then another direct message is sent to the user asking if they require a password reset in AD. 
 
 ## Dependencies
