@@ -1,3 +1,8 @@
+---
+id: bitdam-scan-file
+title: BitDam Scan File
+---
+
 Detonates one or more files using BitDam integration.
 Returns verdict to the War Room and file reputations to the context data.
 
