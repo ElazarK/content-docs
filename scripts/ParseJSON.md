@@ -1,3 +1,8 @@
+---
+id: parse-json
+title: Parse JSON
+---
+
 Parses a given JSON string "value" to a representative object. 
 
 Example: "{'a':'value'}" => { a: "value"}.
