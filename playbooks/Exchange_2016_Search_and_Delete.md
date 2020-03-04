@@ -1,3 +1,8 @@
+---
+id: exchange-2016-search-and-delete
+title: Exchange 2016 Search and Delete
+---
+
 Runs a compliance search in Exchange Server 2016, and delete the results.
 
 ## Dependencies
