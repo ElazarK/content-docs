@@ -1,3 +1,8 @@
+---
+id: extrahop-ticket-tracking
+title: ExtraHop Ticket Tracking
+---
+
 Links the Demisto incident back to the ExtraHop detection that created it for ticket tracking purposes.
 
 ## Dependencies
