@@ -1,3 +1,8 @@
+---
+id: block-file-generic
+title: Block File Generic
+---
+
 Blocks files from running on endpoints. This playbook currently supports Carbon Black Enterprise Response.
 
 ## Dependencies
