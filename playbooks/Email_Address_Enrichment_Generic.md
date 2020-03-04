@@ -1,3 +1,8 @@
+---
+id: email-address-enrichment-generic
+title: Email Address Enrichment Generic
+---
+
 Gets an email addresses's reputation using one or more integrations.
 
 ## Dependencies
