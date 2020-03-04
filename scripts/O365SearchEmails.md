@@ -1,3 +1,8 @@
+---
+id: o365-search-emails
+title: O365 Search Emails
+---
+
 Searches mails in office-365.
 
 ## Script Data
