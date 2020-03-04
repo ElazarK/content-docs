@@ -1,3 +1,8 @@
+---
+id: list-executed-commands
+title: List Executed Commands
+---
+
 Lists  executed commands in War Room.
 
 ## Script Data
