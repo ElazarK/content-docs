@@ -1,4 +1,10 @@
+---
+id: pdf-unlocker
+title: PDF Unlocker
+---
+
 Removes the password protection from a PDF file and adds a new file entry with the unlocked PDF.
+
 ## Script Data
 ---
 
