@@ -1,3 +1,8 @@
+---
+id: extrahop-get-peers-by-host
+title: ExtraHop Get Peers by Host
+---
+
 Retrieves the peer network devices that communicated with that host in a given time range, when given a host. In addition to a list of peers and protocols (sorted by bytes) the playbook returns a link to the ExtraHop Live Activity Map to visualize the peer relationships.
 
 ## Dependencies
