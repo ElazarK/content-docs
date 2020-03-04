@@ -1,3 +1,8 @@
+---
+id: hide-fields-on-new-incident
+title: Hide Fields on New Incident
+---
+
 Hides incident fields for new incidents (post application of the script), and displays it in edit mode.
 ## Script Data
 ---
