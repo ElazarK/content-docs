@@ -1,5 +1,11 @@
+---
+id: nexpose-create-incidents-from-assets
+title: Nexpose Create Incidents From Assets
+---
+
 Creates incidents based on the Nexpose asset ID and vulnerability ID.
 Duplicate incidents are not created for the same asset ID and vulnerability ID.
+
 ## Script Data
 ---
 
