@@ -1,4 +1,10 @@
-Parse Cloud Discovery alert raw JSON data
+---
+id: prisma-cloud-compute-parse-cloud-discovery-alert
+title: Prisma Cloud Compute Parse Cloud Discovery Alert
+---
+
+Parses cloud discovery alerts with raw JSON data.
+
 ## Script Data
 ---
 
