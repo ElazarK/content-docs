@@ -1,4 +1,10 @@
+---
+id: http-old
+title: HTTP Old
+---
+
 Sends a HTTP request and returns the response as JSON.
+
 ## Script Data
 ---
 
