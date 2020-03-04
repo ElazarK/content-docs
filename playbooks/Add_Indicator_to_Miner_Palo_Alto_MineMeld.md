@@ -1,3 +1,8 @@
+---
+id: add-indicator-to-miner-palo-alto-minemeld
+title: Add Indicator to Miner Palo Alto MineMeld
+---
+
 Adds indicators to the relevant Miner using MineMeld.
 
 ## Dependencies
