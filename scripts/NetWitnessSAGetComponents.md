@@ -1,6 +1,6 @@
 ---
 id: netwitness-sa-get-components
-title: Netwitness SA Get Components
+title: NetWitness SA Get Components
 ---
 
 Gets a list of components in the NetWitness architecture.
