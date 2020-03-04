@@ -1,3 +1,8 @@
+---
+id: account-enrichment-generic-v2
+title: Account Enrichment Generic V2
+---
+
 Enriches accounts using one or more integration.
 
 Supported integrations:
