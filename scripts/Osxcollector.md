@@ -1,3 +1,8 @@
+---
+id: osx-collector
+title: OSX Collector
+---
+
 Execute `OSXcollector` on a machine. This can run only on OSX.
 
 ## Script Data
