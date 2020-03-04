@@ -6,7 +6,7 @@ title: AD Get Common Groups (Deprecated)
 
 `Deprecated` 
 
-Gets common groups between supplied users.
+Gets common groups between supplied users. 
 
 ## Script Data
 ---
