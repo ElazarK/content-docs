@@ -1,3 +1,8 @@
+---
+id: carbon black protection rapid ioc hunting.md
+title: Carbon Black Protection Rapid IOC Hunting.md
+---
+
 Hunts for endpoint activity involving hash and domain IOCs, using Carbon black Protection (Bit9).
 
 ## Dependencies
