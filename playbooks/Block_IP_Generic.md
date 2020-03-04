@@ -1,3 +1,8 @@
+---
+id: block-ip-generic
+title: Block IP Generic
+---
+
 Blocks malicious IP addresses using all integrations that you have enabled.
 
 Supported integrations for this playbook:
