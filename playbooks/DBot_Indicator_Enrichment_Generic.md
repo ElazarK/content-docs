@@ -1,3 +1,8 @@
+---
+id: dbot-indicator-enrichment-generic
+title: DBot Indicator Enrichment Generic
+---
+
 Gets indicator's internal Dbot score.
 
 ## Dependencies
