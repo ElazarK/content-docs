@@ -1,4 +1,11 @@
+---
+id: read-pdf-file-v2
+title: Read PDF File V2
+---
+
 Loads a PDF file's content and metadata into context.
+
+
 ## Script Data
 ---
 
