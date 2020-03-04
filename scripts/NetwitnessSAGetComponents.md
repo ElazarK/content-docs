@@ -1,3 +1,8 @@
+---
+id: netwitness-sa-get-components
+title: Netwitness SA Get Components
+---
+
 Gets a list of components in the NetWitness architecture.
 
 ## Script Data
@@ -19,7 +24,7 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| query | The query must contain "page", "start", or "limit". [optional string]  |
+| query | The query must contain "page", "start", or "limit". (optional string)  |
 
 ## Outputs
 ---
