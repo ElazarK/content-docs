@@ -1,3 +1,8 @@
+---
+id: employee-offboarding-revoke-permissions
+title: Employee Offboarding Revoke Permissions
+---
+
 Revokes user permissions as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
