@@ -1,3 +1,8 @@
+---
+id: failed-login-with-slack-playbook-5.0
+title: Failed Login with Slack Playbook 5.0
+---
+
 `Deprecated`. Use the Failed Login - Slack v2 playbook instead.
 
 ## Dependencies
