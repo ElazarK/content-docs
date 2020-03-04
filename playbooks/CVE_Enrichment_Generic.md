@@ -1,3 +1,8 @@
+---
+id: cve-enrichment-generic
+title: CVE Enrichment Generic
+---
+
 Enriches CVE using one or more integrations.
 
 ## Dependencies
