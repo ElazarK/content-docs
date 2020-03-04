@@ -1,3 +1,8 @@
+---
+id: block-file-generic-v2
+title: Block File Generic V2
+---
+
 Blocks files from running on endpoints. 
 
 This playbook supports the following integrations:
