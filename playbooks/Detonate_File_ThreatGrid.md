@@ -1,3 +1,8 @@
+---
+id: detonate-file-threatgrid
+title: Detonate File ThreatGrid
+---
+
 Detonates one or more files using the ThreatGrid integration. This playbook returns relevant reports to the War Room and file reputations to the context data. 
 
 The detonation supports the following file types: EXE, DLL, JAR, JS, PDF, DOC, DOCX, RTF, XLS, PPT, PPTX, XML, ZIP, VBN, SEP, XZ, GZ, BZ2, TAR, MHTML, SWF, LNK, URL, MSI, JTD, JTT, JTDC, JTTC, HWP, HWT, HWPX, BAT, HTA, PS1, VBS, WSF, JSE, VBE, CHM.
