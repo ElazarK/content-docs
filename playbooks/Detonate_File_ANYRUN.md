@@ -1,3 +1,8 @@
+---
+id: detonate-file-anyrun
+title: Detonate File ANYRUN
+---
+
 Detonates one or more files using the ANYRUN sandbox integration.
 Returns relevant reports to the War Room and file reputations to the context data.
 All file types are supported.
