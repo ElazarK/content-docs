@@ -1,3 +1,8 @@
+---
+id: block-account-generic
+title: Block Account Generic
+---
+
 Blocks malicious usernames using all integrations that you have enabled.
 
 Supported integrations for this playbook:
