@@ -1,3 +1,8 @@
+---
+id: digital-defense-frontlinevm-pan-os-block-assets
+title: Digital Defense FrontlineVM PAN-OS Block Assets
+---
+
 Pulls Panorama queried threat logs and check for any correlating assets that are found to have a minimum of high level vulnerabilities. If so, it will block the the IP using Panorama's `PAN-OS - Block IP` and `URL - External Dynamic List` playbook.
 
 ## Dependencies
