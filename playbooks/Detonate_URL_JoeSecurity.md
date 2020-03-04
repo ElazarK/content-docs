@@ -1,3 +1,8 @@
+---
+id: detonate-url-joe-security
+title: Detonate URL Joe Security
+---
+
 Detonates one or more URLs using the Joe Security Sandbox integration.
 Returns relevant reports to the War Room and URL reputations to the context data.
 
