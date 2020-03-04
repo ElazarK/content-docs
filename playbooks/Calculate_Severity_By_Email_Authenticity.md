@@ -1,3 +1,8 @@
+---
+id: calculate-severity-by-email-authenticity
+title: Calculate Severity by Email Authenticity
+---
+
 Calculates the severity according to the verdict coming from the `CheckEmailAuthenticity` script.
 
 ## Dependencies
