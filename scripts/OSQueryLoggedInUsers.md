@@ -1,6 +1,6 @@
 ---
 id: os-query-logged-in-users
-title: OS Query Logged In Users
+title: OS Query Logged in Users
 ---
 
 Returns the logged in users details from a remote system using OSQuery.
