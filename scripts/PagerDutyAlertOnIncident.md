@@ -1,3 +1,8 @@
+---
+id: pager-duty-alert-on-incident
+title: Pager Duty Alert on Incident
+---
+
 Sends incident details to pagerduty.
 
 ## Script Data
