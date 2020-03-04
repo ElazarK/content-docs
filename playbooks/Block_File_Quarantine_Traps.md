@@ -1,3 +1,8 @@
+---
+id: block-file-quarantine-traps
+title: Block File Quarantine Traps
+---
+
 Accepts a hash of a file and quarantines it using Traps.
 
 ## Dependencies
