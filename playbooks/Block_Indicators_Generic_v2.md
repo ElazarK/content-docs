@@ -1,3 +1,8 @@
+---
+id: block-indicators-generic-v2
+title: Block Indicators Generic V2
+---
+
 Blocks malicious indicators using all integrations that are enabled, using the following sub-playbooks:  
 
 - Block URL - Generic
