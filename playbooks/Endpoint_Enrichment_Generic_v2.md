@@ -1,3 +1,8 @@
+---
+id: endpoint-enrichment-generic-v2
+title: Endpoint Enrichment Generic V2
+---
+
 Enriches an endpoint by hostname using one or more integrations.
 
 Currently, the following integrations are supported:
