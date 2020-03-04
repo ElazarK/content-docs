@@ -13,7 +13,7 @@ Sends a HTTP request and returns the response as JSON.
 | Script Type | javascript |
 | Tags | Utility |
 | Demisto Version | 3.5.0 |
-
+ 
 ## Inputs
 ---
 
