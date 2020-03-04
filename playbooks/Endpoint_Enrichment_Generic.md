@@ -1,3 +1,8 @@
+---
+id: endpoint-enrichment-generic
+title: Endpoint Enrichment Generic
+---
+
 Enriches an Endpoint hostname using one or more integrations.
 
 ## Dependencies
