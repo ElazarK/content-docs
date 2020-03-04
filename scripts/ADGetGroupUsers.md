@@ -9,7 +9,7 @@ Retrieves the list of users who are members of the specified group. Group must b
 
 Example usage: `!ADGetGroupUsers groupdn="CN=Domain Admins,CN=Users,DC=demisto,DC=com" attributes=badPwdCount,memberOf`
 
-## Script Data
+## Script Data 
 ---
 
 | **Name** | **Description** |
