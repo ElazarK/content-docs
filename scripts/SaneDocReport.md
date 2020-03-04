@@ -1,3 +1,8 @@
+---
+id: sane-doc-report
+title: Sane Doc Report (Deprecated)
+---
+
 `Deprecated`
 
 Parse Sane-json-reports and export them as docx files (used internally).
