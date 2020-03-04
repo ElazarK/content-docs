@@ -1,4 +1,9 @@
-Finds an email across all mailboxes, and returns the list of mailboxes where the email was found. "Yes" will be displayed if the mail was found anywhere or "No" if not.
+---
+id: mimecast-find-email
+title: Integration Design Best Practices
+---
+
+Searches all mailboxes to find an email, and returns the list of mailboxes where the email was found. "Yes" will be displayed if the mail was found anywhere or "No" if not.
 
 ## Script Data
 ---
