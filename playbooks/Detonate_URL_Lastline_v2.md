@@ -1,3 +1,8 @@
+---
+id: detonate-url-lastline-v2
+title: Detonate URL Lastline V2
+---
+
 Detonates a URL using the Lastline Sandbox integration.
 
 ## Dependencies
