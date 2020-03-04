@@ -1,3 +1,8 @@
+---
+id: dedup-incidents-ml
+title: DeDup Incidents ML
+---
+
 Checks for duplicate incidents of the current incident, and closes it if a duplicate has been found. This is accomplished though the `machine-learning find duplicates` automation.
 
 ## Dependencies
