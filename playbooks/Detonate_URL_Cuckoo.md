@@ -1,3 +1,8 @@
+---
+id: detonate-url-Cuckoo
+title: Detonate URL Cuckoo
+---
+
 Detonates a URL with Cuckoo.
 
 ## Dependencies
