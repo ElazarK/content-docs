@@ -1,3 +1,8 @@
+---
+id: detonate-url-wildfire-v2
+title: Detonate URL WildFire V2
+---
+
 Detonates a webpage or a remote file using the WildFire integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
 
 The detonation supports the following file types:
