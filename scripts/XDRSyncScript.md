@@ -1,4 +1,10 @@
+---
+id: xdr-sync-script
+title: XDR Sync Script
+---
+
 Syncs a single incident between Demisto and XDR. This script always uses the xdr-get-incident-extra-data command and outputs to the context the entire incident JSON. When the incident is updated in XDR, the Demisto incident will be updated accordingly and the default playbook will rerun. When an incident is updated in Demisto, the script will execute the xdr-update-incident command and update the incident in XDR.
+
 ## Script Data
 ---
 
