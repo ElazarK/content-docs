@@ -1,3 +1,8 @@
+---
+id: parse-word-doc
+title: Parse Word Doc
+---
+
 Takes an input Docx file (entryID) as an input and saves an output text file (file entry) with the original file's contents.
 
 ## Script Data
