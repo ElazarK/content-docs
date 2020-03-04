@@ -1,3 +1,8 @@
+---
+id: crowdstrike rapid ioc hunting
+title: CrowdStrike Rapid IOC Hunting
+---
+
 Hunts for endpoint activity involving hash and domain IOCs, using Crowdstrike Falcon Host.This playbook also use `AnalystEmail` label to determine where to send an email alert if something is found.
 
 ## Dependencies
