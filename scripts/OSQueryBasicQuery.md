@@ -1,3 +1,8 @@
+---
+id: os-query-basic-query
+title: OS Query Basic Query
+---
+
 Returns the results from a basic `OSQuery` query on a remote Linux machine.
 For more information read this [documentation](https://osquery.readthedocs.io/)
 
