@@ -1,3 +1,8 @@
+---
+id: calculate-severity-third-party-integrations
+title: Calculate Severity Third Party Integrations
+---
+
 Calculates the incident severity level according to the methodology of a 3rd-party integration.
 
 ## Dependencies
