@@ -1,5 +1,9 @@
-Launches a C2sec scan by domain name and waits for the scan to finish by polling its status in pre-defined intervals.
+---
+id: c2sec-domain-scan
+title: C2SEC Domain Scan
+---
 
+Launches a C2sec scan by domain name and waits for the scan to finish by polling its status in pre-defined intervals.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
