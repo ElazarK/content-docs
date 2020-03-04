@@ -1,4 +1,10 @@
-Parse Audit alert raw JSON data
+---
+id: prisma-cloud-compute-parse-audit-alert
+title: Prisma Cloud Compute Parse Audit Alert
+---
+
+Parses an audit alert with raw JSON data.
+
 ## Script Data
 ---
 
@@ -13,7 +19,7 @@ Parse Audit alert raw JSON data
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| alert_raw_json | The compliance alert raw JSON |
+| alert_raw_json | The compliance alert's raw JSON. |
 
 ## Outputs
 ---
