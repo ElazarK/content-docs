@@ -1,3 +1,8 @@
+---
+id: dbot-create-phishing-classifier-v2
+title: DBot Create Phishing Classifier V2
+---
+
 Creates a phishing classifier using machine learning technique, based on the email content.
 
 ## Dependencies
