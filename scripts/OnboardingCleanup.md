@@ -1,4 +1,9 @@
-Cleans up the incidents and indicators created by `Onboarding Integration`
+---
+id: onboarding-cleanup
+title: Onboarding Cleanup
+---
+
+Cleans up the incidents and indicators created by `Onboarding Integration`.
 
 ## Script Data
 ---
