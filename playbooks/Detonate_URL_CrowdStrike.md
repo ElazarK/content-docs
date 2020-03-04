@@ -1,3 +1,8 @@
+---
+id: detonate-url-crowdstrike
+title: Detonate URL CrowdStrike
+---
+
 Detonates one or more files using the CrowdStrike Falcon Sandbox integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
 
 ## Dependencies
