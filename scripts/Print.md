@@ -1,3 +1,8 @@
+---
+id: print
+title: Print
+---
+
 Prints text to the War Room. Markdown is supported.
 
 ## Script Data
