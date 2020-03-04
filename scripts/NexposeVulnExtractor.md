@@ -1,4 +1,10 @@
-Parses a specific server Nexpose response in to a table of vulnerabilities.
+---
+id: nexpose-vuln-extractor
+title: Nexpose Vuln Extractor
+---
+
+Parses a specific server Nexpose response into a table of vulnerabilities.
+
 ## Script Data
 ---
 
