@@ -1,3 +1,8 @@
+---
+id: detonate-file-from-url-wildfire
+title: Detonate File From URL WildFire
+---
+
 Detonates one or more files using the Wildfire integration. This playbook returns relevant reports to the War Room and file reputations to the context data.
 
 The detonation supports the following file types:
