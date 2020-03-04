@@ -1,3 +1,8 @@
+---
+id: unzip-file
+title: Unzip File
+---
+
 Unzip a file using the `fileName` or `entryID` to specify a file. Unzipped files will be loaded to the War Room and names will be put into the context.
 
 ## Script Data
