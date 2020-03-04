@@ -1,3 +1,8 @@
+---
+id: extrahop-default
+title: ExtraHop Default
+---
+
 Handles ticket tracking as well as triggeres specific playbooks based on the name of the ExtraHop Detection. Default playbook to run for all ExtraHop Detection incidents.
 
 ## Dependencies
