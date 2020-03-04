@@ -1,3 +1,8 @@
+---
+id: detonate-url-anyrun
+title: Detonate URL ANYRUN
+---
+
 Detonates one or more URLs using the `ANYRUN` sandbox integration.
 Returns relevant reports to the War Room and URL reputations to the context data.
 
