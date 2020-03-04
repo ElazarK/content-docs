@@ -1,6 +1,6 @@
 ---
 id: netwitness-sa-list-incidents
-title: Netwitness SA List Incidents
+title: NetWitness SA List Incidents
 ---
 
 Lists NetWitness SA incidents. Filtering and sorting the list is also supported (see optional arguments).
