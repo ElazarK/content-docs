@@ -1,3 +1,8 @@
+---
+id: detonate-url-threatstream
+title: Detonate URL ThreatStream
+---
+
 Detonates one or more URLs using the Anomali ThreatStream v2 sandbox integration.
 Returns relevant reports to the War Room and URL reputations to the context data.
 
