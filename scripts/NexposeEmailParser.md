@@ -1,3 +1,8 @@
+---
+id: nexpose-email-parser
+title: Nexpose Email Parser
+---
+
 Parses the Nexpose report into a clear table that contains risk scores and vulnerability counts for each server, and creates a new incident for each server.
 
 ## Script Data
