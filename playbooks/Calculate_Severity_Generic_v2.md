@@ -1,3 +1,8 @@
+---
+id: calculate-severity-generic-v2
+title: Calculate Severity Generic V2
+---
+
 Calculates and assigns the incident severity based on the highest returned severity level from the following calculations:
 
 - DBotScores of indicators
