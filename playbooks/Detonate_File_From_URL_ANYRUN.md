@@ -1,3 +1,8 @@
+---
+id: detonate-file-from-url-anyrun
+title: Detonate File From URL ANYRUN
+---
+
 Detonates one or more remote files using the ANYRUN sandbox integration.
 Returns relevant reports to the War Room and file reputations to the context data.
 This type of analysis works only for direct download links.
