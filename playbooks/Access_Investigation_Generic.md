@@ -1,3 +1,8 @@
+---
+id: access-investigation-generic
+title: Access Investigation Generic
+---
+
 Investigates an access incident by gathering the user and IP address information.
 The playbook then interacts with the user that triggered the incident to confirm whether or not they initiated the access action.
 
