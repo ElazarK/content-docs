@@ -1,3 +1,8 @@
+---
+id: extract-indicators-from-file-generic
+title: Extract Indicators From File Generic
+---
+
 Extracts indicators from a file.
 
 Supported file types:
