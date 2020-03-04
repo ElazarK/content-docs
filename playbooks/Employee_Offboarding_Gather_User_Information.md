@@ -1,3 +1,8 @@
+---
+id: employee-offboarding-gather-user-information
+title: Employee Offboarding Gather User Information
+---
+
 Gathers user information as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
