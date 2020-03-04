@@ -1,3 +1,8 @@
+---
+id: cve-enrichment-generic-v2
+title: CVE Enrichment Generic V2
+---
+
 Performs CVE enrichment using the following integrations:
 - VulnDB
 - CVE Search
