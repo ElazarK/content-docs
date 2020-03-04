@@ -3,7 +3,7 @@ id: onboarding-cleanup
 title: Onboarding Cleanup
 ---
 
-Cleans up the incidents and indicators created by `Onboarding Integration`.
+Cleans up the incidents and indicators created by the `Onboarding Integration` command.
 
 ## Script Data
 ---
