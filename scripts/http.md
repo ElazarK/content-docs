@@ -1,4 +1,10 @@
+---
+id: http
+title: HTTP
+---
+
 Sends a http request and returns the response as JSON.
+
 ## Script Data
 ---
 
