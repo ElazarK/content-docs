@@ -1,3 +1,8 @@
+---
+id: file-enrichment-generic
+title: File Enrichment Generic
+---
+
 Enriches a file using one or more integrations.
 
 File enrichment includes:
