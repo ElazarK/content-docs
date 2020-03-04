@@ -1,3 +1,8 @@
+---
+id: mattermost-ask-user
+title: Mattermost Ask User
+---
+
 Asks a user a question on `Mattermost` and expects a response. The response can also close a task, (this can be conditional) in a playbook.
 
 ## Script Data
