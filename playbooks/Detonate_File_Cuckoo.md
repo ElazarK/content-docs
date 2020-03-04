@@ -1,3 +1,8 @@
+---
+id: detonate-file-cuckoo
+title: Detonate File Cuckoo
+---
+
 Detonates a file with Cuckoo.
 
 ## Dependencies
