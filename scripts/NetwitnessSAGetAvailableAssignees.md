@@ -1,3 +1,8 @@
+---
+id: netwitness-sa-get-available-assignees
+title: Netwitness SA Get Available Assignees
+---
+
 Returns the available NetWitness SA users to be assigned to incidents.
 
 ## Script Data
