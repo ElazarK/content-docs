@@ -3,7 +3,7 @@ id: http
 title: HTTP
 ---
 
-Sends a http request and returns the response as JSON.
+Sends a HTTP request and returns the response as JSON.
 
 ## Script Data
 ---
