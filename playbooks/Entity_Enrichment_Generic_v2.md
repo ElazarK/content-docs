@@ -1,3 +1,8 @@
+---
+id: entity-enrichment-generic-v2
+title: Entity Enrichment Generic V2
+---
+
 Enriches entities using one or more integrations.
 
 ## Dependencies
