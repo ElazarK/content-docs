@@ -1,3 +1,8 @@
+---
+id: endpoint-enrichment-cylance-protect-v2
+title: Endpoint Enrichment Cylance Protect V2
+---
+
 Enriches endpoints using the Cylance Protect v2 integration.
 
 ## Dependencies
