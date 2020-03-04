@@ -1,3 +1,8 @@
+---
+id: active-directory-get-user-manager-details
+title: Active Directory Get User Manager Details
+---
+
 Returns the email address of the user's manager of an email address or a username of a user account in Active Directory.
 
 ## Dependencies
