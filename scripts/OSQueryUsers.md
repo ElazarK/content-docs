@@ -1,3 +1,8 @@
+---
+id: os-query-users
+title: OS Query Users
+---
+
 Returns a table of users from a remote system using OSQuery.
 
 ## Script Data
@@ -19,7 +24,7 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| system | The system to remote execute on. Can be a list of systems. |
+| system | The system to remote execute on. Can be, a list of systems. |
 
 ## Outputs
 ---
