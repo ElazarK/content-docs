@@ -1,3 +1,8 @@
+---
+id: display-results-gvault
+title: Display Results GVault
+---
+
 Ques and displays vault search result.
 
 ## Dependencies
