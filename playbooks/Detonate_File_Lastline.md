@@ -1,3 +1,8 @@
+---
+id: detonate-file-lastline
+title: Detonate File Lastline
+---
+
 Detonates a File using the Lastline sandbox.
 
 Lastline supports the following File Types:
