@@ -1,3 +1,8 @@
+---
+id: mimecast-query
+title: Mimecast Query
+---
+
 Queries Mimecast emails.
 
 ## Script Data
