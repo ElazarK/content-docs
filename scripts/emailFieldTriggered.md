@@ -1,3 +1,8 @@
+---
+id: email-field-triggered
+title: Email Field Triggered
+---
+
 Sends an email to the incident owner when a selected field is triggered.
 
 ## Script Data
