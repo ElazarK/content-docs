@@ -1,3 +1,8 @@
+---
+id: block-file-carbon-black-response
+title: Block File Carbon Black Response
+---
+
 Receives an MD5 hash and adds it to the blacklist in Carbon Black Enterprise Response. Files with that MD5 hash are blocked from execution on the managed endpoints.
 
 If the integration is disabled at the time of running, or if the hash is already on the blacklist, no action is taken on the MD5.
