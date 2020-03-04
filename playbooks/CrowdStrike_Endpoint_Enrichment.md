@@ -1,3 +1,8 @@
+---
+id: crowdstrike endpoint enrichment
+title: CrowdStrike Endpoint Enrichment
+---
+
 Enriches Endpoints with CrowdStrike.
 
 ## Dependencies
