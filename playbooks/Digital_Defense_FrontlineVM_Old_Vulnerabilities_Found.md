@@ -1,3 +1,8 @@
+---
+id: digital-defense-frontlinevm-old-vulnerabilities-found
+title: Digital Defense FrontlineVM Old Vulnerabilities Found
+---
+
 This will query `Frontline.Cloud`'s active view for any critical level vulnerabilities found to be older than 90 days.
 
 ## Dependencies
