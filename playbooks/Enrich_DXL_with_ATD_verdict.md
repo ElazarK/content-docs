@@ -1,3 +1,8 @@
+---
+id: enrich-dxl-with-atd-verdict
+title: Enrich DXL with ATD Verdict
+---
+
 Detonates a file in ATD and if malicious, pushes its MD5, SHA1 and SHA256 hashes to McAfee DXL. An example of using McAfee ATD and pushing any malicious verdicts over DXL.
 
 
