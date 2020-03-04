@@ -1,3 +1,8 @@
+---
+id: block-file-cylance-protect-v2
+title: Block File Cylance Protect V2
+---
+
 Accepts a SHA256 hash and adds it to the Global Quarantine list using the Cylance Protect v2 integration.
 
 ## Dependencies
