@@ -1,4 +1,10 @@
+---
+id: find-incidents-with-indicator
+title: Find Incidents With Indicator
+---
+
 Looks up incidents with a specified indicator. Uses `currentIncidentId` to omit the existing incident from output.
+
 ## Script Data
 ---
 
