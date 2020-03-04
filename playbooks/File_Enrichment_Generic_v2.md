@@ -1,3 +1,8 @@
+---
+id: file-enrichment-generic-v2
+title: File Enrichment Generic V2
+---
+
 Enriches a file using one or more integrations.
 
 - Provide threat information
