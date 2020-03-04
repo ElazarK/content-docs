@@ -1,11 +1,17 @@
+---
+id: yara-scan
+title: Yara Scan
+---
+
 Performs a Yara scan on the specified files.
+
 ## Script Data
 ---
 
 | **Name** | **Description** |
 | --- | --- |
 | Script Type | python3 |
-| Tags |  |
+| Tags | - |
 | Demisto Version | 0.0.0 |
 
 ## Inputs
