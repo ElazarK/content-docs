@@ -1,3 +1,8 @@
+---
+id: dbot-create-phishing-classifier-job
+title: DBot Create Phishing Classifier Job
+---
+
 Trains the phishing machine learning model. This playbook should be used as job, to run repeatedly, for example every week. 
 
 ## Dependencies
