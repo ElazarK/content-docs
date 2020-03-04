@@ -1,3 +1,8 @@
+---
+id: arcsight-get-events-related-to-the-case
+title: Arcsight Get Events Related to the Case
+---
+
 Gets the case's Arcsight `ResourceID` from the `FetchID` field, or the "ID" label. If neither are there, it will ask the user for the ID.
 
 Uses the resource ID to get full data for the case, the correlated/aggregate events underneath it, and all base events underneath them.
