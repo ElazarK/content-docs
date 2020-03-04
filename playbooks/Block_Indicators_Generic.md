@@ -1,3 +1,8 @@
+---
+id: block-indicators-generic
+title: Block Indicators Generic
+---
+
 Blocks malicious indicators using all integrations that are enabled.
 
 Supported integrations for this playbook:
