@@ -1,3 +1,8 @@
+---
+id: calculate-severity-generic-3.1
+title: Calculate Severity Generic 3.1
+---
+
 Calculates incident severity by indicators reputation and user/endpoint membership in critical groups.
 
 Note - current severity will be overwritten and new severity may be lower than the current one.
