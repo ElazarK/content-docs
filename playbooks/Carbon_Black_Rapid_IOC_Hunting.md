@@ -1,3 +1,8 @@
+---
+id: carbon-black-rapid-ioc-hunting
+title: Carbon Black Rapid IOC Hunting
+---
+
 Hunts for malicious indicators using Carbon Black.
 
 ## Dependencies
