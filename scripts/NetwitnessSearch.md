@@ -1,3 +1,8 @@
+---
+id: netwitness-search
+title: Netwitness Search
+---
+
 Searches for matches in a session or packet's content.
 
 ## Script Data
