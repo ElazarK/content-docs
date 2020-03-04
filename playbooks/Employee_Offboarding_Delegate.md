@@ -1,3 +1,8 @@
+---
+id: employee-offboarding-delegate
+title: Employee Offboarding Delegate
+---
+
 Delegates user resources and permissions as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
