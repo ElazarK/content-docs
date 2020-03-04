@@ -1,4 +1,11 @@
-`Deprecated` We recommend using extractIndicators command instead.
+---
+id: extract-indicators-generic
+title: Extract Indicators Generic (Deprecated)
+---
+
+`Deprecated` 
+
+We recommend using extractIndicators command instead.
 
 Extracts indicators from input data.
 
