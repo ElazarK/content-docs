@@ -1,3 +1,9 @@
+---
+id: calculate-severity-indicators-dbotscore
+title: Calculate Severity Indicators DBotScore
+---
+
+
 Calculates the incident severity level according to the highest indicator DBotScore.
 
 ## Dependencies
