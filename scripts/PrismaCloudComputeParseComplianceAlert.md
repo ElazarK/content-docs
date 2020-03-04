@@ -1,4 +1,11 @@
-Parse Compliance alert raw JSON data
+---
+id: prisma-cloud-compute-parse-compliance-alert
+title: Prisma Cloud Compute Parse Compliance Alert
+---
+
+Parses a compliance alert with raw JSON data.
+
+
 ## Script Data
 ---
 
