@@ -1,3 +1,8 @@
+---
+id: c&c-communication-hunting
+title: C&C Communication Hunting
+---
+
 Uses the latest Threat Intelligence to look for malicious C&C communications.
 
 ## Dependencies
