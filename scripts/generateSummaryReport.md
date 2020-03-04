@@ -1,3 +1,8 @@
+---
+id: generate-summary-report
+title: Generate Summary Report
+---
+
 Generates an investigation summary report in an automated way. This can be used in post-processing flow as well.
 
 ## Script Data
