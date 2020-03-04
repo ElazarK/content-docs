@@ -1,3 +1,8 @@
+---
+id: detonate-url-generic
+title: Detonate URL Generic
+---
+
 Detonates a URL through active integrations that supports URL detonation.
 
 ## Dependencies
