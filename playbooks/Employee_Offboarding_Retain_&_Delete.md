@@ -1,3 +1,8 @@
+---
+id: employee-offboarding-retain-&-delete
+title: Employee Offboarding Retain & Delete
+---
+
 Performs retention and deletion of user information as part of the IT - Employee Offboarding playbook.
 
 ## Dependencies
