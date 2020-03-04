@@ -1,4 +1,9 @@
-Pings an IP or URL address, to verify it's operational.
+---
+id: ping-4.5
+title: Ping 4.5
+---
+
+Pings an IP address or URL address, to verify it's operational.
 
 ## Script Data
 ---
