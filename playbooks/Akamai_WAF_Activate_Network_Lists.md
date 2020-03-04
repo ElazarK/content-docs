@@ -1,3 +1,8 @@
+---
+id: akamai waf activate network lists
+title: Akamai WAF Activate Network Lists
+---
+
 Activates network lists in **Staging** or **Production** on Akamai WAF. The playbook finishes running when the network list is active on the requested enviorment.
 
 ## Dependencies
@@ -29,5 +34,4 @@ This playbook does not use any integrations.
 ---
 There are no outputs for this playbook.
 
-<!-- Playbook PNG image comes here -->
 ![Akamai_WAF_Activate_Network_Lists](https://github.com/ElazarK/content-docs/blob/master/images/playbooks/Akamai_WAF_Activate_Network_Lists.png)
