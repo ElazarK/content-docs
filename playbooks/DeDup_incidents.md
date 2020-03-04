@@ -1,5 +1,9 @@
-Checks for duplicate incidents for the current incident, and close it if any duplicate has found. 
+---
+id: dedupincidents
+title: DeDup Incidents
+---
 
+Checks for duplicate incidents for the current incident, and close it if any duplicate has found. 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
