@@ -1,11 +1,15 @@
+---
+id: nexpose-email-parser-for-vuln
+title: Nexpose Email Parser for Vuln
+---
+
 Parses the Nexpose report into a clear table that contain risk score and vulnerability count for each server, and creates a new incident for each server.
 
 ## Script Data
 ---
 
 | **Name** | **Description** |
-| --- | --- | for each server.
-## Script Data
+| --- | --- | 
 | Script Type | javascript |
 | Tags | nexpose, ingestion |
 | Demisto Version | 0.0.0 |
