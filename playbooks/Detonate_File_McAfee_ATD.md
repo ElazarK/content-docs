@@ -1,3 +1,8 @@
+---
+id: detonate-file-mcafee-atd
+title: Detonate File McAfee ATD
+---
+
 Detonates a File using the McAfee Advanced Threat Defense sandbox.
 
 Advanced Threat Defense supports the following File Types:
