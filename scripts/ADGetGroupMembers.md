@@ -9,7 +9,7 @@ Retrieves the list of users or computers that are members of the specified group
 
 Example usage: `!ADGetGroupMembers memberType=user groupdn="CN=Administrators,CN=Builtin,DC=acme,DC=int" attributes=name,email`
 
-## Script Data
+## Script Data 
 ---
 
 | **Name** | **Description** |
