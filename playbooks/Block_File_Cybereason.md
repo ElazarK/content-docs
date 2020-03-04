@@ -1,3 +1,8 @@
+---
+id: block-file-cybereason
+title: Block File Cybereason
+---
+
 Accepts an MD5 hash and blocks the file using the Cybereason integration.
 
 ## Dependencies
