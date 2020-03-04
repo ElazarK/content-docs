@@ -1,3 +1,8 @@
+---
+id: netwitness-sa-list-incidents
+title: Netwitness SA List Incidents
+---
+
 Lists NetWitness SA incidents. Filtering and sorting the list is also supported (see optional arguments).
 
 ## Script Data
@@ -25,7 +30,7 @@ This script uses the following commands and scripts.
 | limit | Limits the number of incidents per page. The default is 100. |
 | sort | Sorts by "created" field in "DESC" order. This is the default method. For example, "[{"property":"created","direction":"DESC"}]". |
 | filter | Filters by "created" from 1996 to this date. This is the default method. For example, "[{"property":"id", "value":"INC-21"}]". |
-| incidentManagementId | The ID of the NetWitness INCIDENT_MANAGEMENT device/component ID. This can be received by running the `nw-get-component` command. If this argument is not filled/passed, the script will automatically get the first device of type INCIDENT_MANAGEMENT from the SA server. [optional number] |
+| incidentManagementId | The ID of the NetWitness INCIDENT_MANAGEMENT device/component ID. This can be received by running the `nw-get-component` command. If this argument is not filled/passed, the script will automatically get the first device of type INCIDENT_MANAGEMENT from the SA server. (optional number) |
 
 ## Outputs
 ---
