@@ -1,3 +1,8 @@
+---
+id: detonate-file-threatstream
+title: Detonate File ThreatStream
+---
+
 Detonates one or more files using the Anomali ThreatStream v2 integration. This playbook returns relevant reports to the War Room, and file reputations to the context data.
 
 ## Dependencies
