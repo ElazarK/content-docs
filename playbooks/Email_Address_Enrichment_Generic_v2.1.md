@@ -1,3 +1,8 @@
+---
+id: email-address-enrichment-generic-v2.1
+title: Email Address Enrichment Generic v2.1
+---
+
 Enriches email addresses.
 - Get information from Active Directory for internal addresses
 - Get the domain-squatting reputation for external addresses
