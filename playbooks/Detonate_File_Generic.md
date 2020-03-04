@@ -1,3 +1,8 @@
+---
+id: detonate-file-generic
+title: Detonate File Generic
+---
+
 Detonates a file through active integrations that support file detonation.
 
 ## Dependencies
