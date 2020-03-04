@@ -1,3 +1,8 @@
+---
+id: digital-defense-frontlinevm-scan-asset-not-recently-scanned
+title: Digital Defense FrontlineVM Scan Asset Not Recently Scanned
+---
+
 Pulls IP addresses from the detail value of an incident and check if that asset has been scanned within the past 60 days. If not then it will then prompt the user to perform a scan on the asset.
 
 ## Dependencies
