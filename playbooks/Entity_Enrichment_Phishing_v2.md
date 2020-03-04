@@ -1,3 +1,8 @@
+---
+id: entity-enrichment-phishing-v2
+title: Entity Enrichment Phishing V2
+---
+
 Enriches entities using one or more integrations.
 
 ## Dependencies
