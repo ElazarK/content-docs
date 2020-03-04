@@ -1,3 +1,8 @@
+---
+id: file-enrichment-file-reputation
+title: File Enrichment File Reputation
+---
+
 Gets a file's reputation using one or more integrations.
 
 ## Dependencies
