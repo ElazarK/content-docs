@@ -1,6 +1,6 @@
 ---
 id: netwitness-sa-get-events
-title: Netwitness SA Get Events
+title: NetWitness SA Get Events
 ---
 
 Returns all the RSA NetWitness SA events in the defined time range.
