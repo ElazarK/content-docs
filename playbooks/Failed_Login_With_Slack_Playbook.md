@@ -1,3 +1,8 @@
+---
+id: failed login with slackplaybook
+title: Failed Login with Slack Playbook
+---
+
 Following a failed login attempt which happened more than 3 times, The user on Slack will be asked if they attempted a login. If not, the incident will be raided to a high level. If yes, the user will be asked if they need to reset their password and will reset the password in AD.
 
 ## Dependencies
