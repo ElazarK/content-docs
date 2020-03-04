@@ -1,3 +1,8 @@
+---
+id: endpoint-data-collection
+title: Endpoint Data Collection
+---
+
 Collects data from endpoints for IR purposes. Will use whichever integrations are configured and available.
 
 ## Dependencies
