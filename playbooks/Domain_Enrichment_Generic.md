@@ -1,3 +1,8 @@
+---
+id: domain-enrichment-generic
+title: Domain Enrichment Generic
+---
+
 Enriches domains using one or more integrations.
 
 Domain enrichment includes:
