@@ -1,3 +1,8 @@
+---
+id: tanium-demo
+title: Tanium Demo
+---
+
 Shows how to use automation scripts to interact with Tanium.
 
 ## Dependencies
