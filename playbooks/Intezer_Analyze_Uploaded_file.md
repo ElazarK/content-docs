@@ -1,3 +1,8 @@
+---
+id: intezer-analyze-uploaded-file
+title: Intezer Analyze Uploaded File
+---
+
 Uploads a file to Intezer Analyze to analyze and enrich the file reputation. (up to 32mb)
 
 ## Dependencies
