@@ -1,3 +1,8 @@
+---
+id: tanium-get-saved-question-result
+title: Tanium Get Saved Question Result
+---
+
 Uses generic polling to gets saved question result.
 
 ## Dependencies
