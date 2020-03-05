@@ -1,3 +1,8 @@
+---
+id: ip-enrichment-internal-generic-v2
+title: IP Enrichment Internal Generic V2
+---
+
 Enriches Internal IP addresses using one or more integrations.
 
 - Resolve IP address to hostname (DNS)
