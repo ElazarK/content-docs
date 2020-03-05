@@ -1,3 +1,8 @@
+---
+id: netops-firewall-upgrade
+title: NetOps Firewall Upgrade
+---
+
 Upgrades the firewall. The superuser is requiered in order to update the PAN-OS version.
 
 ## Dependencies
