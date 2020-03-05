@@ -1,3 +1,8 @@
+---
+id: process-email-core
+title: Process Email Core
+---
+
 Adds email details to the relevant context entities and handle the case where original emails are attached.
 
 ## Dependencies
