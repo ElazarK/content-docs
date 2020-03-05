@@ -1,3 +1,8 @@
+---
+id: tenable-sc-scan
+title: Tenable SC Scan
+---
+
 Launches an existing Tenable.sc scan by scan ID and waits for the scan to finish by polling its status in pre-defined intervals.
 
 ## Dependencies
