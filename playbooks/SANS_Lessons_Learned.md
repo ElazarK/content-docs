@@ -1,3 +1,8 @@
+---
+id: sans-lessons-learned
+title: SANS Lessons Learned
+---
+
 Assists in post-processing an incident and facilitates the lessons learned stage, as presented by SANS Institute ‘[Incident Handler’s Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
 
 
