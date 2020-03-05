@@ -1,3 +1,8 @@
+---
+id: tenable-io-scan
+title: Tenable IO Scan
+---
+
 Runs a Tenable.io scan.
 
 ## Dependencies
