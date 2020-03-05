@@ -1,3 +1,8 @@
+---
+id: mar-endpoint-data-collection
+title: MAR Endpoint Data Collection
+---
+
 Collects data using McAfee Active Response, from an endpoint for IR purposes (requires ePO as well).
 
 Input:
