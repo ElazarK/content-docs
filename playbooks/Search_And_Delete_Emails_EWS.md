@@ -1,3 +1,8 @@
+---
+id: search-and-delete-emails-ews
+title: Search and Delete Emails EWS
+---
+
 Searches EWS to identify and delete emails with similar attributes of a malicious email.
 
 ## Dependencies
