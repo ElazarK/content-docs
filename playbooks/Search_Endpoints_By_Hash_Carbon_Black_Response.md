@@ -1,3 +1,8 @@
+---
+id: search-endpoints-by-hash-carbon-black-response
+title: Search Endpoints by Hash Carbon Black Response
+---
+
 Hunts for malicious indicators using Carbon Black.
 
 ## Dependencies
