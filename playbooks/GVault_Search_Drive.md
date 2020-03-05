@@ -1,3 +1,8 @@
+---
+id: gvault-search-drive
+title: GVault Search Drive
+---
+
 Performs a Google Vault search in Drive accounts and displays the results.
 
 ## Dependencies
