@@ -1,3 +1,8 @@
+---
+id: gdpr-breach-notification
+title: GDPR Breach Notification
+---
+
 This playbook is triggered by a GDPR breach incident, and then performs the required tasks that are detailed in GDPR Article 33.
 The General Data Protection Regulation (the GDPR) is a regulation in EU law on data protection and privacy of individuals. The GDPR introduces the requirement for a personal data breach to be notified to the competent national supervisory authority and in certain cases, to communicate the breach to the individuals whose personal data have been affected by the breach.
 ***Disclaimer: This playbook does not ensure compliance to the GDPR regulation. Before using this playbook, we advise consulting with the relevant authority, and adjusting it to the organization's needs.
