@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-compute-cloud-discovery-alert
+title: Prisma Cloud Compute Cloud Discovery Alert
+---
+
 Parses Prisma Cloud Compute Cloud Discovery alerts. This is a default playbook.
 
 ## Dependencies
