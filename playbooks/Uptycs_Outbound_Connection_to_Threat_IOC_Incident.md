@@ -1,3 +1,8 @@
+---
+id: uptycs-outbound-connection-to-threat-ioc-incident
+title: Uptycs Outbound Connection to Threat IOC Incident
+---
+
 Gets information about connections from IOC incidents.
 
 ## Dependencies
