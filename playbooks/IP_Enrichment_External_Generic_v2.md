@@ -1,3 +1,8 @@
+---
+id: ip-enrichment-external-generic-v2
+title: IP Enrichment External Generic V2
+---
+
 Enriches IP addresses using one or more integrations.
 
 - Resolve IP addresses to hostnames (DNS)
