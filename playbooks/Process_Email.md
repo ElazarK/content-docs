@@ -1,4 +1,11 @@
-`Deprecated` - We recommend using Process Email - Generic playbook instead. 
+---
+id: process-email
+title: Process Email (Deprecated)
+---
+
+`Deprecated` 
+
+We recommend using Process Email - Generic playbook instead. 
 
 Adds email details into the relevant context entities and handle the case where you have attached original emails.
 
