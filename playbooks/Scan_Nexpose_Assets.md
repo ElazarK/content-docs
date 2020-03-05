@@ -1,3 +1,8 @@
+---
+id: scan-nexpose-assets
+title: Scan Nexpose Assets
+---
+
 Scans according to asset IP addresses or host names, and waits for the scan to finish by polling the scan status in pre-defined intervals.
 
 ## Dependencies
