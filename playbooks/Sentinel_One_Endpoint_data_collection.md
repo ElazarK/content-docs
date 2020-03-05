@@ -1,3 +1,8 @@
+---
+id: sentinel-one-endpoint-data-collection
+title: Sentinel One Endpoint Data Collection
+---
+
 Collects endpoint information based on SentinelOne commands.
 
 Input:
