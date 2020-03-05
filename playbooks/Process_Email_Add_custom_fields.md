@@ -1,3 +1,8 @@
+---
+id: process-email-add-custom-fields
+title: Process Email Add Custom Fields
+---
+
 Processes emails and adds email data to a phishing incident's custom fields
 
 ## Dependencies
