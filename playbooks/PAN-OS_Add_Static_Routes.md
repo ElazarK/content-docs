@@ -1,3 +1,8 @@
+---
+id: pan-os-add-static-routes
+title: PAN-OS Add Static Routes
+---
+
 Accepts a PAN-OS static route configuration and creates it in the PAN-OS instance.
 
 ## Dependencies
