@@ -1,3 +1,8 @@
+---
+id: scan-nexpose-site
+title: Scan Nexpose Site
+---
+
 Scans by site ID and waits for the scan to finish by polling its status in pre-defined intervals.
 
 ## Dependencies
