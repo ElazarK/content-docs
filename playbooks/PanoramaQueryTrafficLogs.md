@@ -1,3 +1,8 @@
+---
+id: panorama-query-traffic-logs
+title: Panorama Query Traffic Logs
+---
+
 Queries traffic logs in a PAN-OS Panorama or Firewall device.
 
 ## Dependencies
