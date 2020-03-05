@@ -1,3 +1,8 @@
+---
+id: ransomware
+title: Ransomware
+---
+
 Master playbook for ransomware incidents. This playbook is a manual playbook. 
 
 ## Dependencies
