@@ -1,3 +1,8 @@
+---
+id: uptycs-bad-ip-incident
+title: Uptycs Bad IP Incident
+---
+
 Gets information about processes which open connections to known bad IP addresses.
 
 ## Dependencies
