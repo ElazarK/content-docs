@@ -1,3 +1,8 @@
+---
+id: mcafee-epo-endpoint-compliance-playbook
+title: McAfee ePO Endpoint Compliance Playbook
+---
+
 Discovers endpoints that are not using the latest McAfee AV Signatures.
 
 ## Dependencies
