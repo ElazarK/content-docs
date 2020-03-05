@@ -1,3 +1,8 @@
+---
+id: get-file-sample-by-hash-carbon-black-enterprise-response
+title: Get File Sample by Hash Carbon Black Enterprise Response
+---
+
 Returns to the War Room, a file sample correlating to MD5 hashes in the input using Carbon Black Enterprise Response integration.
 
 ## Dependencies
