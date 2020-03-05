@@ -1,3 +1,8 @@
+---
+id: tanium-ask-question
+title: Tanium Ask Question
+---
+
 Uses generic polling to gets question result.
 
 ## Dependencies
