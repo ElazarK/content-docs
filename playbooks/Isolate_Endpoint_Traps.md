@@ -1,3 +1,8 @@
+---
+id: isolate-endpoint-traps
+title: Isolate Endpoint Traps
+---
+
 Accepts an endpoint ID from the Traps integration and performs isolation on this endpoint.
 
 ## Dependencies
