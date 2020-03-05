@@ -1,3 +1,8 @@
+---
+id: get-original-email-eWS
+title: Get Original Email EWS
+---
+
 Gets emails from specific folders and pre-process them using EWS. 
 
 ## Dependencies
