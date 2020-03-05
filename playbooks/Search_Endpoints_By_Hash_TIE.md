@@ -1,3 +1,8 @@
+---
+id: search-endpoints-by-hash-tie
+title: Search Endpoints by Hash TIE
+---
+
 Hunts for sightings of MD5 hash, SHA1  hash and/or SHA256 hashes on endpoints, using McAfee TIE (requires ePO as well).
 
 Input:
