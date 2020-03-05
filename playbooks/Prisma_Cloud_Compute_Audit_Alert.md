@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-compute-audit-alert
+title: Prisma Cloud Compute Audit Alert
+---
+
 Parses Prisma Cloud Compute audit alerts. This is a default playbook.
 
 ## Dependencies
