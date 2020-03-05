@@ -1,3 +1,8 @@
+---
+id: pan-os-edl-setup
+title: PAN-OS EDL Setup
+---
+
 Configures an external dynamic list in PAN-OS.
 In the event that the file exists on the web server, it will sync it to demisto. Then it will create an EDL object and a matching rule.
 
