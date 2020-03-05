@@ -1,3 +1,8 @@
+---
+id: tie_ioc_hunt
+title: TIE IOC Hunt
+---
+
 Hunts for sightings of MD5 hash, SHA1 hash and/or SHA256 hashes on endpoints, using McAfee TIE (requires ePO as well).
 
 Input:
