@@ -19,7 +19,7 @@ This playbook does not use any scripts.
 
 ### Commands
 * tn-ask-question
-* tn-get-question-result
+* tn-get-question-result 
 
 ## Playbook Inputs
 ---
