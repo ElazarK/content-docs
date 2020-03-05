@@ -1,3 +1,8 @@
+---
+id: palo-alto-networks-cortex-xdr-incident-sync
+title: Palo Alto Networks Cortex XDR Incident Sync
+---
+
 Compares incidents in Palo Alto Networks Cortex XDR and Demisto, and updates the incidents appropriately. When an incident is updated in Demisto, the XDRSyncScript will update the incident in XDR. When an incident is updated in XDR, the XDRSyncScript will update the incident fields in Demisto and rerun the current playbook.
 
 ## Dependencies
