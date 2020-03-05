@@ -1,3 +1,8 @@
+---
+id: get-file-sample-by-hash-cylance-protect-v2
+title: Get File Sample by Hash Cylance Protect V2
+---
+
 Returns a file sample to the War Room, given the file's SHA256 hash, using Cylance Protect v2 integration.
 
 ## Dependencies
