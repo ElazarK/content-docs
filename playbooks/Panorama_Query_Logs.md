@@ -1,3 +1,8 @@
+---
+id: panorama-query-logs
+title: Panorama Query Logs
+---
+
 Queries Panorama Logs of types: traffic, threat, url, data-filtering and wildfire.
 
 ## Dependencies
