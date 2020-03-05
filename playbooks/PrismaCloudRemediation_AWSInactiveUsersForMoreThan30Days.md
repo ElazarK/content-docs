@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-remediation-aws-inactive-users-for-more-than-30-days
+title: Prisma Cloud Remediation AWS Inactive Users for More Than 30 Days
+---
+
 Remediates Prisma Cloud Alert inactive users for more than 30 days, this playbook deactivates the user by disabling the access keys (marking them as inactive) as well as resetting the user console password.
 
 To increase the security of your AWS account, it is recommended to find and remove IAM user credentials (passwords, access keys) that have not been used within a specified period of time.
