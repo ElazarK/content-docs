@@ -1,4 +1,11 @@
-`Deprecated` - Use the `QRadar Indicator Hunting V2` playbook instead. 
+---
+id: qradar-indicator-hunting
+title: QRadar Indicator Hunting (Deprecated)
+---
+
+`Deprecated` 
+
+Use the `QRadar Indicator Hunting V2` playbook instead. 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
