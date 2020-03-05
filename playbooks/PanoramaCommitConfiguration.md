@@ -1,4 +1,11 @@
-`DEPRECATED` - Use PAN-OS Commit Configuration instead.
+---
+id: panorama-commit-configuration
+title: Panorama Commit Configuration (Deprecated)
+---
+
+`DEPRECATED`  
+
+Use PAN-OS Commit Configuration instead.
 
 Pushes the policies to the specified device group in the instance, if it is specified as Panorama. (Use `pan-os-commit-configuration` instead)
 
