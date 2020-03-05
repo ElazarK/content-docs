@@ -3,7 +3,7 @@ id: mcafee-epo-repository-compliance-playbook
 title: McAfee ePO Repository Compliance Playbook
 ---
 
-Ensures that ePO servers are updated to the latest McAfee published AV signatures (DAT file version).
+Ensures that ePO servers are updated to the latest McAfee published AV signatures (DAT file version). 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
