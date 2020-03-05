@@ -9,7 +9,7 @@ Files information using the Virus Total Private API integration.
 This playbook uses the following sub-playbooks, integrations, and scripts.
 
 ### Sub-playbooks
-This playbook does not use any sub-playbooks. 
+This playbook does not use any sub-playbooks.  
 
 ### Integrations
 * VirusTotal - Private API
