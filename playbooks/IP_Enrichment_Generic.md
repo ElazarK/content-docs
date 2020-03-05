@@ -1,3 +1,8 @@
+---
+id: ip-enrichment-generic
+title: IP Enrichment Generic
+---
+
 Enriches IP addresses using one or more integrations.
 
 IP enrichment includes:
