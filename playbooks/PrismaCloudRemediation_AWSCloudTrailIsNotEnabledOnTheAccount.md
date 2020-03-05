@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-remediation-aws-cloud-trail-is-not-enabled-on-the-account
+title: Prisma Cloud Remediation AWS Cloud Trail Is Not Enabled On The Account
+---
+
 Provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services. To remediate Prisma Cloud Alert "CloudTrail is not enabled on the account", this playbook creates a S3 bucket to host Cloudtrail logs and enable Cloudtrail (includes all region events and global service events).
 
 ## Dependencies
