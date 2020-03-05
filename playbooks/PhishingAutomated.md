@@ -1,3 +1,9 @@
+---
+id: phishing-automated
+title: Phishing Automated (Deprecated)
+---
+---
+
 `Deprecated` We recommend using Phishing investigation - Generic playbook instead.  
 
 Investigates suspected Phishing attempts. This is an automated playbook.
