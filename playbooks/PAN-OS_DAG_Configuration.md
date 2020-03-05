@@ -1,3 +1,8 @@
+---
+id: pan-os-dag-configuration
+title: PAN-OS DAG Configuration
+---
+
 Utilizes the Dynamic Address Group (DAG) capability of PAN-OS.
 DAG enables analysts to create a rule one time, where the group is the source/destination, and adds IP addresses dynamically without the need to commit the configuration every time.
 
