@@ -1,3 +1,8 @@
+---
+id: gvault-search-mail
+title: GVault Search Mail
+---
+
 Performs a Google Vault search in Drive accounts and display the results.
 
 ## Dependencies
