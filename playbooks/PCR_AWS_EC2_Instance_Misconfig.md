@@ -1,3 +1,8 @@
+---
+id: pcr-aws-ec2-instance-misconfig
+title: PCR AWS EC2 Instance Misconfig
+---
+
 Remediates Prisma Cloud AWS EC2 alerts.  It calls the following sub-playbooks to perform the remediation:
 - AWS Default Security Group Does Not Restrict All Traffic
 - AWS Security Groups Allow Internet Traffic
