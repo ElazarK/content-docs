@@ -1,3 +1,8 @@
+---
+id: hunt-for-bad-iocs
+title: Hunt for Bad IOCs
+---
+
 Assumes that malicious IOCs are in the right place in the context and starts hunting using available tools.
 
 ## Dependencies
