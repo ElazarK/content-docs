@@ -1,4 +1,11 @@
-`Deprecated` We recommend using Default playbook instead. 
+---
+id: incident-enrichment
+title: Incident Enrichment (Deprecated)
+---
+
+`Deprecated` 
+
+We recommend using Default playbook instead. 
 
 Enriches data with the reputation from the incident. Data is extracted to the standard locations like File, URL, IP.
 
