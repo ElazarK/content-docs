@@ -3,7 +3,7 @@ id: intezer-analyze-by-hash
 title: Intezer Analyze by Hash
 ---
 
-Analyzes the given file hash on Intezer Analyze and enriches the file reputation. Supports SHA256, SHA1, and MD5.
+Analyzes the given file hash on Intezer Analyze and enriches the file reputation. Supports SHA256, SHA1, and MD5 hashes.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
