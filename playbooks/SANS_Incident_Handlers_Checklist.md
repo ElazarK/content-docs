@@ -1,5 +1,9 @@
-Follows the "Incident Handler's Checklist" described in the SANS Institute ‘[Incident Handler’s Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
+---
+id: sans-incident-handlers-checklist
+title: SANS Incident Handlers Checklist
+---
 
+Follows the "Incident Handler's Checklist" described in the SANS Institute ‘[Incident Handler’s Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
 
 
 ***Disclaimer: This playbook does not ensure compliance to SANS regulations.
