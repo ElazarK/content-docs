@@ -1,3 +1,8 @@
+---
+id: get-mails-by-folder-pathes
+title: Get Mails by Folder Pathes
+---
+
 Gets emails from specific folders and pre-process them using EWS. 
 
 ## Dependencies
