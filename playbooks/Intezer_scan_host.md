@@ -1,3 +1,8 @@
+---
+id: intezer-scan-host
+title: Intezer Scan Host
+---
+
 Uses Demisto D2 agent to scan a host using Intezer scanner.
 
 Input:
