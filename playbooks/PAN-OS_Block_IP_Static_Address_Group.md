@@ -1,3 +1,8 @@
+---
+id: pan-os-block--ip-static-address-group
+title: PAN-OS Block IP Static Address Group
+---
+
 Blocks IP addresses using Static Address Groups in Palo Alto Networks Panorama or Firewall.
 The playbook receives malicious IP addresses and an address group name as inputs, verifies that the addresses are not already a part of the address group, adds them and commits the configuration.
 
