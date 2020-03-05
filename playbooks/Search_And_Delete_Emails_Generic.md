@@ -1,3 +1,8 @@
+---
+id: search-and-delete-emails-generic
+title: Search and Delete Emails Generic
+---
+
 Searches and deletes emails with similar attributes of a malicious email.
 
 ## Dependencies
