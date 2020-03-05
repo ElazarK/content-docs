@@ -1,3 +1,8 @@
+---
+id: pan-os-delete-static-routes
+title: PAN-OS Delete Static Routes
+---
+
 Deletes a PAN-OS static route from the PAN-OS instance.
 
 ## Dependencies
