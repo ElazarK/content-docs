@@ -1,3 +1,8 @@
+---
+id: FireEye-Helix-Archive-Search
+title: FireEye Helix Archive Search
+---
+
 Creates an archive search in FireEye Helix, and fetch the results as events.
 
 ## Dependencies
