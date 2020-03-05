@@ -1,3 +1,8 @@
+---
+id: generic-polling
+title: Generic Polling
+---
+
 Implements polling by continuously running the command in Step #2 (below) until the operation completes.
 Use this playbook as a sub-playbook to block the execution of the master playbook until a remote action is complete.
 
