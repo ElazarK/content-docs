@@ -3,7 +3,7 @@ id: get-file-sample-by-hash-cylance-protect
 title: Get File Sample by Hash Cylance Protect
 ---
 
-Returns to the War Room, a file sample correlating to SHA256 hashes in the inputs using Cylance Protect integration.
+Returns a file sample correlating to SHA256 hashes to the War Room, in the inputs using Cylance Protect integration.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
