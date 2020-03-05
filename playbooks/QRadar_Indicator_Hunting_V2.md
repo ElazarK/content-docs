@@ -1,3 +1,8 @@
+---
+id: qradar-indicator-hunting-v2
+title: QRadar Indicator Hunting V2
+---
+
 Queries QRadar SIEM for indicators such as file hashes, IP addresses, domains, or URLs. 
 
 ## Dependencies
