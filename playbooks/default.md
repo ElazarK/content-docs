@@ -1,3 +1,8 @@
+---
+id: default
+title: Default
+---
+
 Enriches indicators in incident using one or more integrations. This is a default playbook.
 
 ## Dependencies
