@@ -1,3 +1,8 @@
+---
+id: pcr-aws-iam-policy-misconfig
+title: PCR AWS IAM Policy Misconfig
+---
+
 Remediates Prisma Cloud AWS IAM policy alerts.  It uses sub-playbooks that perform the remediation steps.
 
 ## Dependencies
