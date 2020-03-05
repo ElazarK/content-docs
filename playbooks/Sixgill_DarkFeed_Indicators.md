@@ -1,3 +1,8 @@
+---
+id: sixgill-darkFeed-indicators
+title: Sixgill DarkFeed Indicators
+---
+
 Extracts a STIX bundle then uses `StixParser` automation in order to parse and push indicators into demisto's platform.
 
 ## Dependencies
