@@ -1,3 +1,8 @@
+---
+id: traps-scan-endpoint
+title: Traps Scan Endpoint
+---
+
 Initiates an endpoint scan and retrieve the scan results.
 
 ## Dependencies
