@@ -1,3 +1,8 @@
+---
+id: nist-access-investigation-generic
+title: NIST Access Investigation Generic
+---
+
 Investigates an access incident by gathering user and IP address information, and handling the incident based on the stages in "[Handling an incident - Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)" by NIST.
 
 
