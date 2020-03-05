@@ -3,7 +3,7 @@ id: panorama-query-logs
 title: Panorama Query Logs
 ---
 
-Queries Panorama Logs of types: traffic, threat, url, data-filtering and wildfire.
+Queries Panorama Logs of types: traffic, threat, URL, data-filtering and WildFire.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
