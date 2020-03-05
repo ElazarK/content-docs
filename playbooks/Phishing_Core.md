@@ -1,3 +1,8 @@
+---
+id: phishing-core
+title: Phishing Core
+---
+
 Provides a basic response to phishing incidents. 
 
 Playbook features:
