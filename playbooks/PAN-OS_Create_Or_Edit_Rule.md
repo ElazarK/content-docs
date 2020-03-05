@@ -1,3 +1,8 @@
+---
+id: pan-os-create-or-edit-rule
+title: PAN-OS Create or Edit Rule
+---
+
 Creates or edits a Panorama rule and moves it into the desired position.
 
 ## Dependencies
