@@ -1,3 +1,8 @@
+---
+id: it-employee-offboarding-manual
+title: IT Employee Offboarding Manual
+---
+
 Provides a manual alternative to the IT - Employee Offboarding playbook. The playbook guides the user in the process of manually offboarding an employee.
 
 ## Dependencies
