@@ -1,3 +1,8 @@
+---
+id: sans-incident-handlers-handbook-template
+title: SANS Incident Handlers Handbook Template
+---
+
 Contains the phases for handling an incident as they are described in the SANS Institute ‘[Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901)’ by Patrick Kral.
 
 
