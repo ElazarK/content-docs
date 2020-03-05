@@ -1,3 +1,8 @@
+---
+id: get-file-sample-by-hash-generic
+title: Get File Sample by Hash Generic
+---
+
 Returns to the War Room, a file sample, correlating from a file hash using one or more products.
 
 ## Dependencies
