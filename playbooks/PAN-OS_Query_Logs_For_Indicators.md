@@ -1,3 +1,8 @@
+---
+id: pan-os-query-logs-for-indicators
+title: PAN-OS Query Logs for Indicators
+---
+
 Queries the following PAN-OS log types: traffic, threat, URL, data-filtering and wildfire. The playbook accepts inputs such as IP addresses, hash, and URL.
 
 ## Dependencies
