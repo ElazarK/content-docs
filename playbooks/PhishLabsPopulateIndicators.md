@@ -1,3 +1,8 @@
+---
+id: phishlabs-populate-indicators
+title: PhishLabs Populate Indicators
+---
+
 Populates indicators from PhishLabs, according to a defined period of time.
 
 ## Dependencies
