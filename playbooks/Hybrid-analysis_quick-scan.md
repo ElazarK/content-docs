@@ -3,7 +3,7 @@ id: hybrid-analysis-quick-scan
 title: Hybrid Analysis Quick Scan
 ---
 
-Runs a quick-scan command with generic-polling.
+Runs a quick-scan command with `Generic-Polling`.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
