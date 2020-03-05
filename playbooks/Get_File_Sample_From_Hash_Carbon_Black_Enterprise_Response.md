@@ -1,3 +1,8 @@
+---
+id: get-file-sample-from-hash-carbon-black-enterprise-response
+title: Get File Sample From Hash Carbon Black Enterprise Response
+---
+
 Returns to the War Room, a file sample correlating to MD5 hashes in the context using Carbon Black Enterprise Response integration.
 
 * MD5 context path - ${File.MD5}
