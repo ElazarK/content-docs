@@ -1,3 +1,8 @@
+---
+id: palo-alto-networks-bpa-playbook
+title: Palo Alto Networks BPA Playbook
+---
+
 Runs Palo Alto Best Practice Assessment checks for a Panorama instance.
 
 ## Dependencies
