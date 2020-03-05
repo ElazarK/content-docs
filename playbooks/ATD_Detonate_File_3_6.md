@@ -3,7 +3,7 @@ id: atd-detonate-file-3.6
 title: ATD Detonate File 3.6
 ---
 
-Detonates a file through McAfee ATD.
+Detonates a file through McAfee ATD. 
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
