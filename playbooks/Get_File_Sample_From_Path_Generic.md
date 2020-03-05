@@ -1,3 +1,8 @@
+---
+id: get-file-sample-from-path-generic
+title: Get File Sample From Path Generic
+---
+
 Returns a file sample, to the War Room from a path on an endpoint using one or more integrations.
 
 inputs:
