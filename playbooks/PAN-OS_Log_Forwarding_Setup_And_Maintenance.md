@@ -1,3 +1,8 @@
+---
+id: pan-os-log-forwarding-setup-and-maintenance
+title: PAN-OS Log Forwarding Setup and Maintenance
+---
+
 Sets up and maintains log forwarding for the Panorama rulebase.
 It can be run when setting up a new instance, or as a periodic job to enforce log forwarding policy.
 You can either update all rules and override previous profiles, or update only rules that do not have a log forwarding profile configured.
