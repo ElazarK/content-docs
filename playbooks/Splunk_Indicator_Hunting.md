@@ -1,3 +1,8 @@
+---
+id: splunk-indicator-hunting
+title: Splunk Indicator Hunting
+---
+
 Queries Splunk for indicators such as file hashes, IP addresses, domains, or urls. It outputs detected users, IP addresses, and hostnames related to the indicators.
 
 ## Dependencies
