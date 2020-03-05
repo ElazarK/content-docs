@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-remediation-aws-security-groups-allow-internet-traffic-to-tcp-port
+title: Prisma Cloud Remediation AWS Security Groups Allow Internet Traffic To TCP Port
+---
+
 Extracts the TCP public Security Groups rule and provides manual/automatic options to have the rules revoked.
 
 ## Dependencies
