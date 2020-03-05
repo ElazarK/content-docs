@@ -1,3 +1,8 @@
+---
+id: retrieve-file-from-endpoint-generic
+title: Retrieve File From Endpoint Generic
+---
+
 Retrieves file samples from an endpoint using the following playbooks:
 - Get File Sample From Path - Generic
 - Get File Sample By Hash - Generic v2
