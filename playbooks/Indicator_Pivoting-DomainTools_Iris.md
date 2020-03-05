@@ -1,3 +1,8 @@
+---
+id: indicator-pivoting-domainTools-iris
+title: Indicator Pivoting DomainTools Iris
+---
+
 Gathers data through pivots that share a common attribute with a domain. For instance, pivoting on an IP address will give you back all domains related to that IP address.
 
 ## Dependencies
