@@ -1,3 +1,8 @@
+---
+id: phishlabs-whitelist-indicators
+title: PhishLabs Whitelist Indicators
+---
+
 Whitelists indicators from PhishLabs that were classified as false positives, according to a defined period of time.
 
 ## Dependencies
