@@ -1,3 +1,8 @@
+---
+id: pan-os-block-domain-external-dynamic-list
+title: PAN-OS Block Domain External Dynamic List
+---
+
 Blocks domains using Palo Alto Networks Panorama or Firewall External Dynamic Lists.
 It checks if the EDL configuration is in place with the `PAN-OS EDL Setup` sub-playbook
 (otherwise the list will be configured), and adds the input Domains to the relevant lists.
