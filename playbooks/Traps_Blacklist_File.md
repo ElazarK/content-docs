@@ -1,3 +1,8 @@
+---
+id: traps-blacklist-file
+title: Traps Blacklist File
+---
+
 Accepts and adds a SHA256 hash to a blacklist using the Traps integration.
 
 ## Dependencies
