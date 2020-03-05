@@ -1,4 +1,11 @@
-`Deprecated`. Use the "PANW - Hunting and threat detection by indicator type V2" playbook instead.
+---
+id: panw-hunting-and-threat-detection-by-indicator-type
+title: PANW Hunting and threat Detection by Indicator Type (Deprecated)
+---
+
+`Deprecated` 
+
+Use the "PANW - Hunting and threat detection by indicator type V2" playbook instead.
 
 ## Dependencies
 This playbook uses the following sub-playbooks, integrations, and scripts.
