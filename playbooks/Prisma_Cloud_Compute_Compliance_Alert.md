@@ -1,3 +1,8 @@
+---
+id: prisma-cloud-compute-compliance-alert
+title: Prisma Cloud Compute Compliance Alert
+---
+
 Parses Prisma Cloud Compute compliance alerts. This is a default playbook.
 
 ## Dependencies
