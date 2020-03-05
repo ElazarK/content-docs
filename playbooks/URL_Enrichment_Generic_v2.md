@@ -1,3 +1,8 @@
+---
+id: url-enrichment-generic-v2
+title: URL Enrichment Generic V2
+---
+
 Enriches URLs using one or more integrations.
 
 URL enrichment includes:
