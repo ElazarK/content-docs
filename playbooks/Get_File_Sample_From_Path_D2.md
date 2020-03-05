@@ -1,3 +1,8 @@
+---
+id: get-file-sample-from-path-d2
+title: Get File Sample From Path D2
+---
+
 Returns a file sample, to the War Room from a path on an endpoint using Demisto Dissolvable Agent (D2).
 
 Input:
