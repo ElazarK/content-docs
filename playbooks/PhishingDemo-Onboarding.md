@@ -1,3 +1,8 @@
+---
+id: phishing-demo-onboarding
+title: Phishing Demo Onboarding
+---
+
 Focuses on phishing scenarios. This playbook is part of the on-boarding experience. To use this playbook, you'll need to enable the `on-boarding` integration and configure incidents of type `Phishing`. For more information, refer to the on-boarding walkthroughs in the help section.
 
 ## Dependencies
