@@ -1,3 +1,8 @@
+---
+id: traps-retrieve-and-download-files
+title: Traps Retrieve and Download Files
+---
+
 Retrieves and downloads files.
 
 ## Dependencies
