@@ -1,3 +1,8 @@
+---
+id: pan-os-commit-configuration
+title: Pan-OS Commit Configuration
+---
+
 Commits the PAN-OS Panorama or Firewall configuration. If specified as Panorama, it also pushes the policies to the specified device group in the instance.
 
 ## Dependencies
