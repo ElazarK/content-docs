@@ -1,3 +1,8 @@
+---
+id: isolate-endpoint-generic
+title: Isolate Endpoint Generic
+---
+
 Isolates a given endpoint using the following integrations:
 - Carbon Black Enterprise Response
 - Palo Alto Networks Traps
