@@ -1,3 +1,8 @@
+---
+id: office-365-search-and-delete
+title: Office 365 Search and Delete
+---
+
 Runs a compliance search on Office 365 and deletes the results.
 
 ## Dependencies
