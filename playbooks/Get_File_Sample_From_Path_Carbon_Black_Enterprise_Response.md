@@ -1,3 +1,8 @@
+---
+id: get-file-sample-from-path-carbon-black-enterprise-response
+title: Get File Sample From Path Carbon Black Enterprise Response
+---
+
 Returns a file sample, to the War Room from a path on an endpoint using Carbon Black Enterprise Response.
 
 ## Dependencies
