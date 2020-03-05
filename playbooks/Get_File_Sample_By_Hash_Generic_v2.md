@@ -1,3 +1,8 @@
+---
+id: get-file-sample-by-hash-generic-v2
+title: Get File Sample by Hash Generic V2
+---
+
 Returns a file sample correlating to a hash in the War Room using the following sub-playbooks:
 - Get File Sample By Hash - Carbon Black Enterprise Response
 - Get File Sample By Hash - Cylance Protect v2
