@@ -1,3 +1,8 @@
+---
+id: search-endpoints-by-hash-generic
+title: Search Endpoints by Hash Generic
+---
+
 Hunts using available tools.
 
 ## Dependencies
