@@ -1,3 +1,8 @@
+---
+id: search-endpoints-by-hash-crowdstrike
+title: Search Endpoints by Hash CrowdStrike
+---
+
 Hunts for endpoint activity involving hash and domain IOCs, using Crowdstrike Falcon Host.
 
 ## Dependencies
