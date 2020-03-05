@@ -1,3 +1,8 @@
+---
+id: send-investigation-summary-reports
+title: Send Investigation Summary Reports
+---
+
 Iterates over closed incidents, generates a summary report for each closed incident, and emails the reports to specified users. 
 
 ## Dependencies
