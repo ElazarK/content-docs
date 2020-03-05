@@ -1,3 +1,8 @@
+---
+id: hybrid-analysis-quick-scan
+title: Hybrid Analysis Quick Scan
+---
+
 Runs a quick-scan command with generic-polling.
 
 ## Dependencies
