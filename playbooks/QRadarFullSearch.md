@@ -1,3 +1,8 @@
+---
+id: qradar-full-search
+title: QRadar Full Search
+---
+
 Runs a QRadar query and return its results to the context.
 
 ## Dependencies
