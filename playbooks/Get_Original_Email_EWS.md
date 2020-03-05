@@ -1,5 +1,5 @@
 ---
-id: get-original-email-eWS
+id: get-original-email-ews
 title: Get Original Email EWS
 ---
 
