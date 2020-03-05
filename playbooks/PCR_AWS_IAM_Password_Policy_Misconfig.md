@@ -1,3 +1,8 @@
+---
+id: pcr-aws-iam-password-policy-misconfig
+title: PCR_AWS_IAM_Password_Policy_Misconfig
+---
+
 Remediates the following Prisma Cloud AWS IAM password policy alerts.
 
 Prisma Cloud policies remediated:
