@@ -1,3 +1,8 @@
+---
+id: phishing
+title: Phishing
+---
+
 Master playbook for phishing incidents. This playbook is a manual playbook.
 
 ## Dependencies
