@@ -1,3 +1,8 @@
+---
+id: vmray-detonate-file
+title: VMRay Detonate File
+---
+
 Detonates a file with VMRay.
 
 ## Dependencies
