@@ -1,3 +1,8 @@
+---
+id: qradar-get-offense-correlations
+title: QRadar Get Offense Correlations
+---
+
 Gets more information when running on a QRadar offense.
 
 * Get all correlations relevant to the offense
