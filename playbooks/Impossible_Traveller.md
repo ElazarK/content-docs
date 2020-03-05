@@ -1,3 +1,8 @@
+---
+id: impossible-traveller
+title: Impossible Traveller
+---
+
 Investigates an event whereby a user has multiple application login attempts from various locations in a short time period (impossible traveler). The playbook gathers user, timestamp and IP address information associated with the multiple application login attempts.
 
 The playbook then measures the time difference between the multiple login attempts and computes the distance between the two locations to verify whether it is possible the user could traverse the distance
