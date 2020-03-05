@@ -1,3 +1,8 @@
+---
+id: search-endpoints-by-hash-carbon-black-protection
+title: Search Endpoints by Hash Carbon Black Protection
+---
+
 Hunts for endpoint activity involving hash IOCs, using Carbon Black Protection.
 
 ## Dependencies
