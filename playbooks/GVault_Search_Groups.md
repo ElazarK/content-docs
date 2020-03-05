@@ -1,3 +1,8 @@
+---
+id: gvault-search-groups
+title: GVault Search Groups
+---
+
 Performs a Google Vault search in Drive accounts and display the results.
 
 ## Dependencies
