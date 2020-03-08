@@ -1,5 +1,5 @@
 ---
-id: QR Get Search Results
+id: qr-get-search-results
 title: QR Get Search Results (Deprecated)
 ---
 
