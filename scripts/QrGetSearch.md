@@ -27,7 +27,7 @@ This script uses the following commands and scripts.
 | **Argument Name** | **Description** |
 | --- | --- |
 | search_id | The search ID. |
-| fields | Fields to filter by. |
+| fields | The fields to filter by. |
 
 ## Outputs
 ---
