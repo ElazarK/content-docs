@@ -5,7 +5,7 @@ title: QR Get Search (Deprecated)
 
 `Deprecated`
 
-Gets a specific search id
+Gets a specific search ID.
 
 ## Script Data
 ---
