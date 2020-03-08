@@ -1,6 +1,6 @@
 ---
 id: read-pdf-file-4.0
-title: Read PDF File 4.0  (Deprecated)
+title: Read PDF File 4.0
 ---
 
 Loads the contents and metadata of a PDF file into context.
