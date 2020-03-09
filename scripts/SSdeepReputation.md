@@ -3,7 +3,7 @@ id: ssdeep-reputation
 title: SSdeep Reputation
 ---
 
-Calculates the ssdeep reputation based on similar files (by ssdeep similarity) on the system.
+Calculates the SSdeep reputation based on similar files (by ssdeep similarity) on the system.
 
 ## Script Data
 ---
