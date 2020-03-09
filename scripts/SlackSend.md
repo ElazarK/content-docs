@@ -5,7 +5,7 @@ title: Slack Send (Deprecated)
 
 `Deprecated`
 
-Sends messages to Slack teams.
+Sends messages to Slack teams. 
 
 ## Script Data
 ---
