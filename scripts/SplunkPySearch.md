@@ -1,6 +1,6 @@
 ---
-id: design-best-practices
-title: Integration Design Best Practices (Deprecated)
+id: splunk-py-search
+title: Splunk Py Search (Deprecated)
 ---
 
 `Deprecated`
