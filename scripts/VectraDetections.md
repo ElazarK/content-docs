@@ -5,7 +5,7 @@ title: Vectra Detections (Deprecated)
 
 `Deprecated`
 
-Detects objects that contain all the information related to security events that are detected on the network.
+Detects objects that contain all the information related to security events that are detected on the network. 
 
 ## Script Data
 ---
