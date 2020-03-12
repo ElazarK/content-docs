@@ -3,7 +3,7 @@ id: vol-dll-list
 title: Vol DLL List
 ---
 
-The Volatility script for command `ldrmodules`.
+The Volatility script for command `ldrmodules`. 
 
 ## Script Data
 ---
