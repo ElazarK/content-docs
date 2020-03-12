@@ -5,7 +5,7 @@ title: VM Ray (Deprecated)
 
 `Deprecated`
 
-Deprecated, use "Detonate File - VMRay playbook instead"
+Deprecated, use "Detonate File - VMRay playbook instead".
 
 ## Script Data
 ---
