@@ -3,7 +3,7 @@ id: vol-ldr-modules
 title: Vol LDR Modules
 ---
 
-Volatility script for command `ldrmodules`
+Volatility script for command `ldrmodules`. 
 
 ## Script Data
 ---
