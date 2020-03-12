@@ -3,7 +3,7 @@ id: vol-apihooks
 title: Vol Apihooks
 ---
 
-Is a volatility script for command apihooks. 
+Is a volatility script for command `apihooks`. 
 
 ## Script Data
 ---
