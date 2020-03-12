@@ -3,7 +3,7 @@ id: vol-malfind
 title: Vol Malfind
 ---
 
-The Volatility script for command `ldrmodules`
+The Volatility script for command `ldrmodules`.
 
 ## Script Data
 ---
