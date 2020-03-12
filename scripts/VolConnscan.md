@@ -3,7 +3,7 @@ id: vol-connscan
 title: Vol Connscan
 ---
 
-The Volatility script for command connscan.
+The Volatility script for command `connscan`.
 
 ## Script Data
 ---
