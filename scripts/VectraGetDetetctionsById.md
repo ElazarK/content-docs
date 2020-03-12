@@ -5,7 +5,7 @@ title: Vectra Get Detetctions By ID
 
 `Deprecated`
 
-Gets detections by the host ID.
+Gets detections by the host ID. 
 
 ## Script Data
 ---
