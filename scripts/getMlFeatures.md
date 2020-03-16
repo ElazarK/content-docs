@@ -1,6 +1,6 @@
 ---
 id: get-ml-features
-title: Get Ml Features
+title: Get ML Features
 ---
 
 Calculates features for machine learning.
@@ -21,10 +21,10 @@ Calculates features for machine learning.
 | --- | --- |
 | maxNumberOfIncidents | The maximum number of incidents to check. |
 | anonymousData | Whether the incident data should be anonymous. |
-| uploadToS3 | Uploads the data to s3. |
-| awsInfo | The comma-separated values, "AWS_ACCESS_KEY,AWS_SECRET_KEY,AWS_BUCKET,AWS_CLIENT_ID". |
-| incidentsQuery | The query used to fetch incidents from the database. |
-| recursive_related | Checks for second degree related incidents. |
+| uploadToS3 | The datat to upload to S3. |
+| awsInfo | The comma-separated values. Can be, "AWS_ACCESS_KEY", "AWS_SECRET_KEY", "AWS_BUCKET", or "AWS_CLIENT_ID". |
+| incidentsQuery | The query to fetch incidents from the database. |
+| recursive_related | The second degree related incidents to check for. |
 
 ## Outputs
 ---
