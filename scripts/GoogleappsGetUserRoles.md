@@ -5,7 +5,7 @@ title: Google Apps Get User Roles (Deprecated)
 
 `Deprecated`
 
-Retrieves a list of all role assignments.
+Retrieves a list of all role assignments.n
 
 ## Script Data
 ---
@@ -26,7 +26,7 @@ This script uses the following commands and scripts.
 
 | **Argument Name** | **Description** |
 | --- | --- |
-| userKey | the Identifier used for the user in the API request. Can be, the user's "primary email address", "alias email address", or "a unique user ID". |
+| userKey | The identifier used for the user in the API request. Can be, the user's "primary email address", "alias email address", or "a unique user ID". |
 
 ## Outputs
 ---
